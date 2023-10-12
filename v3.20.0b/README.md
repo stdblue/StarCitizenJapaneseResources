@@ -1,5 +1,9 @@
 # StarCitizenJapaneseResources
 
+本内容は以下の CIG Spectrum に記載された記事を元に記載しております。  
+
+https://robertsspaceindustries.com/spectrum/community/SC/forum/1/thread/star-citizen-community-localization-update
+
 ## 使い方
 
 　Version 3.20.0b からローカライゼーションに対応しました。（CIG が）  
