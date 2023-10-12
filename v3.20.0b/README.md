@@ -12,7 +12,6 @@ C:\Program Files\Roberts Space Industries\StarCitizen
 ```
 japanese_(japan)
 ```
-+ global_ja.ini ファイルを配置してください。  
-+ 配置したのち、global_ja.ini ファイルを global.ini にリネームします。
++ global.ini ファイルを配置してください。  
 + Star Citizenを起動します。
 
