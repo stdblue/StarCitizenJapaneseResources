@@ -48,12 +48,20 @@ if isopen(ini_io) == false
     exit()
 end
 
+re = r"\~(\w+)\(\w+\)"
+
 for buff in eachline(ini_io)
     keywords = split(buff, "="; limit=2)
     if length(keywords) == 2 && haskey(dictres, keywords[1])
         keyword = keywords[1]
+        origintext = keywords[2]
         textline = dictres[keyword]
-        println("$keyword=$textline")
+
+        if occursin("~", origintext)
+            println(buff)
+        else
+            println("$keyword=$textline")
+        end
     else
         println(buff)
     end
