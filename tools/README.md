@@ -39,6 +39,7 @@ sequenceDiagram
 
     TranslateMachine-->>-translate_jp: 機械翻訳済みリソースを出力
 
+
     translate_jp->>translate_jp: 機械翻訳済みリソースを辞書登録
 
     loop 手動翻訳リソースを辞書登録
