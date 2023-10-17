@@ -19,6 +19,30 @@
 julia translate_jp/jl [新規リソース] [翻訳済み過去リソース] > global.ini
 ```
 
+### 処理フロー
+
+```mermaid
+sequenceDiagram
+    participant translate_jp
+
+    participant VersionDiff
+
+    translate_jp->>+VersionDiff: バージョンアップに伴うリソースの変化を取得
+    VersionDiff-->>-translate_jp: 新規リソース、変更リソースを出力
+
+    participant TranslateDeepL
+    translate_jp->>+TranslateDeepL: 新規／変更リソースの翻訳を依頼
+    TranslateDeepL-->>-translate_jp: 機械翻訳済みリソースを出力
+
+    translate_jp->>translate_jp: 機械翻訳済みリソースを辞書登録
+
+    loop 手動翻訳リソースを辞書登録
+        translate_jp->>translate_jp: 手動翻訳リソースを読み込み、辞書登録（上書き）
+    end
+
+    translate_jp->>translate_jp: キーワードをベースに global.ini 出力
+
+```
 
 ### 製作
 
