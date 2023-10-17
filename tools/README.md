@@ -16,7 +16,7 @@
 ### 使い方
 
 ```[Julia]
-julia translate_jp/jl [新規リソース] [翻訳済み過去リソース] > global.ini
+julia translate_jp.jl 最新バージョンglobal.ini 前翻訳バージョンglobal.ini [前翻訳glibal.ini] [手動翻訳テキスト] > global.ini
 ```
 
 ### 処理フロー
@@ -30,9 +30,15 @@ sequenceDiagram
     translate_jp->>+VersionDiff: バージョンアップに伴うリソースの変化を取得
     VersionDiff-->>-translate_jp: 新規リソース、変更リソースを出力
 
-    participant TranslateDeepL
-    translate_jp->>+TranslateDeepL: 新規／変更リソースの翻訳を依頼
-    TranslateDeepL-->>-translate_jp: 機械翻訳済みリソースを出力
+    participant TranslateMachine
+    translate_jp->>+TranslateMachine: 新規／変更リソースの翻訳を依頼
+ 
+    participant DeepL_API
+    TranslateMachine->>DeepL_API: 機械翻訳を依頼
+    DeepL_API-->>TranslateMachine: 翻訳結果
+
+    TranslateMachine-->>-translate_jp: 機械翻訳済みリソースを出力
+
 
     translate_jp->>translate_jp: 機械翻訳済みリソースを辞書登録
 
