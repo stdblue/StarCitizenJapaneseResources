@@ -16,7 +16,7 @@
 ### 使い方
 
 ```[Julia]
-julia translate_jp/jl [新規リソース] [翻訳済み過去リソース] > global.ini
+julia translate_jp.jl 最新バージョンglobal.ini 前翻訳バージョンglobal.ini [前翻訳glibal.ini] [手動翻訳テキスト] > global.ini
 ```
 
 ### 処理フロー
