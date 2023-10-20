@@ -16,13 +16,10 @@ function make_global_dictionary(filename)
     end
 
     for buff in eachline(ini_io)
-        keywords = split(buff, "\t")
-        if length(keywords) > 2
-            cnt = length(keywords[3])
-            if cnt > 0
-                println(keywords[1] * "=" * keywords[2])
-                heads[keywords[1]] = keywords[2]
-            end
+        keywords = split(buff, "="; limit=2)
+        if length(keywords) == 2
+#            println(keywords[1])
+            heads[keywords[1]] = keywords[2]
         end
     end
     close(ini_io)
