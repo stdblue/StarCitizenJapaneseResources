@@ -40,4 +40,6 @@
 + Tech Adviser  
 	Luke  
 	luice  
-
++ Special thanks  
+	Star Citizen Japan Community  
+	Star Citizen Localization Community  
