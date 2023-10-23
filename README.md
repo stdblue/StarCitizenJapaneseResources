@@ -7,6 +7,58 @@
 
 　翻訳作業は現在作業中であり、随時新しいリソースへと置き換えていきます。
 
+## 使い方
+
+1. global.ini ファイルを以下の場所に配置します。  
+　フォルダーが存在しない場合は、作成します。  
+
+```
+%INSTALL_FOLDER\StarCitizen\LIVE\data\Localization\japanese_(japan)
+```
+
+　デフォルトインストールの場合、以下の場所となります。  
+```
+C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\data\Localization\japanese_(japan)
+```
+![global.iniのデフォルト配置位置](https://github.com/stdblue/StarCitizenJapaneseResources/blob/develop/img/resourceplace.png "デフォルトインストール時の配置位置")
+
+※ StarCitizen クライアント起動時にテキスト欄が @XXXXX と表示される場合、global.ini の文字コードとリターンコードを確認してください。  
+　global.ini ファイルは BOM 付き UTF-8 で、リターンコードは LF となります。  
+
+![global.iniのコードと改行文字](https://github.com/stdblue/StarCitizenJapaneseResources/blob/develop/img/filecode.png "Visual Studio Code で表示")
+
+2. user.cfg ファイルを編集し、以下の行を追加します。
+
+```
+g_language = japanese_(japan)
+```
+
+　user.cfg ファイルが存在しない場合、メモ帳などを利用して作成します。  
+　リリースファイルとして置いておきますので、それを配置しても構いません。  
+
+3. Star Citizen クライアントを起動します。  
+　ようこそ、日本語化された Star Citizen Persistence Universe へ！  
+
+
+## 既知の不具合
+
+　現在までに以下の不具合が確認されています。  
+　詳細は Issue Council にて確認ください。  
+
+* 3D文字が見えない  
+　F キーで様々な操作を行うインタラクト機能などがありますが、そのとき空間中に表示される3D文字の表示ができません。  
+[STARC-85299](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85299)
+
+* 検索機能が使えない
+　アイテム検索などでアイテム名を日本語で入力した場合、検索にマッチしません。  
+[STARC-85315](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85315)
+
+* 原文の global.ini に非ユニコード文字が含まれている  
+　これは翻訳作業者の方向けの注意ですが、CIG 作業者がμや℃などの文字を非ユニコード文字（環境依存文字）で記載しています。そのため、日本語環境では文字化けが発生しどのような文字が記載されているのか文脈から判断する必要があります。  
+[STARC-87163](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-87163)
+
+　問題が確認された場合は、user.cfg ファイルをリネームし、英語版オリジナルで問題が発生しないかどうか確認してください。  
+
 
 ## 翻訳協力者一覧(Special Thanks)
 
