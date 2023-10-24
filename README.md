@@ -72,9 +72,9 @@ g_language = japanese_(japan)
 	MoMoShrine
 
 + Main Translator  
-	mossy
-    nmtkawb
-	Exceptur
+	mossy  
+    nmtkawb  
+	Exceptur  
 
 + Translator  
 	Luke  
@@ -85,7 +85,7 @@ g_language = japanese_(japan)
 	Shinnryuu  
 
 + Translation Adviser  
-	mo55y  
+	mossy  
 	nmtkawb  
 	Exceptur  
 	Luke  
