@@ -64,14 +64,18 @@ g_language = japanese_(japan)
 
 + Team Lead  
 	nmtkawb  
+
 + Translation Tools Developer  
-	MoMoShrine  
+	MoMoShrine
+
 + Git Manager  
-	MoMoShrine  
+	MoMoShrine
+
 + Main Translator  
-	mo55y
+	mossy
     nmtkawb
 	Exceptur
+
 + Translator  
 	Luke  
 	ZPAerospike  
@@ -79,6 +83,7 @@ g_language = japanese_(japan)
 	nekmoyanono  
 	かりんと  
 	Shinnryuu  
+
 + Translation Adviser  
 	mo55y  
 	nmtkawb  
@@ -89,9 +94,11 @@ g_language = japanese_(japan)
 	nekmoyanono  
 	かりんと  
 	faulis  
+
 + Tech Adviser  
 	Luke  
 	luice  
+	
 + Special thanks  
 	Star Citizen Japan Community  
 	Star Citizen Localization Community  
