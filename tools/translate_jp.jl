@@ -3,8 +3,8 @@ using JSON3
 using Printf
 
 function deepL_translate(value)
-    deepLurl = "https://api.deepl.com/v2/translate"
-    authKey = "<NEED TO GET YOUR AUTH KEY>"
+    deepLurl = "https://api-free.deepl.com/v2/translate"
+    authKey = "c8725d97-4f57-4dfe-73eb-b86accbd51fe:fx"
     
 #    params = Dict( "auth_key" => authKey, "source_lang" => "EN", "target_lang" => "JA", "text" => value)
 #    res = HTTP.get(deepLurl; require_ssl_verification = false, query = params)
@@ -17,6 +17,17 @@ function deepL_translate(value)
 
     result = JSON3.read(String(res.body))
     return result
+end
+
+function replace_variation(literals)
+
+    re = r"(\~\w+\([\w\|]+\))"
+    m = match(re, literals)
+    if isnothing(m)
+    else
+        println(length(m.captures))
+        @show(m.captures)
+    end
 end
 
 #println(@sprintf("ARGS = %d", length(ARGS)))
@@ -37,6 +48,8 @@ for (index, arg) in enumerate(ARGS)
             if res !== nothing
                 trans = res["translations"][1]
                 resurrect = replace(trans["text"], "\n" => "\\n")
+#                resurrect = replace(value, "\n" => "\\n")
+#                replace_variation(resurrect)
                 print(keywords[1])
     #            print("\t")
     #            print(keywords[2])
@@ -50,7 +63,7 @@ for (index, arg) in enumerate(ARGS)
         else
             print("Failed to match line : " * buff)
         end
-        sleep(0.5)
+        sleep(0.2)
     end
 
     close(ini_io)
