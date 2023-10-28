@@ -19,6 +19,11 @@
 julia translate_jp.jl 最新バージョンglobal.ini 前翻訳バージョンglobal.ini [前翻訳glibal.ini] [手動翻訳テキスト] > global.ini
 ```
 
+#### 必要パッケージ
+
+　事前に Pkg.add コマンドで HTTP, JSON3 を追加してください。
+
+
 ### 処理フロー
 
 ```mermaid
