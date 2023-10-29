@@ -4,7 +4,7 @@ using Printf
 
 function deepL_translate(value)
     deepLurl = "https://api-free.deepl.com/v2/translate"
-    authKey = "c8725d97-4f57-4dfe-73eb-b86accbd51fe:fx"
+    authKey = "<SET YOUR KEY>"
     
 #    params = Dict( "auth_key" => authKey, "source_lang" => "EN", "target_lang" => "JA", "text" => value)
 #    res = HTTP.get(deepLurl; require_ssl_verification = false, query = params)
@@ -45,14 +45,10 @@ for (index, arg) in enumerate(ARGS)
         if length(keywords) == 2
             value = replace(keywords[2], "\\n" => "\n")
             res = deepL_translate(value)
-            if res !== nothing
+            if !isnothing(res)
                 trans = res["translations"][1]
                 resurrect = replace(trans["text"], "\n" => "\\n")
-#                resurrect = replace(value, "\n" => "\\n")
-#                replace_variation(resurrect)
                 print(keywords[1])
-    #            print("\t")
-    #            print(keywords[2])
                 print("=")
                 println(resurrect)
             else

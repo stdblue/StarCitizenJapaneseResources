@@ -1,27 +1,9 @@
 ###
 
+include("global_manage.jl")
+
 using Printf
-
-function read_dictfile(filename)
-    heads = Dict{String, String}();
-    ini_io = open(filename, "r")
-
-    if isopen(ini_io) == false
-        println("Failed to open " * target_file)
-        exit()
-    end
-
-    for buff in eachline(ini_io)
-        keywords = split(buff, "="; limit=2)
-        if length(keywords) == 2
-#            println(keywords[1])
-            heads[keywords[1]] = keywords[2]
-        end
-    end
-    close(ini_io)
-
-    return heads
-end
+using .global_manage
 
 basefile = ARGS[1]
 
@@ -31,7 +13,7 @@ resources = length(ARGS) - 1
 dictres = Dict{String, String}();
 
 for i=2:length(ARGS)
-    dictfile = read_dictfile(ARGS[i])
+    dictfile = make_global_dictionary(ARGS[i])
     dictcount = length(dictfile)
 
 #    println("Resource values $dictcount")

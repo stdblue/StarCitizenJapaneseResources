@@ -30,19 +30,35 @@ if isopen(ini_io) == false
     exit()
 end
 
-re = r"\~(\w+)\(\w+\)"
+re = r"(\~\w+\([\w+|\|]+\))"
 
+variables = Dict{String,String}();
+
+line_no = 1
 for buff in eachline(ini_io)
     keywords = split(buff, "="; limit=2)
-    if length(keywords) == 2 && haskey(dictres, keywords[1])
+    if length(keywords) == 2 
         keyword = keywords[1]
         origintext = keywords[2]
-        textline = dictres[keyword]
+        if occursin("~", origintext)
+            local matchcnt = 0
+            local transline = origintext
+            for m in eachmatch(re, origintext)
+                matchcnt = matchcnt + 1
+                varname = m.match
+                varrep  = rename_variables(varname)
+                variables[varrep] = varname
+                transline = replace(transline, varname=>varrep)
+#                println("\t$matchcnt\t$varname\t$(variables[varname])")
+            end
 
-        println("$keyword=$textline")
+            println("$line_no\t$transline")
+
+        end
     else
-        println(buff)
+#        println("$line_no\t$buff")
     end
+    global line_no = line_no + 1
 end
 
 close(ini_io)
