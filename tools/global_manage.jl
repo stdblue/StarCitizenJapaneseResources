@@ -7,6 +7,7 @@ module global_manage
 # 翻訳APIに必要なモジュール
 using HTTP
 using JSON3
+using Printf
 
 export make_global_dictionary, rename_variables, translate_deepL
 
@@ -32,12 +33,12 @@ function make_global_dictionary(filename)
 end
 
 function rename_variables(varname)
-    varup = replace(uppercase(varname), "~"=>"_", "("=>"_", ")"=>"_", "|"=>"_")
+    varup = replace(uppercase(varname), "~"=>"", "("=>"_", ")"=>"_", "|"=>"_")
 end
 
 function translate_deepL(value)
     deepLurl = "https://api-free.deepl.com/v2/translate"
-    authKey = "<SET YOUR KEY>"
+    authKey = "<SET YOUR TOKEN>"
     
 #    params = Dict( "auth_key" => authKey, "source_lang" => "EN", "target_lang" => "JA", "text" => value)
 #    res = HTTP.get(deepLurl; require_ssl_verification = false, query = params)
