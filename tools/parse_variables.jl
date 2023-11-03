@@ -31,7 +31,7 @@ if isopen(ini_io) == false
     exit()
 end
 
-re = r"(\~\w+\([\w+|\|]+\))"
+re = r"(\~\w+\([\w+|\||\.|\?]+\))"
 
 line_no = 1
 for buff in eachline(ini_io)
@@ -46,7 +46,7 @@ for buff in eachline(ini_io)
             for m in eachmatch(re, origintext)
                 matchcnt = matchcnt + 1
                 varname = m.match
-                varrep  = string(uuid4())
+                varrep  = "<x>" * string(uuid4()) * "</x>"
                 variables[varrep] = varname
                 transline = replace(transline, varname=>varrep)
 #                println("\t$matchcnt\t$varname\t$(variables[varname])")
@@ -58,7 +58,7 @@ for buff in eachline(ini_io)
                 trans = res["translations"][1]
                 resurrect = replace(trans["text"], "\n" => "\\n")
             else
-                resurrect = replace(transline, "\n" => "\\n")
+                resurrect = transline
             end
 
             for (var, rep) in variables
@@ -66,7 +66,7 @@ for buff in eachline(ini_io)
                 resurrect = replace(resurrect, var=>rep)
             end
 
-            print(keywords[1])
+            print(keyword)
             print("=")
             println("$resurrect")
 

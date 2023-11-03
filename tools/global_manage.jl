@@ -37,12 +37,18 @@ function rename_variables(varname)
 end
 
 function translate_deepL(value)
+
+    ### DeepL Free API
     deepLurl = "https://api-free.deepl.com/v2/translate"
     authKey = "<SET YOUR TOKEN>"
     
-#    params = Dict( "auth_key" => authKey, "source_lang" => "EN", "target_lang" => "JA", "text" => value)
+    ### DeepL Pro API
+    #deepLurl = "https://api.deepl.com/v2/translate"
+    #authKey = "<SET YOUR TOKEN>"
+
+    #    params = Dict( "auth_key" => authKey, "source_lang" => "EN", "target_lang" => "JA", "text" => value)
 #    res = HTTP.get(deepLurl; require_ssl_verification = false, query = params)
-    params = @sprintf("auth_key=%s&source_lang=EN&target_lang=JA&text=%s", authKey, value)
+    params = @sprintf("auth_key=%s&source_lang=EN&target_lang=JA&text=%s&tag_handling=xml&ignore_tags=x", authKey, value)
     res = HTTP.request("POST", deepLurl, ["Content-type" => "application/x-www-form-urlencoded"], params)
     if res.status != 200
         println("Invalit result status code : " + res.status)
