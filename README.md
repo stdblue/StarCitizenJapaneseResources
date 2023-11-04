@@ -2,7 +2,7 @@
 
 ## Star Citizen v3.21.0 用非公式日本語リソース
 
-　Star Citizen VERSION 3.20.0b より多言語リソース対応が CIG 公式からアナウンスされました。
+　Star Citizen VERSION 3.20.0b より多言語リソース対応が CIG 公式からアナウンスされました。  
 　本リソースは英語メッセージを機械翻訳し、有志による手動翻訳をマージしたものとなります。
 
 　翻訳作業は現在作業中であり、随時新しいリソースへと置き換えていきます。
@@ -73,15 +73,15 @@ g_language = japanese_(japan)
 
 + Main Translator  
 	mossy  
-    nmtkawb  
+	nmtkawb  
 	Exceptur  
 
 + Translator  
 	Luke  
 	ZPAerospike  
 	MoMoShrine  
-	nekmoyanono  
 	かりんと  
+	luice  
 	Shinnryuu  
 
 + Translation Adviser  
@@ -90,7 +90,6 @@ g_language = japanese_(japan)
 	Exceptur  
 	Luke  
 	MoMoShrine  
-	AXE HELLHOUND  
 	nekmoyanono  
 	かりんと  
 	faulis  
