@@ -55,8 +55,8 @@ DataHeist_SvR_Cooling_Status,P	冷却システム:	Luke
 DataHeist_SvR_Cooling_Status_Off,P	無効	Luke
 DataHeist_SvR_Cooling_Status_Off_Ext,P	外部端末による無効化	Luke
 DataHeist_SvR_Cooling_Status_On,P	有効	Luke
-DynamicEvent_FleetWeek2022_PreIFFIFound_Marker	AAコントロールの場所	
-DynamicEvent_FleetWeek2022_ReachAndWait	ホームに到着し、指示を待つ	
+DynamicEvent_FleetWeek2022_PreIFFIFound_Marker	AAコントロールの場所	-
+DynamicEvent_FleetWeek2022_ReachAndWait	ホームに到着し、指示を待つ	-
 Item_Desc_987_shirt_04	987のこのクラシックなタンクは、吸湿発散性に優れた素材を使用し、最もアクティブな状態でも涼しさを保つ。各シャツにはブレーサーとバンドリエが付属し、大胆でアグレッシブなスタイルを演出する。	
 Jumptown2_Lawful_MBroker_desc_BlacJac	ATTN: 検証済み傭兵オペレーター\n\n最近急増した密輸品を追跡したところ、~mission(Location|Address)にある自動生産施設であることが判明した。この施設はいつまで稼働しているかわからないため、BlacJacは現場で密輸品を確保し、~mission(Destination|Address)に輸送してくれる者を必要としている。そこに着いたら、管理用商品ターミナルを使って密輸品を我々に転送し、報酬を受け取ることができる。\n\nどのような敵対勢力が存在するかは確認できていないが、どのような敵対勢力に遭遇しようとも、必要に応じて殺傷力を行使することを許可する。\n\nより多くの密輸品を持ち込めば、より多くのクレジットを得ることができる。\n\nありがとう\nアーロン・リーガート中尉\n\n個人契約スーパーバイザー\nBlacJacセキュリティ、"保護提供"\n	
 Jumptown2_Lawful_MBroker_desc_CruSec	クルセイダー警備隊は、~mission(Location|Address)にある違法製造施設が現在、禁制品の製造に使用されていることを突き止めた。\n\n私たちは、この施設を警備し、禁制品を没収し、~mission(Destination|Address)に届けてくれる業者を探しています。管理用商品ターミナルで密輸品を証拠品保管所に提出し、代金を受け取ることができます。\n\nさて、ここは自動化された施設なので、どれくらいの時間製造しているのか、あるいは何人現場にいるのかも不明だ。念のため、激しい抵抗にあうことを覚悟して行くことにする。\n\n報酬の総額は、荷物がいかに安全に証拠品として届けられるかによって決まる。\n\n"契約は承認された\nヴァンザント連絡官\nID# 712L921P\n	
@@ -75,17 +75,17 @@ RetakeLocation_Neutralize_obj_04_hud	外部ターゲット：~mission(targetcoun
 RetrieveConsignment_obj_03_Package_Marker	機密資料	
 ShipSelector_ExpeditedFee_Label	エクスプレス料金	
 ShipSelector_ExpeditedTime_Label	所要時間：��時間	
-Stanton_Magnus_JPStation	マグナスゲートウェイ	
+Stanton_Magnus_JPStation	Magnus ゲートウェイ	exceptur
 Stanton_Magnus_JPStation_desc	ジャンプポイント近くの戦略的な場所に位置するマグナスゲートウェイは、マグナスへの往復にショップやサービスを提供しています。ステーションを訪れる人々は、以下のような様々な施設や店舗を利用することができる：燃料補給、補充、貨物輸送、個人用武器、個人用防具、食料品、クリニック、ハブスなど。	
-Stanton_Pyro_JPStation	パイロ・ゲートウェイ	
+Stanton_Pyro_JPStation	Pyro ゲートウェイ	exceptur
 Stanton_Pyro_JPStation_desc	ジャンプポイント近くの戦略的な場所に位置するパイロ・ゲートウェイは、パイロを行き来する人々にショップやサービスを提供している。ステーションを訪れる人々は、以下のような様々な設備や店舗を利用することができる：燃料補給、補充、貨物輸送、個人用武器、個人用防具、衣料品、食料品、診療所、ハブスなど。	
-Stanton_Terra_JPStation	テラゲートウェイ	
+Stanton_Terra_JPStation	Terra ゲートウェイ	exceptur
 Stanton_Terra_JPStation_desc	ジャンプポイント近くの戦略的な場所に位置するTerra Gatewayは、Terraを行き来する人々にショップやサービスを提供している。ステーションを訪れる人々は、以下のような様々な設備や店舗を利用することができる：燃料補給、補充、貨物輸送、個人用武器、個人用防具、衣料品、食料品、診療所、ハブスなど。	
 basesweep_MultiEliminateAll_ClearLocations_HUD_02	敵の残党を排除せよ	
 basesweep_MultiEliminateSpecific_KillTargets_HUD_02	各残存ターゲットを排除する	
-crusader_platform_EliminateSpecific_desc	クルセイダー・セキュリティは、現在~mission(Location|Name)で発生しているナインテイルズの襲撃に、著名なギャングの執行者が含まれているという情報を得た。この襲撃を終わらせ、責任者を裁くことがクルセイダー・セキュリティの最優先事項です。そのため、~mission(Location|Name)に行って脅威を阻止し、それを指揮している執行者を逮捕してくれる契約者を探しています。\n\n現地に着いたら、~mission(TargetName)を引き出すことができるまで、ナインテイルズの戦力を消耗させる必要があります。\n\nナインテイルズによる最近の包囲攻撃の残忍さを考慮し、契約者には武力行使の準備をし、援軍を同行させることを検討するよう強く勧める。\n\n契約承認者\n連絡将校ギブス\nID# 91G66BW0	
-crusader_platform_MultiEliminateAll_description_001	最新の包囲未遂に続き、ナインテイルズ軍はクルセイダーの作戦を妨害し続けるため、標的を絞った襲撃を開始した。今回の攻撃は、~mission(Location|Name)の複数の建物を標的にしており、そこでの攻撃を止めることが不可欠だ。\n\nクルセイダー・セキュリティは、この地域のナインテイルズ・オペレーターを一掃してくれる契約者を求めています。請負業者は武力行使を想定しており、援軍を同行させることを強く推奨する。\n\n契約承認者\nバウティスタ連絡官\nID# 948J030K	
-crusader_platform_MultiEliminateSpecific_desc	クルセイダー・セキュリティは、現在~mission(Location|Name)で発生しているナインテイルズの襲撃に、著名なギャング執行官が数名含まれているという情報を得た。この襲撃を終わらせ、責任者を裁くことがクルセイダー・セキュリティの最優先事項です。そのため、この襲撃を指揮する者たちを逮捕しに行く契約者を探しています。\n\n各襲撃現場では、責任者の執行官を引きずり出すことができるまで、そこにいるナインテイルズ勢力を消耗させる必要があります。\n\nナインテイルズによる最近の包囲攻撃の残忍さを考慮し、契約者には武力行使の準備をすることをお勧めします。\n\n契約承認者\nギブス連絡将校\nID# 91G66BW0	
+crusader_platform_EliminateSpecific_desc	Crusader Securityは、現在進行中のNineTailsによる襲撃に、~mission(Location|Name)に位置する著名なギャングの殺し屋が絡んでいるとの情報を入手しました。この襲撃を終結させ、責任者を司法のもとに追い詰めることは、Crusader Securityの最優先事項です。そのため、~mission(Location|Name)に向い、脅威を排除し、襲撃を主導する目標を無力化する契約業者を募集しています。\n\n現地に到着したら、~mission(TargetName)を引き出すまで、NineTailsの部隊を消耗させる必要があります。\n\n最近の襲撃でNineTailsが行使した残虐行為を考慮し、契約業者には武力行使の用意と、バックアップの検討を強くお勧めします。\n\n契約認可者:\n連絡担当官 Gibbs\nID# 91G66BW0	mossy
+crusader_platform_MultiEliminateAll_description_001	最新の襲撃を受け、NineTails部隊はCrusaderの作戦を妨害し続けるため、標的を限定した襲撃を開始しました。現在の攻撃は、~mission(Location|Name)に位置する複数の建物を対象にしており、そこでの敵対行為を止めることが重要です。\n\nCrusader Securityは、その地域におけるすべてのNineTailsの作戦員を排除する契約業者を募集しています。契約業者には武力行使の用意と、バックアップの検討を強くお勧めします。\n\n契約認可者:\n連絡担当官 Bautista\nID# 948J030K	mossy
+crusader_platform_MultiEliminateSpecific_desc	Crusader Securityは、現在進行中のNineTailsによる襲撃に、~mission(Location|Name)に位置するいくつかの著名なギャングの殺し屋が絡んでいるとの情報を入手しました。この襲撃を終結させ、責任者を司法のもとに追い詰めることは、Crusader Securityの最優先事項です。そのため、~mission(Location|Name)に向い、脅威を排除し、襲撃を主導する目標を無力化する契約業者を募集しています。\n\n各襲撃現場に到着したら、~mission(TargetName)を引き出すまで、それぞれNineTailsの部隊を消耗させる必要があります。\n\n最近の襲撃でNineTailsが行使した残虐行為を考慮し、契約業者には武力行使の用意と、バックアップの検討を強くお勧めします。\n\n契約認可者:\n連絡担当官 Gibbs\nID# 91G66BW0	mossy
 destroyItems_BombingRunItem	液体ガス貯蔵	
 dfm_ac_tut_message00	[DEBUG] Hello [~action(spaceship_hud|v_hud_confirm,?)] �capers ~image(Joypad_A.png|64|64)] world�[~action(spaceship_hud|v_hud_confirm)].	
 dfm_ui_ItemFieldMultipleParam	�x%d	
@@ -96,17 +96,17 @@ dfm_ui_WarningOfflineWeapons	警告：武器はオフライン
 dfm_ui_WarningOverheatingWeapons	警告：武器�オーバーヒート	
 dfm_ui_param_FracKilometres	%.*f� km	
 ea_ui_StatePlayersNotReady	%d 選手の準備ができていません。\n 強制開始 %d	
-ea_ui_difficulty_Easy	伍長	
-ea_ui_difficulty_Hard	キャプテン・ジェネラル	
-ea_ui_difficulty_Normal	中尉（デフォルト）	
-ea_ui_difficulty_VeryEasy	トルーパー	
-ea_ui_difficulty_VeryHard	レガトゥス・マリヌーム	
+ea_ui_difficulty_Easy	伍長	exceptur
+ea_ui_difficulty_Hard	大佐	exceptur
+ea_ui_difficulty_Normal	中尉（デフォルト）	exceptur
+ea_ui_difficulty_VeryEasy	二等兵	exceptur
+ea_ui_difficulty_VeryHard	Legatus Marinuum	exceptur
 ea_ui_frontend_error_ReadyCheck,P	すべての選手が準備ができているわけではない	
 ea_ui_matchmaking_error_MatchCycleReqMap	マッチサイクルマップリクエストに失敗しました。	
 ea_ui_matchmaking_error_MatchCycleRequeue	マッチサイクルの再キューに失敗した。	
-ea_ui_mode_Duel_FightOrFlight	闘争か逃走か	
+ea_ui_mode_Duel_FightOrFlight	闘争か逃走か	exceptur
 ea_ui_modedesc_Duel_FightOrFlight	CitizenCon2023のアクション満載のFight x Flightトーナメントで、「ヴァース」最高のドッグファイトパイロットがコンテンツクリエイターとチームを組みます！\n2対2のドッグファイトモードで、彼らのスキルとチームワークが試されます。	
-ea_ui_patchnotes_version	パッチノート	
+ea_ui_patchnotes_version	パッチノート	exceptur
 ea_ui_reward_ExperimentalPlayed_Msg	このエクスペリメンタル・モードをプレイしていただきありがとうございます！このパッチをすべてプレイすると、特別なバッジがアンロックされます！	
 elevator_accessing	中央�輸送システムへのアクセス	
 itemPort_port_Bomb_System,P	[PH] port_Bomb_System	
@@ -494,9 +494,9 @@ item_Desc_thp_light_arms_01	アイテムタイプライトアーマー\nダメ�
 item_Desc_thp_light_core_01	アイテムタイプライトアーマー\nダメージ軽減率：20\nキャリー容量：8K�SCU\n温度定格温度：-35 / 65\nバックパック互換性ライト\n\nアズタランのアーマーを身につければ、辺境も怖くない。アーマープレーティングと補強されたファブリックの組み合わせは、安全でありながら迅速な行動を可能にします。テハチャピの卓越したデザインにより、アーマーは繊細でありながら紛れもないフロンティアスタイルで、十分な収納力も備えている。砂丘から賑やかな裏通りまで、アズタランはあなたの次の冒険に理想的な選択です。	
 item_Desc_thp_light_helmet_01	アイテムタイプライトアーマー\nダメージ軽減率: 20%\n温度レーティング: -32 / 64 �C\n\nアズタラン・アーマーを身につければ、辺境も怖くない。鎧のメッキと補強された生地が、安全でありながら迅速な行動を可能にする。テハチャピの卓越したデザインにより、フロンティアスタイルでありながら、収納性に優れています。砂丘から賑やかな裏通りまで、アズタランはあなたの次の冒険に理想的な選択です。	
 item_Desc_thp_light_legs_01	アイテムタイプライトアーマー\nダメージ軽減率：20\n携帯能力：5K�SCU\n温度定格温度：-38 / 68\n\nアズタラン・アーマーを身につければ、辺境も怖くない。メッキと補強されたファブリックの組み合わせは、安全でありながら迅速な行動を可能にします。テハチャピの卓越したデザインにより、フロンティアスタイルでありながら、収納性に優れている。砂丘から賑やかな裏通りまで、アズタランはあなたの次の冒険に理想的な選択です。	
-item_Desc_thp_medium_helmet_01,P	PH - thp_medium_helmet_01	
-item_Desc_thp_medium_jacket_01,P	PH - thp_medium_jacket_01	
-item_Desc_thp_pants_01,P	PH - thp_pants_01	
+item_Desc_thp_medium_helmet_01,P	PH - thp_medium_helmet_01	-
+item_Desc_thp_medium_jacket_01,P	PH - thp_medium_jacket_01	-
+item_Desc_thp_pants_01,P	PH - thp_pants_01	-
 item_Desc_uba_prison_backpack_01	アイテムタイプ軽量バックパック\n容量： 50K �SCU\nコアの互換性すべて\n\nこの頑丈な収容者用ワークパックは、十分な収納力を備え、着用者の背中に均等に重量が分散されるため、毎回のシフト中に多くの荷物を持ち運ぶことができます。また、囚人ごとに酸素ボンベのサイズを決められるよう、底のストラップがしっかり固定されており、脱走のリスクを最小限に抑えます。	
 item_Desc_uba_prison_undersuit_01	アイテムタイプワークスーツ\nダメージ軽減10%\n温度レーティング: -75 / 75 �C\n\n受刑者用ワークスーツは、受刑者が労働解放プログラム中に直面することの多い過酷な状況に耐えられるよう設計された、耐久性と視認性に優れたワークスーツです。このワークスーツには、保護用の補強パッドが内蔵され、丈夫な合成繊維の編み込みにより、コストを抑えながら、政府の定める最低限の保温基準を満たしています。頑丈なワークパックは十分な収納力を備え、着用者の背中に均等に重量を分散させるため、毎回のシフト中に多くの荷物を持ち運ぶことができる。また、囚人ごとに酸素ボンベのサイズを決められるよう、底のストラップがしっかり固定されているため、脱走のリスクを最小限に抑えることができます。	
 item_Desc_uba_prison_undersuit_helmet_01	アイテムタイプワークスーツ・ヘルメット\nダメージ軽減10%\n温度レーティング: -75 / 75 �C\n\n収監者用作業ヘルメットは、目視で容易に追跡できる視認性の高いデザインに加え、曇り止め、落下物にも耐える強化メッキに密封された耐クラック性のフェースプレートが特徴です。	
@@ -511,24 +511,24 @@ item_Desc_vgl_specialist_heavy_helmet_01	アイテムタイプヘビーアーマ
 item_Desc_vgl_specialist_heavy_helmet_01_01_9tails01	アイテムタイプヘビーアーマー\nダメージ軽減40%\n温度レーティング: -90 / 115 �C\n\nバージルのサンガーヘルメットをオリジナルから改良したバージョン。VigilのSangarヘルメットは実用的でありながら、目を引くデザインとなっている。眉間のリッジは、ヘルメットの耐衝撃インナーを通して衝撃を吸収、分散させる。目の上の高品質のダイヤモンドラミネートレンズと、牙のように前面から突き出た最高級のデュアルセンサー空気濾過システムを特徴とするバージルは、サンガーヘルメットが敵対的な環境から必死の銃撃戦まで、あらゆる状況で打撃を受け、見栄えがすることを保証した。	
 item_Desc_vgl_specialist_light_core_01_01_xenothreat	アイテムタイプライトアーマー\nダメージ軽減率：20\n携帯能力：5K�SCU\n温度耐温度：-35 / 65\nバックパック互換性ライト\n\nバージルのTrueDefシリーズは、素早く機動性を保ちながら、重要な部位を戦略的に保護するボディアーマーです。数多くの惑星法執行組織とアドボカシーでさえ、TrueDefのバージョンを使用して、役員やエージェントを保護しています。この特別バージョンは、前面と背面に民間防衛軍のロゴを配することで、大きな必要性のある時に法執行機関や海軍と共に勇敢に戦う人々に敬意を表しています。	
 item_Desc_vgl_undersuit_01_01_Shared	アイテムタイプアンダースーツ\nダメージ軽減10%\n温度レーティング: -30 / 60 �C\n\nバージルのフォースフレックスは次世代のアンダースーツ技術です。戦闘だけでなく、工業作業にも使用できるコンボウィーブは、どのような状況下でも体を守り続ける。	
-item_Descnone_shotgun_ballistic_01	メーカー不明\nアイテムタイプショットガン\nクラス弾道\n\nマガジンサイズ: 8\n発射速度: 120 rpm\n有効射程距離0-10 m\n\nアタッチメント該当なし\n\nデッドリグは高威力の2連式ショットガンで、ジャンクヤードのスクラップをつなぎ合わせたシンプルなデザインである。何よりも威力を優先したデッドリグは、大量生産された武器のような洗練さに欠け、重い反動に悩まされる。	
-item_Descnone_shotgun_ballistic_01_mag	アイテムタイプマガジン\n容量: 8\n\nデッドリグショットガン用のマガジンです。	
-item_NameCutter_Paint_Black_Cyan	カッター・ナイトフォール・カラーリング	
-item_NameCutter_Paint_Olive_White_Orange	カッター・カイマンのカラーリング	
-item_NameCutter_Paint_Orange_Grey_Stripe	カッター・ロックスライド・カラーリング	
-item_NameDragonfly_Paint_Citcon2953_Beige_Tan_Beige	トンボ・ルスタバウトのカラーリング（変更済み）	
-item_NameFlair_Coin_1_f	ゼウス・コイン	
-item_NameFlair_Model_HullC_2_takuetsu_box	船体Cモデルボックス	
-item_NameFlair_Poster_HT_BIS_1_a	ハゲタカ2953船対決ポスター	
-item_NameFlair_Poster_HT_BIS_1_b	コルセア2953船対決ポスター	
-item_NameFlair_Poster_HT_BIS_1_c	レディーマー2953船対決ポスター	
-item_NameFlair_Poster_HT_BIS_1_d	600i 2953 船対決ポスター	
-item_NamePlushy_zeus_1_a	ゼウスぬいぐるみ	
-item_NameSpirit_A1_Paint_Green_Black_Orange	スピリット・イントレピッドのカラーリング	
-item_NameSpirit_Paint_Black_Blue_White	スピリット・バロー・ライブリー	
-item_NameSpirit_Paint_Grey_Grey_Blue	スピリット・レゾリュートのカラーリング	
-item_NameSpirit_Paint_Maroon_Beige_Blue	スピリット・ルビーのカラーリング	
-item_NameSpirit_Paint_White_Blue_Black	スピリット・アーデント	
+item_Descnone_shotgun_ballistic_01	製造元: 不明\nアイテムタイプ: ショットガン\nクラス: 実弾\n\nマガジンサイズ: 8\n射撃速度: 120 rpm\n有効射程: 0-10 m\n\nアタッチメント: 不明\n\nDeadrigは、ジャンクヤードのくず鉄から組み立てられたシンプルなデザインの高威力ダブルバレルショットガンです。他のすべてよりも威力を重視し、大量生産された武器の洗練さは一つもありません。射撃時は強力な反動を放ちます。	mossy
+item_Descnone_shotgun_ballistic_01_mag	アイテムタイプ: マガジン\n容量: 8\n\nDeadrigショットガン用のこのマガジンには8発の12ゲージシェルが装填されています。	mossy
+item_NameCutter_Paint_Black_Cyan	Cutter『Nightfall』ペイント	exceptur
+item_NameCutter_Paint_Olive_White_Orange	Cutter『Caiman』ペイント	exceptur
+item_NameCutter_Paint_Orange_Grey_Stripe	Cutter『Rockslide』ペイント	exceptur
+item_NameDragonfly_Paint_Citcon2953_Beige_Tan_Beige	Dragonfly『Roustabout』ペイント（改造済み）	exceptur
+item_NameFlair_Coin_1_f	Zeus記念コイン	exceptur
+item_NameFlair_Model_HullC_2_takuetsu_box	Hull C プラモデル	exceptur
+item_NameFlair_Poster_HT_BIS_1_a	Vulture 2953 Ship Showdown ポスター	exceptur
+item_NameFlair_Poster_HT_BIS_1_b	Corsair 2953 Ship Showdown ポスター	exceptur
+item_NameFlair_Poster_HT_BIS_1_c	Redeemer 2953 Ship Showdown ポスター	exceptur
+item_NameFlair_Poster_HT_BIS_1_d	600i 2953 Ship Showdown ポスター	exceptur
+item_NamePlushy_zeus_1_a	Zeusぬいぐるみ	exceptur
+item_NameSpirit_A1_Paint_Green_Black_Orange	Spirit『Intrepid』ペイント	exceptur
+item_NameSpirit_Paint_Black_Blue_White	Spirit『Valor』ペイント	exceptur
+item_NameSpirit_Paint_Grey_Grey_Blue	Spirit『Resolute』ペイント	exceptur
+item_NameSpirit_Paint_Maroon_Beige_Blue	Spirit『Ruby』ペイント	exceptur
+item_NameSpirit_Paint_White_Blue_Black	Spirit『Ardent』ペイント	exceptur
 item_Name_987_shirt_04_01_01	テンポスタンク・セーブル	
 item_Name_987_shirt_04_01_13	テンポス・タンク ダークアンバー	
 item_Name_987_shirt_04_01_15	テンポス・タンク オリーブ	
@@ -638,10 +638,10 @@ item_Name_hdh_pants_01_01_02	ゼレーナ・パンツ レッドウッド＆ビ�
 item_Name_hdh_pants_01_01_03	ゼレーナ・パンツ オリーブ×ビスビー・ブーツ	
 item_Name_hdh_pants_01_01_07	ゼレーナ・パンツ・ミッドナイト＆ビスビー・ブーツ	
 item_Name_hdh_pants_01_01_11	ゼレーナ・パンツ エボニー＆ビスビー・ブーツ	
-item_Name_hdh_pants_02_01_02,P	PH - hdh_pants_02_01_02	
-item_Name_hdh_pants_02_01_03,P	PH - hdh_pants_02_01_03	
-item_Name_hdh_pants_02_01_07,P	PH - hdh_pants_02_01_07	
-item_Name_hdh_pants_02_01_11,P	PH - hdh_pants_02_01_11	
+item_Name_hdh_pants_02_01_02,P	PH - hdh_pants_02_01_02	-
+item_Name_hdh_pants_02_01_03,P	PH - hdh_pants_02_01_03	-
+item_Name_hdh_pants_02_01_07,P	PH - hdh_pants_02_01_07	-
+item_Name_hdh_pants_02_01_11,P	PH - hdh_pants_02_01_11	-
 item_Name_nvs_jumpsuit_01_03_02	ファルストン ジャンプスーツ "リン・エディション"	
 item_Name_nvs_jumpsuit_01_04_17	ファルストン ジャンプスーツ "TABA Edition"	
 item_Name_nvs_jumpsuit_01_05_07	ファルストン ジャンプスーツ "ITG Edition"	
@@ -687,18 +687,18 @@ item_Name_srvl_pants_01_01_18	レストア・パンツ ブルー
 item_Name_srvl_shirt_01_01_01,P	グッドイナフ・シャツ ブラウン	
 item_Name_srvl_shirt_01_01_04	グッドイナフ・シャツ グリーン	
 item_Name_srvl_shirt_01_01_18	グッドイナフ・シャツ ブルー	
-item_Name_thp_gloves_01_01_01,P	PH - thp_gloves_01_01	
-item_Name_thp_gloves_01_02_01,P	PH - thp_gloves_01_02_01	
-item_Name_thp_medium_helmet_01_01_01,P	PH - thp_中型ヘルメット_01_01_01	
-item_Name_thp_medium_helmet_01_02_01,P	PH - thp_medium_helmet_01_02_01	
-item_Name_thp_medium_jacket_01_01_01,P	PH - thp_medium_jacket_01_01	
-item_Name_thp_medium_jacket_01_02_01,P	PH - thp_medium_jacket_01_02_01	
-item_Name_thp_pants_01_01_01,P	PH - thp_pants_01_01_01	
-item_Name_thp_pants_01_02_01,P	PH - thp_pants_01_02_01	
-item_Namenone_shotgun_ballistic_01	デッドリグ・ショットガン	
-item_Namenone_shotgun_ballistic_01_mag	デッドリグショットガンマガジン（8発）	
-item_Namenone_shotgun_ballistic_01_short	デッドリグ	
-item_SubTypeScraperBeam	スクレーパービーム	
+item_Name_thp_gloves_01_01_01,P	PH - thp_gloves_01_01	-
+item_Name_thp_gloves_01_02_01,P	PH - thp_gloves_01_02_01	-
+item_Name_thp_medium_helmet_01_01_01,P	PH - thp_中型ヘルメット_01_01_01	-
+item_Name_thp_medium_helmet_01_02_01,P	PH - thp_medium_helmet_01_02_01	-
+item_Name_thp_medium_jacket_01_01_01,P	PH - thp_medium_jacket_01_01	-
+item_Name_thp_medium_jacket_01_02_01,P	PH - thp_medium_jacket_01_02_01	-
+item_Name_thp_pants_01_01_01,P	PH - thp_pants_01_01_01	-
+item_Name_thp_pants_01_02_01,P	PH - thp_pants_01_02_01	-
+item_Namenone_shotgun_ballistic_01	Deadrig ショットガン	exceptur
+item_Namenone_shotgun_ballistic_01_mag	Deadrig ショットガンマガジン（8発）	exceptur
+item_Namenone_shotgun_ballistic_01_short	ショットガン	exceptur
+item_SubTypeScraperBeam	Scraper ビーム	exceptur
 items_commodities_pressurized_ice,P	氷(加圧)	mossy
 items_commodities_pressurized_ice_desc,P	圧縮することで、膨張する性質を制限して透明に精製した氷です。これにより大量かつ効率的な輸送が可能になります。	mossy
 items_commodities_riccite,P	Riccite	mossy
@@ -711,116 +711,116 @@ mg_pacheco_DestroyEvidence_desc_001	~mission(location|address)のセキュリテ
 mg_pacheco_StealEvidence_desc_001	手短に言うと、私の部下の一人が、私と私の仲間の何人かを非常に不愉快にさせる可能性のある証拠をつかまされた。だから、君には~mission(location|address)へ行って、それを盗んできてほしいんだ。\n\n簡単ではない。ステーションは砲台に守られ、警備がうようよしているだけでなく、証拠保管庫を起動するためのアクセスコードは警備主任が保管している。それを手に入れるには、チーフが直接対応に来ざるを得ないほどの大混乱を作り出す必要がある。普段は派手で面倒なことは好きではないが、この仕事では必要だ。慎重にステーションに近づき、クルーも同行させるのも悪くないだろう。\n\nいい面もある。私が欲しい証拠は簡単に見つけられるはずだ。箱は青色で、側面に "EVIDENCE "と書いてある。私が最優先だということを忘れないでくれれば、倉庫から取って売りたいものは何でも構わない。\n\n僕の証拠を手に入れたら、それを~mission(destination|address)に置いてくれれば、今日はそれで終わりにしよう。\n\n-スイッチ\n	
 mg_pacheco_StealEvidence_desc_002	詳細は省くが、厄介な交渉にはちょっとした影響力が必要で、どこでそれを手に入れられるかよく知っている。だから君に~mission(location|address)に行って、証拠の箱を盗んできてほしいんだ。\n \n君に嘘はつかない。この仕事は難しい。ステーションは砲塔と警備が厳重で、証拠品保管庫へのアクセスコードは警備主任が持っているだけだ。さらに悪いことに、あの鼻つまみ者は本格的な緊急事態でない限り、自分の手を汚したがらない。つまり、チーフがわざわざやってくる前に、事態をエスカレートさせなければならない。\n\n証拠品保管システムを起動させれば、私が欲しい箱が最初に出てくるはずだ。その後にもっと箱が出てくるかもしれないが、それはボーナスの支払いだと思えばいい。\n\nただ、私の証拠品を~mission(destination|address)に届けることを一番に考えておいてくれ。\n\n君が慎重にステーションに近づき、適切なクルーを連れてくれば、我々は皆、欲しいものを手に入れることができるはずだ。\n\n-トウィッチ\n	
 mg_ruto_RetrieveConsignment_desc_001	ああ、こんにちは、最近ちょっと小耳に挟んだんだけど、~mission(location|address)が僕の知人にとって非常に興味深い機密資料を受け取ったらしいんだ。とても興味深いので、誰かがその施設を襲撃し、商品を奪い取って、それを~mission(DropOff1|address)に届けるために喜んで金を払うそうだ。警備員はたくさんいるだろうし、抵抗してくるだろうから、銃の1丁や2丁は持っていくだろう。\n\n機密資料は他のものと一緒に委託配送され、現在は施設の自動保管庫に保管されているとのことだ。現場の上級警備員は、保管庫にアクセスするための検索コードが入ったデータパッドを持っている。箱の回収に荷物コンベアを使う前に、データパッドを手に入れなければならない。\n\nもし少し甘い言葉が必要なら、私はマニフェストを見たし、施設に保管されている他の木箱がかなり選りすぐりのものであることを確認できる。私のクライアントはそれがどうなろうと知ったことではない。うまくやれば、余分な木箱は配達料の上乗せになる。	
-mission_location_stanton_617	REC-A	
-mission_location_stanton_618	クラウドレスト・リトリートのレクリエーション・プラットフォームでA棟を建設	
-mission_location_stanton_619	REC-B	
-mission_location_stanton_620	クラウドレスト・リトリートのレクリエーション・プラットフォームでB棟を建設	
-mission_location_stanton_621	REC-C	
-mission_location_stanton_622	クラウドレスト・リトリートでレクリエーション・プラットフォーム上にC言語を構築する	
-mission_location_stanton_623	REC-D	
-mission_location_stanton_624	クラウドレスト・リトリートでレクリエーション・プラットフォーム上にDを構築する	
-mission_location_stanton_625	REC-E	
-mission_location_stanton_626	クラウドレスト・リトリートでレクリエーション・プラットフォームEを構築する	
-mission_location_stanton_627	REC-F	
-mission_location_stanton_628	クラウドレスト・リトリートのレクリエーション・プラットフォームでFを築く	
-mission_location_stanton_629	REC-G	
-mission_location_stanton_630	クラウドレスト・リトリートでレクリエーション・プラットフォーム上にGを築く	
-mission_location_stanton_631	REC-H	
-mission_location_stanton_632	クラウドレスト・リトリートのレクリエーション・プラットフォームでHを築く	
-mission_location_stanton_633	REC-I	
-mission_location_stanton_634	クラウドレスト・リトリートでのレクリエーション・プラットフォームでのIの構築	
-mission_location_stanton_635	RSRT-A	
-mission_location_stanton_636	クラウドレストリトリートのリゾートプラットフォームでA棟を建設	
-mission_location_stanton_637	RSRT-B	
-mission_location_stanton_638	クラウドレストリトリートのリゾートプラットフォームでB棟を建設	
-mission_location_stanton_639	RSRT-C	
-mission_location_stanton_640	クラウドレストリトリートのリゾート・プラットフォームでC言語を構築する	
-mission_location_stanton_641	RSRT-D	
-mission_location_stanton_642	クラウドレスト・リトリートでリゾートのプラットフォーム上にDを構築する	
-mission_location_stanton_643	RSRT-A	
-mission_location_stanton_644	クラウドレストリトリートのリゾートプラットフォームでA棟を建設	
-mission_location_stanton_645	RSRT-B	
-mission_location_stanton_646	クラウドレストリトリートのリゾートプラットフォームでB棟を建設	
-mission_location_stanton_647	RSRT-C	
-mission_location_stanton_648	クラウドレストリトリートのリゾート・プラットフォームでC言語を構築する	
-mission_location_stanton_649	RSRT-D	
-mission_location_stanton_650	クラウドレスト・リトリートでリゾートのプラットフォーム上にDを構築する	
-mission_location_stanton_651	レズエー	
-mission_location_stanton_652	エンピリアンパークのレジデンシー・プラットフォーム上のA棟	
-mission_location_stanton_653	レズビー	
-mission_location_stanton_654	エンピリアンパークのレジデンシー・プラットフォームのB棟	
-mission_location_stanton_655	レズシー	
-mission_location_stanton_656	エンピリアンパークのレジデンシー・プラットフォームにC棟を建設	
-mission_location_stanton_657	レズディー	
-mission_location_stanton_658	エンピリアンパークのレジデンシー・プラットフォームにD棟を建設	
-mission_location_stanton_659	レズイー	
-mission_location_stanton_660	エンピリアンパークのレジデンシー・プラットフォームにE棟を建設	
-mission_location_stanton_661	REZ-F	
-mission_location_stanton_662	エンピリアンパークのレジデンシー・プラットフォームにF棟を建設	
-mission_location_stanton_663	REZ-G	
-mission_location_stanton_664	エンピリアンパークのレジデンシー・プラットフォームにG棟を建設	
-mission_location_stanton_665	REZ-H	
-mission_location_stanton_666	エンピリアンパークのレジデンシー・プラットフォームにH棟を建設	
-mission_location_stanton_667	レッツアイ	
-mission_location_stanton_668	エンピリアンパークのレジデンシー・プラットフォームにI棟を建設	
-mission_location_stanton_669	ADMN-A	
-mission_location_stanton_670	エンピリアン・パークのアドミン・プラットフォームにA棟を建設	
-mission_location_stanton_671	RSRT-A	
-mission_location_stanton_672	プロスペクト・ポイントのリゾート・プラットフォームに建つA棟	
-mission_location_stanton_673	RSRT-B	
-mission_location_stanton_674	プロスペクト・ポイントのリゾート・プラットフォーム上のB棟	
-mission_location_stanton_675	RSRT-C	
-mission_location_stanton_676	プロスペクト・ポイントのリゾート・プラットフォームにC棟を建設	
-mission_location_stanton_677	RSRT-D	
-mission_location_stanton_678	プロスペクト・ポイントのリゾート・プラットフォームにD棟を建設	
-mission_location_stanton_679	RSRT-A	
-mission_location_stanton_680	プロスペクト・ポイントのリゾート・プラットフォームに建つA棟	
-mission_location_stanton_681	RSRT-B	
-mission_location_stanton_682	プロスペクト・ポイントのリゾート・プラットフォーム上のB棟	
-mission_location_stanton_683	RSRT-C	
-mission_location_stanton_684	プロスペクト・ポイントのリゾート・プラットフォームにC棟を建設	
-mission_location_stanton_685	RSRT-D	
-mission_location_stanton_686	プロスペクト・ポイントのリゾート・プラットフォームにD棟を建設	
-mission_location_stanton_687	REC-A	
-mission_location_stanton_688	プロスペクト・ポイントのレクリエーション・プラットフォーム上のA棟	
-mission_location_stanton_689	REC-B	
-mission_location_stanton_690	プロスペクト・ポイントのレクリエーション・プラットフォーム上のB棟	
-mission_location_stanton_691	REC-C	
-mission_location_stanton_692	プロスペクト・ポイントのレクリエーション・プラットフォーム上のC棟	
-mission_location_stanton_693	REC-D	
-mission_location_stanton_694	プロスペクト・ポイントのレクリエーション・プラットフォーム4上のD棟	
-mission_location_stanton_695	REC-E	
-mission_location_stanton_696	プロスペクト・ポイントのレクリエーション・プラットフォームのE棟	
-mission_location_stanton_697	REC-F	
-mission_location_stanton_698	プロスペクト・ポイントのレクリエーション・プラットフォームのF棟	
-mission_location_stanton_699	REC-G	
-mission_location_stanton_700	プロスペクト・ポイントのレクリエーション・プラットフォームにG棟を建設	
-mission_location_stanton_701	REC-H	
-mission_location_stanton_702	プロスペクト・ポイントのレクリエーション・プラットフォームにH棟を建設	
-mission_location_stanton_703	REC-I	
-mission_location_stanton_704	プロスペクト・ポイントのレクリエーション・プラットホームにI棟を建設	
-mission_location_stanton_705	ADMN-A	
-mission_location_stanton_706	プロスペクト・ポイントのアドミン・プラットフォームでAを築く	
-mission_location_stanton_707	ADMN-B	
-mission_location_stanton_708	プロスペクト・ポイントのアドミン・プラットフォームでBを築く	
-mission_location_stanton_709	ADMN-C	
-mission_location_stanton_710	プロスペクト・ポイントのアドミン・プラットフォームでC言語を構築する	
-mission_location_stanton_711	ADMN-D	
-mission_location_stanton_712	プロスペクト・ポイントの管理者プラットフォームでDを構築する	
-mission_location_stanton_713	ADMN-B	
-mission_location_stanton_714	エンピリアン・パークのアドミン・プラットフォームにB棟を建設	
-mission_location_stanton_715	ADMN-C	
-mission_location_stanton_716	エンピリアン・パークのアドミン・プラットフォームでC言語を構築する	
-mission_location_stanton_717	ADMN-D	
-mission_location_stanton_718	エンピリアン・パークのアドミン・プラットフォームでDを構築する	
-mission_location_stanton_719	RSRT-A	
-mission_location_stanton_720	エンピリアン・パークのリゾート・プラットフォームに建つA棟	
-mission_location_stanton_721	RSRT-B	
-mission_location_stanton_722	エンピリアン・パークのリゾート・プラットフォームにあるB棟	
-mission_location_stanton_723	RSRT-C	
-mission_location_stanton_724	エンピリアン・パークのリゾート・プラットフォームにあるC棟	
-mission_location_stanton_725	RSRT-D	
-mission_location_stanton_726	エンピリアンパークのリゾートプラットフォームにD棟を建設	
+mission_location_stanton_617	REC-A	exceptur
+mission_location_stanton_618	Cloudrest Retreat内、RecreationプラットフォームのA棟	exceptur
+mission_location_stanton_619	REC-B	exceptur
+mission_location_stanton_620	Cloudrest Retreat内、RecreationプラットフォームのB棟	exceptur
+mission_location_stanton_621	REC-C	exceptur
+mission_location_stanton_622	Cloudrest Retreat内、RecreationプラットフォームのC棟	exceptur
+mission_location_stanton_623	REC-D	exceptur
+mission_location_stanton_624	Cloudrest Retreat内、RecreationプラットフォームのD棟	exceptur
+mission_location_stanton_625	REC-E	exceptur
+mission_location_stanton_626	Cloudrest Retreat内、RecreationプラットフォームのE棟	exceptur
+mission_location_stanton_627	REC-F	exceptur
+mission_location_stanton_628	Cloudrest Retreat内、RecreationプラットフォームのF棟	exceptur
+mission_location_stanton_629	REC-G	exceptur
+mission_location_stanton_630	Cloudrest Retreat内、RecreationプラットフォームのG棟	exceptur
+mission_location_stanton_631	REC-H	exceptur
+mission_location_stanton_632	Cloudrest Retreat内、RecreationプラットフォームのH棟	exceptur
+mission_location_stanton_633	REC-I	exceptur
+mission_location_stanton_634	Cloudrest Retreat内、RecreationプラットフォームのI棟	exceptur
+mission_location_stanton_635	RSRT-A	exceptur
+mission_location_stanton_636	Cloudrest Retreat内、ResortプラットフォームのA棟	exceptur
+mission_location_stanton_637	RSRT-B	exceptur
+mission_location_stanton_638	Cloudrest Retreat内、ResortプラットフォームのB棟	exceptur
+mission_location_stanton_639	RSRT-C	exceptur
+mission_location_stanton_640	Cloudrest Retreat内、ResortプラットフォームのC棟	exceptur
+mission_location_stanton_641	RSRT-D	exceptur
+mission_location_stanton_642	Cloudrest Retreat内、ResortプラットフォームのD棟	exceptur
+mission_location_stanton_643	RSRT-A	exceptur
+mission_location_stanton_644	Cloudrest Retreat内、ResortプラットフォームのA棟	exceptur
+mission_location_stanton_645	RSRT-B	exceptur
+mission_location_stanton_646	Cloudrest Retreat内、ResortプラットフォームのB棟	exceptur
+mission_location_stanton_647	RSRT-C	exceptur
+mission_location_stanton_648	Cloudrest Retreat内、ResortプラットフォームのC棟	exceptur
+mission_location_stanton_649	RSRT-D	exceptur
+mission_location_stanton_650	Cloudrest Retreat内、ResortプラットフォームのD棟	exceptur
+mission_location_stanton_651	REZ-A	exceptur
+mission_location_stanton_652	Empyrean Park内、ResidencyプラットフォームのA棟	exceptur
+mission_location_stanton_653	REZ-B	exceptur
+mission_location_stanton_654	Empyrean Park内、ResidencyプラットフォームのB棟	exceptur
+mission_location_stanton_655	REZ-C	exceptur
+mission_location_stanton_656	Empyrean Park内、ResidencyプラットフォームのC棟	exceptur
+mission_location_stanton_657	REZ-D	exceptur
+mission_location_stanton_658	Empyrean Park内、ResidencyプラットフォームのD棟	exceptur
+mission_location_stanton_659	REZ-E	exceptur
+mission_location_stanton_660	Empyrean Park内、ResidencyプラットフォームのE棟	exceptur
+mission_location_stanton_661	REZ-F	exceptur
+mission_location_stanton_662	Empyrean Park内、ResidencyプラットフォームのF棟	exceptur
+mission_location_stanton_663	REZ-G	exceptur
+mission_location_stanton_664	Empyrean Park内、ResidencyプラットフォームのG棟	exceptur
+mission_location_stanton_665	REZ-H	exceptur
+mission_location_stanton_666	Empyrean Park内、ResidencyプラットフォームのH棟	exceptur
+mission_location_stanton_667	REZ-I	exceptur
+mission_location_stanton_668	Empyrean Park内、ResidencyプラットフォームのI棟	exceptur
+mission_location_stanton_669	ADMN-A	exceptur
+mission_location_stanton_670	Empyrean Park内、AdminプラットフォームのA棟	exceptur
+mission_location_stanton_671	RSRT-A	exceptur
+mission_location_stanton_672	Prospect Point内、AdminプラットフォームのA棟	exceptur
+mission_location_stanton_673	RSRT-B	exceptur
+mission_location_stanton_674	Prospect Point内、AdminプラットフォームのB棟	exceptur
+mission_location_stanton_675	RSRT-C	exceptur
+mission_location_stanton_676	Prospect Point内、AdminプラットフォームのC棟	exceptur
+mission_location_stanton_677	RSRT-D	exceptur
+mission_location_stanton_678	Prospect Point内、AdminプラットフォームのD棟	exceptur
+mission_location_stanton_679	RSRT-A	exceptur
+mission_location_stanton_680	Prospect Point内、ResortプラットフォームのA棟	exceptur
+mission_location_stanton_681	RSRT-B	exceptur
+mission_location_stanton_682	Prospect Point内、ResortプラットフォームのB棟	exceptur
+mission_location_stanton_683	RSRT-C	exceptur
+mission_location_stanton_684	Prospect Point内、ResortプラットフォームのC棟	exceptur
+mission_location_stanton_685	RSRT-D	exceptur
+mission_location_stanton_686	Prospect Point内、ResortプラットフォームのD棟	exceptur
+mission_location_stanton_687	REC-A	exceptur
+mission_location_stanton_688	Prospect Point内、RecreationプラットフォームのA棟	exceptur
+mission_location_stanton_689	REC-B	exceptur
+mission_location_stanton_690	Prospect Point内、RecreationプラットフォームのB棟	exceptur
+mission_location_stanton_691	REC-C	exceptur
+mission_location_stanton_692	Prospect Point内、RecreationプラットフォームのC棟	exceptur
+mission_location_stanton_693	REC-D	exceptur
+mission_location_stanton_694	Prospect Point内、RecreationプラットフォームのD棟	exceptur
+mission_location_stanton_695	REC-E	exceptur
+mission_location_stanton_696	Prospect Point内、RecreationプラットフォームのE棟	exceptur
+mission_location_stanton_697	REC-F	exceptur
+mission_location_stanton_698	Prospect Point内、RecreationプラットフォームのF棟	exceptur
+mission_location_stanton_699	REC-G	exceptur
+mission_location_stanton_700	Prospect Point内、RecreationプラットフォームのG棟	exceptur
+mission_location_stanton_701	REC-H	exceptur
+mission_location_stanton_702	Prospect Point内、RecreationプラットフォームのH棟	exceptur
+mission_location_stanton_703	REC-I	exceptur
+mission_location_stanton_704	Prospect Point内、RecreationプラットフォームのI棟	exceptur
+mission_location_stanton_705	ADMN-A	exceptur
+mission_location_stanton_706	Prospect Point内、AdminプラットフォームのA棟	exceptur
+mission_location_stanton_707	ADMN-B	exceptur
+mission_location_stanton_708	Prospect Point内、AdminプラットフォームのB棟	exceptur
+mission_location_stanton_709	ADMN-C	exceptur
+mission_location_stanton_710	Prospect Point内、AdminプラットフォームのC棟	exceptur
+mission_location_stanton_711	ADMN-D	exceptur
+mission_location_stanton_712	Prospect Point内、AdminプラットフォームのD棟	exceptur
+mission_location_stanton_713	ADMN-B	exceptur
+mission_location_stanton_714	Empyrean Park内、AdminプラットフォームのB棟	exceptur
+mission_location_stanton_715	ADMN-C	exceptur
+mission_location_stanton_716	Empyrean Park内、AdminプラットフォームのC棟	exceptur
+mission_location_stanton_717	ADMN-D	exceptur
+mission_location_stanton_718	Empyrean Park内、AdminプラットフォームのD棟	exceptur
+mission_location_stanton_719	RSRT-A	exceptur
+mission_location_stanton_720	Empyrean Park内、ResortプラットフォームのA棟	exceptur
+mission_location_stanton_721	RSRT-B	exceptur
+mission_location_stanton_722	Empyrean Park内、ResortプラットフォームのB棟	exceptur
+mission_location_stanton_723	RSRT-C	exceptur
+mission_location_stanton_724	Empyrean Park内、ResortプラットフォームのC棟	exceptur
+mission_location_stanton_725	RSRT-D	exceptur
+mission_location_stanton_726	Empyrean Park内、ResortプラットフォームのD棟	exceptur
 vehicle_DescDRAK_Cutter_Scout	メーカードレーク・インタープラネタリー\nフォーカス偵察\n\nドレイクは、カッターの荒削りでコンパクトなフレームを必要最低限にまで縮小し、すでに印象的だった船を理想的な偵察船へと変身させた。改良されたレーダーとスキャン機能、さらにパワーと冷却機能を備えたカッター・スカウトは、群れの先頭を飛ぶ準備ができている。	
-vehicle_NameDRAK_Cutter_Cutter_Scout	ドレイク・カッター・スカウト	
-vehicle_Namecrus_spirit	クルセイダーA1スピリット	
+vehicle_NameDRAK_Cutter_Cutter_Scout	Drake Cutter Scout	exceptur
+vehicle_Namecrus_spirit	Crusader A1 Spirit	exceptur
