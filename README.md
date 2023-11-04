@@ -50,12 +50,17 @@ g_language = japanese_(japan)
 [STARC-85299](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85299)
 
 * 検索機能が使えない
-　アイテム検索などでアイテム名を日本語で入力した場合、検索にマッチしません。  
+　アイテム検索などでアイテム名を日本語で入力した場合、検索にマッチしない
 [STARC-85315](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85315)
 
 * 原文の global.ini に非ユニコード文字が含まれている  
 　これは翻訳作業者の方向けの注意ですが、CIG 作業者がμや℃などの文字を非ユニコード文字（環境依存文字）で記載しています。そのため、日本語環境では文字化けが発生しどのような文字が記載されているのか文脈から判断する必要があります。  
 [STARC-87163](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-87163)
+
+* ローカライズされたリソースを使うとシステム音声が聞こえない
+　設定をローカル環境に切り替えたため、ローカライズされたシステム音声を探して、ファイルが存在せずに音声が聞こえないようです。以下の回避策を適用してみてください。
+  - user.cfg に g_languageAudio = english を追加する
+[STARC-86490](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-86490)
 
 　問題が確認された場合は、user.cfg ファイルをリネームし、英語版オリジナルで問題が発生しないかどうか確認してください。  
 
