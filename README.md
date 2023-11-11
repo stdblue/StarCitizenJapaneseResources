@@ -89,6 +89,11 @@ g_language = japanese_(japan)
 	かりんと  
 	luice  
 	Shinnryuu  
+	Riven  
+	chimaera  
+	velocity7  
+	Franku7  
+	kogumatta  
 
 + Translation Adviser  
 	mossy  
@@ -96,9 +101,11 @@ g_language = japanese_(japan)
 	Exceptur  
 	Luke  
 	MoMoShrine  
-	nekmoyanono  
 	かりんと  
+	velocity7  
+	nekmoyanono  
 	faulis  
+	OOM Tricorn  
 
 + Tech Adviser  
 	Luke  
