@@ -83,9 +83,9 @@ g_language = japanese_(japan)
 	Exceptur  
 
 + Translator  
-	Luke  
-	ZPAerospike  
+	Luke
 	MoMoShrine  
+	ZPAerospike  
 	かりんと  
 	luice  
 	Shinnryuu  
@@ -94,6 +94,11 @@ g_language = japanese_(japan)
 	velocity7  
 	Franku7  
 	kogumatta  
+	ogumap  
+
++ Proofreader  
+	Exceptur  
+	velocity7  
 
 + Translation Adviser  
 	mossy  
@@ -106,6 +111,7 @@ g_language = japanese_(japan)
 	nekmoyanono  
 	faulis  
 	OOM Tricorn  
+	クレクレ柴犬　　
 
 + Tech Adviser  
 	Luke  
