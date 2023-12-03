@@ -3,7 +3,7 @@ setlocal
 
 set batchdir="%~dp0"
 
-set target="20231126"
+set target="20231203"
 
 julia ..\..\..\tools\parse_translated.jl base_%target%.tsv > scjpbase.txt
 

@@ -17,6 +17,7 @@ julia ..\..\tools\split_headers.jl ..\global.ini ..\..\v3.21.0\release\global.in
 
 REM SCJPベースを取り込み。
 julia ..\..\tools\split_replace.jl global.v3.21.ini ..\library\manual\scjpbase.txt ..\library\manual\scjp321.txt ..\library\manual\scjp3211.txt>global.base.ini
+REM julia ..\..\tools\split_replace.jl ..\global.ini ..\library\manual\scjpbase.txt ..\library\manual\scjp321.txt ..\library\manual\scjp3211.txt>global.base.ini
 
 REM 3DTEXT 障害(STARC-85299)回避のリソース上書き
 julia ..\..\tools\split_replace.jl global.base.ini ..\global.3d.txt >global.ini
