@@ -14,7 +14,22 @@
 //!
 //! ```
 
+// 環境変数取得
+use std::env;
+use std::io::Error;
+
+mod argument;
+mod utility;
+
 /// Startup
-fn main() {
-    println!("Hello, world!");
+fn main() -> Result<(), Error> {
+
+    // 引数取得
+    let ops = argument::Argument::new( &(env::args().collect()) );
+
+    for file in ops.translated() {
+        utility::merge_dict(file)?;
+    }
+
+    Ok(())
 }
