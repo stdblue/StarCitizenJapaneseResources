@@ -27,9 +27,18 @@ fn main() -> Result<(), Error> {
     // 引数取得
     let ops = argument::Argument::new( &(env::args().collect()) );
 
+    println!("Global.ini basefile : {}", ops.basefile().unwrap());
+
+    let mut gdict = utility::GlobalDict::new().unwrap();
+
     for file in ops.translated() {
-        utility::merge_dict(file)?;
+        println!("Translated file {} : applying ...", file);
+        gdict.merge(&file);
     }
+
+    println!("Dictionary stored : {}", gdict.count());
+
+    gdict.update(ops.basefile().unwrap());
 
     Ok(())
 }

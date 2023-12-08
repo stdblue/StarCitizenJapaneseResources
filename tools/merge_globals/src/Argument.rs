@@ -16,15 +16,15 @@ impl Argument {
     }
 
     pub fn basefile(&self) -> Option<&String> {
-        return self.origin.get(0);
+        return self.origin.get(1);
     }
 
     pub fn translated(&self) -> Vec<String> {
         let mut files: Vec<String> = vec![];
-        let mut flag = true;
+        let mut flag = 0;
         for file in &self.origin {
-            if flag {
-                flag = false;
+            if flag < 2 {
+                flag += 1;
                 continue;
             }
             files.push(file.to_string());
