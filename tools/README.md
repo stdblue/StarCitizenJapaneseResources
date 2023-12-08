@@ -55,6 +55,14 @@ sequenceDiagram
 
 ```
 
+### ツール一覧
+
+- diff_global.jl  
+　使い方：julia diff_global.jl 最新global.ini 他のglobal.ini  
+　新旧の global.ini の差分変化を最新 global.ini をベースに取得します。  
+- 
+
+
 ### 製作
 
 2023/10/12 stdblue 新規作成

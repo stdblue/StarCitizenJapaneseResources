@@ -21,7 +21,7 @@ for i=2:length(ARGS)
 end
 
 count = length(dictres)
-# println("Dictinary reserved $count")
+#println("Dictinary reserved $count")
 
 ini_io = open(basefile, "r")
 
@@ -34,20 +34,21 @@ re = r"\~(\w+)\(\w+\)"
 
 for buff in eachline(ini_io)
     keywords = split(buff, "="; limit=2)
+#    println("Split count : %d", length(keywords))
     if length(keywords) == 2 && haskey(dictres, keywords[1])
         keyword = keywords[1]
         origintext = keywords[2]
         textline = dictres[keyword]
 
-        if occursin("~", origintext)
-            println(buff)
-        else
+#        if occursin("~", origintext)
+#            println(buff)
+#        else
             println("$keyword=$textline")
-        end
+#        end
     else
+#        println("Keyword [ %s ] not matched.", keywords[1] )
         println(buff)
     end
 end
 
 close(ini_io)
-
