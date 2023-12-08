@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 regex = "1"
-encoding_rs = "0.8"
+encoding_rs = "0.8.33"
 encoding_rs_io = "0.1.7"

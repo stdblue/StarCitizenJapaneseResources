@@ -36,21 +36,18 @@ impl GlobalDict {
             Ok(file) => file,
         };
 
-        let reader = BufReader::new(DecodeReaderBytesBuilder::new()
-                        .encoding(Some(WINDOWS_1252))
-                        .build(file));
-    
-        for (i, rst) in reader.lines().enumerate() {
-            let line_number :u32 = (i+1).try_into().unwrap();
-            if let Ok(line) = rst {
-                if re.is_match(&line) {
-                    let caps = re.captures(&line).unwrap();
-                    self.store.insert((&caps[1]).to_string(), (&caps[2]).to_string());    
-                } else {
-                    println!("No match : {}", line);
-                }    
-            } else {
-                println!("Invalid line : {}", line_number);
+        let reader = BufReader::new(file);
+        for line in reader.lines() {
+            match line {
+                Ok(line) => {
+                    if re.is_match(&line) {
+                        let caps = re.captures(&line).unwrap();
+                        self.store.insert((&caps[1]).to_string(), (&caps[2]).to_string());    
+                    } else {
+                        println!("No match : {}", line);
+                    }
+                }
+                Err(e) => println!("ERROR: {}", e),
             }
         }
     }
@@ -75,6 +72,7 @@ impl GlobalDict {
         for (i, rst) in reader.lines().enumerate() {
             let line_number :u32 = (i+1).try_into().unwrap();
             if let Ok(line) = rst {
+                let line = line.trim_start_matches("\u{feff}");
                 if re.is_match(&line) {
                     let caps = re.captures(&line).unwrap();
                     let keyname = &caps[1];
