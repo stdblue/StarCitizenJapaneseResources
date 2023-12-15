@@ -7,6 +7,9 @@
 
 　翻訳作業は現在作業中であり、随時新しいリソースへと置き換えていきます。
 
+## 現在の進捗
+[![Crowdin](https://badges.crowdin.net/star-citizen-ja/localized.svg)](https://crowdin.com/project/star-citizen-ja)
+
 ## 使い方
 
 1. global.ini ファイルを以下の場所に配置します。  
