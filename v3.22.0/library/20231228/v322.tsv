@@ -1,0 +1,735 @@
+ARCC_UGF_desc_shared	ArcCorp専用工業団地は同社のさまざまな流通・加工ニーズを取り扱っています。	MoMo
+CRAS_UGF_desc_shared	この加工工場は、Cry-Astro 社の燃料ネットワークの重要な一部であり、あなたの未来に燃料を供給するのに役立っています。	MoMo
+CRUS_UGF_desc_shared	Crusader Industriesが船舶の製造に用いている施設の一つです。	MoMo
+DownloadConnectivity_HTTP	HTTP	exceptur
+DownloadConnectivity_None	接続なし	exceptur
+DownloadConnectivity_P2P	P2P	exceptur
+DownloadConnectivity_P2P_HTTP	HTTP + P2P	exceptur
+DownloadError_AlreadyDownloading	既にダウンロード中	exceptur
+DownloadError_DownloadFailed	ダウンロード失敗	exceptur
+DownloadError_InvalidMetafile	メタファイルの読み込みに失敗	exceptur
+DownloadError_InvalidSource	無効なソース	exceptur
+DownloadError_None	ダウンロードエラーなし	exceptur
+DownloadError_NotEnoughSpace	ディスク領域不足	exceptur
+DownloadError_UnacceptableSource	無効なソース	exceptur
+DownloadError_Unknown	未知のダウンロードエラー	exceptur
+DownloadError_UserAbort	ユーザーによる中断	exceptur
+DownloadStalled_ContentWrite	コンテンツの上書きに失敗	exceptur
+DownloadStalled_None	ダウンロード ストール中	exceptur
+DownloadStalled_PeerListEmpty	ピアリストが空	exceptur
+DownloadStalled_PeerNoGoodOnes	有効なピアなし	exceptur
+DownloadStalled_ReliableSourceBadIntegrity	信頼できるソースからの破損データを検知	exceptur
+DownloadStalled_ReliableSourceContact	信頼できるソースに接続失敗	exceptur
+DownloadStalled_ReliableSourceNotSpecified	信頼できるソースが未指定	exceptur
+DownloadStalled_TrackerContact	トラッカーに接続失敗	exceptur
+DownloadStalled_TrackerListEmpty	トラッカーリストが空	exceptur
+DownloadStalled_TrackerNotSpecified	トラッカーリストが未指定	exceptur
+DownloadStalled_TransportHttp	HTTPリクエスト失敗	exceptur
+DownloadStalled_TransportHttpClient	ダウンロード中 ストール状態...しばらくお待ち下さい！	exceptur
+DownloadStalled_TransportSocket	ソケット通信に失敗	exceptur
+DownloadState_Checking	ダウンロードを確認中	exceptur
+DownloadState_Complete	ダウンロード 完了	exceptur
+DownloadState_Creating	ダウンロードの生成中	exceptur
+DownloadState_Downloading	ダウンロード中	exceptur
+DownloadState_DownloadingChecking	ダウンロード中 / チェック中	exceptur
+DownloadState_DownloadingStalled	ダウンロード中 ストール状態	exceptur
+DownloadState_Failure	ダウンロード 失敗	exceptur
+DownloadState_Idle	ダウンロード 待機中	exceptur
+DownloadState_Initializing	ダウンロード 初期化中	exceptur
+DownloadState_Paused	ダウンロード 中断中	exceptur
+DownloadState_Resuming	ダウンロード 再開	exceptur
+DownloadState_Seeding	ダウンロード シード中	mossy
+DownloadState_Starting	ダウンロード 開始	exceptur
+DownloadState_Stopping	ダウンロード 停止	exceptur
+DownloadState_Unknown	不明なダウンロード状況	exceptur
+Download_BrowseForFolder	フォルダを選択	exceptur
+Frontend_Context_JoinUnavailable	参加（利用不可）	exceptur
+Frontend_PU_Version	3.22.0 - 構造物サルベージ	exceptur
+GMCapture_Desc		
+GMCapture_From		
+GMCapture_HUD		
+GMCapture_Marker		
+GMCapture_Obj_Long		
+GMCapture_Obj_Short		
+GMCapture_Title		
+HRST_UGF_desc_shared	このHurston Dynamics 生産センターは許可された職員のみ立ち入り可能です。	exceptur
+Item_DescFlair_mug_stella_fortuna_1_a		
+Item_DescFlair_mug_stella_fortuna_1_b		
+Item_DescGRIN_CraftingStation_001	アイテムタイプ：製造ステーション\n製造元：Greycat Industrial\nクラス：工業\n\nこの船内に設置可能なReCast 製造ステーションは、原材料をカスタムメイドのコンテナに保管することができるだけでなく、その原材料を消費してマルチツールなどの便利なアイテムを製造することもでき、長期間の遠征やサルベージ任務に適しています。	exceptur
+Item_DescGRIN_SalvageField_001	アイテムタイプ：フィールドエミッター\n製造元：Greycat Industrial\nクラス：工業\n\nRenovar XTR サルベージビームは、瓦礫や船体を簡単に分解して複合材料に変換できるように設計されており、構造体サルベージの業界標準となっています。また、2つのフィールドモードを搭載しており、高周波振動で物体を砕く「破砕モード」と破片を使用可能な資源として回収する「分解モード」の2つを交互に使用できます。	exceptur
+Item_DescReclaimer_CraftingStorage	アイテムタイプ：ストレージ\n製造元：Aegis Dynamics\n容量：360 SCU\n\nReclaimerが回収した原材料を製造ステーションに投入するまでの間、一時的に貯蔵する内蔵ストレージです。	exceptur
+Item_DescReclaimer_SalvageClaw	アイテムタイプ：マニュピレーター\n製造元：Aegis Dynamics\nクラス：工業\n\nこの頑丈なクローアームにより、船内のサルベージ要員はリモートで残骸を分解・回収することができます。	exceptur
+Item_DescSTOR_opencontainer_shared	貨物業界で最も信頼されている企業であるStor*Allによって設計されたセルフ・ストレージ コンテナは、持ち運びが面倒な嵩張るアイテムを保管するのに適したコンテナです。また、高い耐衝撃構造と宇宙空間の真空状態にも耐えられる密閉性を兼ね備えています。	exceptur
+Item_DescVulture_CraftingStorage	アイテムタイプ：ストレージ\n製造元：Drake Interplanetary\n容量：14 SCU\n\nVultureが回収した原材料を製造ステーションに投入するまでの間、一時的に貯蔵する内蔵ストレージです。	exceptur
+Item_NameFlair_mug_stella_fortuna_1_a		
+Item_NameFlair_mug_stella_fortuna_1_b		
+Item_NameGRIN_CraftingStation_001	ReCast ステーション	exceptur
+Item_NameGRIN_SalvageField_001	Renovar XTR サルベージビーム	exceptur
+Item_NameReclaimer_CraftingStorage	Reclaimer マテリアル貯蔵庫	exceptur
+Item_NameReclaimer_SalvageClaw	Midas サルベージクロー	exceptur
+Item_NameSTOR_opencontainer_1SCU	Stor*All 1 SCU セルフ・ストレージ コンテナ	exceptur
+Item_NameSTOR_opencontainer_2SCU	Stor*All 2 SCU セルフ・ストレージ コンテナ	exceptur
+Item_NameSTOR_opencontainer_4SCU	Stor*All 4 SCU セルフ・ストレージ コンテナ	exceptur
+Item_NameSTOR_opencontainer_8SCU	Stor*All 8 SCU セルフ・ストレージ コンテナ	exceptur
+Item_NameVulture_CraftingStorage	Vulture マテリアル貯蔵庫	exceptur
+MITE_UGF_desc_shared	microTech社は同社の多様な家電製品のラインナップをサポートするために、この場所のような拠点を利用しています。	MoMo
+PU_UEEALERT02_F_DPA_Announce_Event_ThreatActive_IG_002_AttentionPleaseShelter	注意勧告です。当局が脅威を終息させるまでステーションに避難してください。	exceptur
+PU_UEEALERT02_F_DPA_Enter_SectorArea_ThreatActive_aNeutral_tPlayer_FromNeutral_IG_002_WarningYouHave	緊急勧告です。あなたは脅威が確認されたエリアに侵入しています。全てのパイロットは航路を代替ルートに変更し、細心の注意を払って航行してください。	exceptur
+RR_P2_L4_desc	Pyro IIのL4ラグランジュ点に位置するこの老朽化したステーションは、元々Pyrotechnic Amalgamatedが労働者の補給のために建設したステーションだった。でも今じゃ、獰猛なギャングであるRough & Readyが星系を旅する無法者相手に燃料や物資の補給、ちょっとした娯楽を提供するためにこのステーションを再利用している。当然、礼儀を忘れるなよ。	exceptur
+RR_P3_L1_desc	船舶の修理から軽食の提供まで、Pyro IIIのL1ラグランジュにある個人経営のStarlight Service Stationなら、危険な星系を旅するあなたの船やクルーに必要なモノをすべて提供してくれるだろう。	exceptur
+RR_P3_L3_desc	船体が穴だらけ？Quantum燃料のタンクが鼠の串焼きみてぇに焼き付いてる？それともちょっと一眠りできる寝床が必要か？いずれにせよ、Pyro IIIのL3ラグランジュ点にあるPatch Cityに向かえば、Rough & Ready の連中があんたの旅路の手助けをしてくれるだろうよ。もちろん、手持ちがあればの話だがな。	exceptur
+RR_P3_desc	Pyro IIIの衛星軌道上に位置するOrbituary Stationは、無法者どもから民間人もどきの連中にまで手広く給油サービスを提供するRough & Ready ギャングの縄張りだ。補給や休息にゃ便利な場所かもしれねぇが、油断は禁物だってコトを忘れんなよ。	exceptur
+SASU_UGF_desc_shared	毎日をより良くするために働く。このワークセンターとその従業員は、Sakura Sun ファミリーの一員であることを誇りに思っています。	MoMo
+ShipStrip_missioncomplete_structural	対象を分解してサルベージした	exceptur
+ShipStrip_missioncomplete_tow	対象をエリア外まで牽引した	exceptur
+Stanton1_CRAS_UGF_001	Cry-Astro Hurston 処理プラント 19-02	exceptur
+Stanton1_CVLC_UGF_002	Covalex 流通センター S1DC06	exceptur
+Stanton1_DrugLab_001	Echo Isle	exceptur
+Stanton1_DrugLab_001_Desc	ヤツらはいつだって帰ってくる。	exceptur
+Stanton1_GRIN_UGF_001	Greycat Stanton I 生産複合体-A	exceptur
+Stanton1_GRIN_UGF_002	Greycat Stanton I 生産複合体-B	exceptur
+Stanton1_HRST_UGF_001	HDPC-Cassillo	exceptur
+Stanton1_HRST_UGF_002	HDPC-Degland	exceptur
+Stanton1_HRST_UGF_003	HDPC-Farnesway	exceptur
+Stanton1_HRST_UGF_004	HDPC-Tiyago	exceptur
+Stanton2_CloudrestRetreatCluster_Add	Crusader上のCloudrest Retreat	exceptur
+Stanton2_EmpyreanParkCluster_Add	Crusader上のEmpyrean Park	exceptur
+Stanton2_ProspectPointCluster_Add	Crusader上のProspect Point	exceptur
+Stanton2b_CRUS_UGF_001	Crusader Industries Daymar センター B14	exceptur
+Stanton3b_ARCC_UGF_001	ArcCorp Wala-1 工業団地	exceptur
+Stanton4_CRAS_UGF_001	Cry-Astro 処理プラント 34-12	exceptur
+Stanton4_CVLX_UGF_001	Covalex 流通センター S4DC05	exceptur
+Stanton4_MITE_UGF_001	microTech 物流デポット S4LD01	exceptur
+Stanton4_SASU_UGF_001	Sakura Sun Goldenrod ワークセンター	exceptur
+TimedSalvage_MissionComplete_Tow	対象をエリア外まで牽引した	exceptur
+Tutorial_Shop_Area18	Cubby Blast	-
+Tutorial_Shop_NewBab	Kel-To	-
+area_name_ext_transit,P	外部トランジット	exceptur
+area_name_foodcourt,P	フードコート	exceptur
+area_name_galleria,P	ガレリア	exceptur
+area_name_int_transit,P	内部トランジット	exceptur
+basesweep_obj_long_02	~mission(Location|Address) に到着する	MoMo
+basesweep_obj_marker_02	~mission(Location|Name) に辿り着く	MoMo
+basesweep_obj_short_02	~mission(Location|Name) に辿り着く	MoMo
+basesweep_obj_target	目標の殺害	mossy
+blacjac_RetrieveConsignment_desc_001	傾注：貨物取り扱い経験のある傭兵諸君\n\nNine Tailsが現在、~mission(Location|address)の施設の攻撃を行っている。我々は機密資料の配達を受けたばかりだ。偶然ではなく連中の狙いはこれだろう。BlacJacは、Nine Tailsより先にその重要な荷物を確保するために、その場所に急行する人間を必要としている。諸君らには、BlacJacより諸君らを止めようとする者に対して致命的な力を使用する権限が付与する。\n\nなお我が社通常のセキュリティプロトコルの一環として、機密資料は別の貨物に統合され、自動保管庫に保管されている。貨物の回収コードを速やかに見つけ、それをパッケージコンベアに入力して箱を回収しろ。回収コードはデータパッドにローカルに保存され、我が社の高位のスタッフのみに提供されている。諸君らはまずコードを見つける必要がある。我が社のスタッフが現地で諸君らを援護可能だと良いが、完全に通信が途絶している点を考慮すると、残念ながら現状は厳しいだろう。NineTailsがすでにデータパッドを手に入れている可能性もある。\n\n機密資料をすべて収集したら、~mission(dropoff1|address)に配達しろ。報酬の支払いはその配達を確認してからとなる。\n\n以上だ。\nGloria Mesa\n\n民事契約監督官\nBlacJac Security、「約束された、安全を。」	mossy
+blacjac_RetrieveConsignment_title_001	地点防衛及び機密物資の輸送 / Defend Location and Deliver Confidential Materials	mossy
+bounty_fps_boss_obj_prepare_short_01	~mission(TargetName)が到着	Luke
+bounty_obj_long_02_target01	~mission(TargetName)を~mission(Location|Address)で捜索し、無力化する。	Luke
+bounty_obj_long_02_target02	~mission(TargetName1)を~mission(Location|Address)で捜索し、無力化する。	Luke
+bounty_obj_long_02_target03	~mission(TargetName2)を~mission(Location|Address)で捜索し、無力化する。	Luke
+bounty_obj_marker_01	~mission(TargetName)を無力化する	Luke
+bounty_obj_marker_01_target02	~mission(TargetName1)を無力化する	Luke
+bounty_obj_marker_01_target03	~mission(TargetName2)を無力化する	Luke
+bounty_obj_marker_01_target04	~mission(TargetName3)を無力化する	Luke
+bounty_obj_marker_01a	ターゲットの位置に到達する	Luke
+crusader_RetrieveConsignment_desc_001	報告によると、~mission(location|address)に勤務する当社のセキュリティスタッフが、最近施設に届けられた機密物資を盗もうとしているNine Tailsの集団によって全滅させられたとのことです。よってCrusader Securityは、敵対勢力を追い出し、これらの箱を確保するため、経験豊富な請負業者を募集しています。\n\n初期報告を考慮し、十分な装備で臨み、バックアップの用意を検討されることを強くお勧めします。保安上、機密物資は他の箱と一緒に自動保管庫に運ばれ、施錠されています。機密物資にアクセスするためのアクセスコードは、高位のセキュリティスタッフの所持するデータパッドに保存されていますが、現在そのコードは誰が所有しているのかわかりません。恐らくNine Tailsもそれを探し回っていることでしょう。\n\n全ての機密物資を入手した後は、~mission(dropoff1|address)に届けて報酬を受け取ってください。\n\n契約認可者：\n連絡担当官 Bautista \nID# 948J030K	mossy
+crusader_RetrieveConsignment_title_001	保安部隊の支援と荷物の確保 / Support Security Forces and Secure Consignment	mossy
+crusader_platform_EliminateAll_description_001	最新の襲撃を受け、NineTails部隊はCrusaderの作戦を妨害し続けるため、標的を限定した襲撃を開始しました。現在の攻撃は、~mission(MissionCluster|Address)を対象にしており、そこでの敵対行為を止めることが重要です。\n\nCrusader Securityは、その地域におけるNineTailsの作戦員をすべて排除する契約業者を募集しています。契約業者には武力行使の用意と、バックアップの検討を強くお勧めします。\n\n契約認可者：\n連絡担当官 Bautista\nID# 948J030K	mossy
+crusader_platform_EliminateSpecific_desc	Crusader Securityは、現在~mission(MissionCluster|Address)で発生しているNine Tailsの襲撃に、有名なギャングの殺し屋が含まれているという情報を入手しました。この襲撃を終結させ、責任者を司法のもとに追い詰めることは、Crusader Securityの最優先事項です。そのため、~mission(MissionCluster|Name)に向い、脅威を排除し、襲撃を主導する目標を無力化する契約業者を募集しています。\n\n現地に到着したら、~mission(TargetName)を引き出すまで、NineTailsの部隊を消耗させる必要があります。\n\n最近の襲撃でNineTailsが起こした残虐行為を考慮し、契約業者には武力行使の用意と、バックアップの検討を強くお勧めします。\n\n契約認可者：\n連絡担当官 Gibbs\nID# 91G66BW0	mossy
+crusader_platform_MultiEliminateAll_description_001	最新の襲撃を受け、NineTails部隊はCrusaderの作戦を妨害し続けるため、標的を限定した襲撃を開始しました。現在の攻撃は、~mission(MissionCluster|Address)に位置する複数の建物を対象にしており、そこでの敵対行為を止めることが重要です。\n\nCrusader Securityは、その地域におけるすべてのNineTailsの作戦員を排除する契約業者を募集しています。契約業者には武力行使の用意と、バックアップの検討を強くお勧めします。\n\n契約認可者：\n連絡担当官 Bautista\nID# 948J030K	mossy
+crusader_platform_MultiEliminateSpecific_desc	Crusader Securityは、現在~mission(MissionCluster|Address)で発生しているNine Tailsの襲撃に、有名なギャングの殺し屋が含まれているという情報を入手しました。この襲撃を終結させ、責任者を司法のもとに追い詰めることは、Crusader Securityの最優先事項です。そのため、襲撃を主導している目標を無力化する契約業者を募集しています。\n\n各襲撃地点では、担当の殺し屋を引きずり出すまで、その場所のNine Tails部隊を消耗させる必要があります。\n\n最近の襲撃でNineTailsが行使した残虐行為を考慮し、契約業者には武力行使の用意と、バックアップの検討を強くお勧めします。\n\n契約認可者：\n連絡担当官 Gibbs\nID# 91G66BW0	mossy
+ea_popup_body_ModeDisclaimer_MasterModes		
+ea_ui_RulesLapCompleted	ラップ完了\nラップタイム：%s	exceptur
+ea_ui_RulesOnDeathPenaltyMessage	%d 秒のペナルティ	exceptur
+ea_ui_deathinfo_AssistedBy	アシスト：	exceptur
+ea_ui_deathinfo_LifeReview	Life Review	exceptur
+ea_ui_frontend_BanPlayer	プレイヤーをBANする	exceptur
+ea_ui_frontend_DemoteFromMod	モデレーター権限を剥奪	exceptur
+ea_ui_frontend_ExperimentalModes		
+ea_ui_frontend_ExperimentalModesActive		
+ea_ui_frontend_ExperimentalModesReset		
+ea_ui_frontend_Host	ホスト	exceptur
+ea_ui_frontend_Join	参加	exceptur
+ea_ui_frontend_LobbySetup	ロビー設定	exceptur
+ea_ui_frontend_Moderator	モデレーター	exceptur
+ea_ui_frontend_PromoteToHost	ホスト権限を付与	exceptur
+ea_ui_frontend_PromoteToMod	モデレーター権限を付与	exceptur
+ea_ui_frontend_RestartRequired	リスタートしてアップデートする	exceptur
+ea_ui_frontend_filter_Racing	レース	exceptur
+ea_ui_frontend_filter_Released	リリースされた	Luke
+ea_ui_frontend_specialevent_AlienWeek_Description,P		
+ea_ui_frontend_specialevent_AlienWeek_Title,P		
+ea_ui_frontend_specialevent_AprilFools_Description,P		
+ea_ui_frontend_specialevent_AprilFools_Title,P		
+ea_ui_frontend_specialevent_CitizenCon_Description,P		
+ea_ui_frontend_specialevent_CitizenCon_Title,P		
+ea_ui_frontend_specialevent_FightOrFlight_Description,P		
+ea_ui_frontend_specialevent_FightOrFlight_Title,P		
+ea_ui_frontend_specialevent_FoundationFestival_Description,P		
+ea_ui_frontend_specialevent_FoundationFestival_Title,P		
+ea_ui_frontend_specialevent_Generic		
+ea_ui_frontend_specialevent_Halloween_Description,P		
+ea_ui_frontend_specialevent_Halloween_Title,P		
+ea_ui_frontend_specialevent_IAE_Description,P		
+ea_ui_frontend_specialevent_IAE_Title,P		
+ea_ui_frontend_specialevent_Invictus_Description,P		
+ea_ui_frontend_specialevent_Invictus_Title,P		
+ea_ui_frontend_specialevent_LunarNewYear_Description		
+ea_ui_frontend_specialevent_LunarNewYear_Title,P		
+ea_ui_frontend_specialevent_MurrayCup_Description,P		
+ea_ui_frontend_specialevent_MurrayCup_Title,P		
+ea_ui_frontend_specialevent_PirateWeek_Description,P		
+ea_ui_frontend_specialevent_PirateWeek_Title,P		
+ea_ui_frontend_specialevent_PlayerBirthday_Description,P		
+ea_ui_frontend_specialevent_PlayerBirthday_Title,P		
+ea_ui_frontend_specialevent_StPatricks_Description,P		
+ea_ui_frontend_specialevent_StPatricks_Title,P		
+ea_ui_frontend_specialevent_ValentinesDay_Description		
+ea_ui_frontend_specialevent_ValentinesDay_Title,P		
+ea_ui_frontend_specialevent_Xmas_Description		
+ea_ui_frontend_specialevent_Xmas_Title,P		
+ea_ui_map_ClioIslands	Clio Islands	-
+ea_ui_map_SnakePitReverse,P	The Snake Pit: Reverse	-
+ea_ui_mapdesc_ClioIslands,P	Placeholder Description	-
+ea_ui_mode_ClassicRace_MasterModes	Master Modes: Classic Race	-
+ea_ui_mode_Duel_FightOrFlight,P	Duo Showdown	-
+ea_ui_mode_FPSKillConfirmed	Kill Collector: FPS	-
+ea_ui_mode_GravRace	Grav Race	-
+ea_ui_mode_SquadronBattle_MasterModes	Master Modes: Squadron Battle	-
+ea_ui_mode_VanduulSwarm		
+ea_ui_mode_VanduulSwarmEndless		
+ea_ui_mode_VanduulSwarm_MasterModes		
+ea_ui_mode_VehicleKillConfirmed	Kill Collector: Vehicle	-
+ea_ui_modedesc_ClassicRace_MasterModes,P	純粋なレースです。新たなマスターモードの機体を限界まで使いこなし、真っ先にゴールを目指しましょう。	mossy
+ea_ui_modedesc_Duel_FightOrFlight	2対2のドッグファイト・モードでは、' verseの最強パイロットがチームを組み、その腕前を競い合います。	mossy
+ea_ui_modedesc_FPSKillConfirmed	このフリー・フォー・オールの戦いでは、キルを奪うのも大事ですが、倒した敵が落とすトロフィーを集める方がはるかに重要となるでしょう。最強のコレクターが勝利します。	mossy
+ea_ui_modedesc_GravRace	純粋なレースです。あなたのGrav-levを限界まで使いこなし、真っ先にゴールラインを越えましょう。	mossy
+ea_ui_modedesc_SquadronBattle_MasterModes	この限定版マスターモードテストで勝利するためには、他のチームよりも多くのスコアを獲得するか、制限スコアを突破する必要があります。	mossy
+ea_ui_modedesc_VanduulSwarm		
+ea_ui_modedesc_VehicleKillConfirmed	このフリー・フォー・オール ドッグファイトでは、キルを奪うのも大事ですが、破壊した船が落とすトロフィーを集める方がはるかに重要となるでしょう。最強のコレクターが勝利します。	mossy
+ea_ui_reward_LunarNewYear_Msg		
+ea_ui_reward_LunarNewYear_Title		
+ea_ui_reward_Valentines_Msg		
+ea_ui_reward_Valentines_Title		
+ea_ui_reward_Xmas_Msg		
+ea_ui_reward_Xmas_Title		
+ea_ui_scoring_DistortionDamage	ディストーション	exceptur
+ea_ui_scoring_DistortionDisabled	無力化された船	exceptur
+ea_ui_scoring_KillConfirmed	キル 確定	exceptur
+ea_ui_scoring_KillDenied	キル 失敗	exceptur
+ea_ui_scoring_SecondPlace	2位	exceptur
+ea_ui_scoring_SpecialEventPickup,P	封筒 回収完了	exceptur
+ea_ui_scoring_SpecialEventPickupDenied,P	封筒 回収失敗	exceptur
+ea_ui_scoring_ThirdPlace	3位	exceptur
+ea_ui_spawning_ForceRespawn	強制リスポーン：	exceptur
+ea_ui_spawning_MulticrewDisabled	マルチクルー 無効	exceptur
+ea_ui_spawning_MulticrewEnabled	マルチクルー 有効	exceptur
+ea_ui_spawning_Spawning	スポーン中	exceptur
+ea_ui_spawning_vehicleslot,P	スロット %u	exceptur
+flightHUD_Label_WrongOrientation,P	重力方向からズレています	exceptur
+frontend_PU_ServerLocationLocked_Tooltip	アバターがゲーム内でアクティブな間は、サーバーの変更が一時的にロックされます。\nこれは戦闘中に終了した後や、ゲームクラッシュ後に再参加する際に発生します。	mossy
+hud_mining_asteroid_name_7	アステロイド（氷）	exceptur
+hud_mining_modifier_cluster_factor	クラスター構成（~ItemModifierMethod(value)%）	exceptur
+hurston_RetrieveConsignment_desc_001	HURSTON DYNAMICS\n外部委託部門\n\n契約内容：施設掃討, パッケージ回収\n契約先：独立\n外部委託担当：G. Livingston\nリスク評価：高い\n契約の緊急性：有\n\nHurstonは、NineTailsが~mission(Location|address)を攻撃していることを知った。現地の部隊は重傷を負い、通信に応じなくなった。最初の報告によれば、ギャングは最近施設に届けられた機密資料を入手しようとしていたようだ。幸い、迅速に対応できるようなセキュリティ対策が施されている。直ちに施設に向かい、それらの箱を回収し、安全な場所に配達するためのエージェントが必要だ。\n\n君と連れてくる仲間は、侵入者と対峙する際に必要なあらゆる行動を許可されている。容疑者は武装しており、危険だ。Hurstonは、施設のセキュリティ部隊の状態に関するサポートおよび更新情報を提供しない。\n\n機密資料は他のボックスと一緒に慎重に配達され、アクセスコードは上級セキュリティスタッフが保持しているデータパッドに記録されている。ただし、NineTailsがすでにそれらを手に入れている可能性が非常に高い。君はそれらのデータパッドを見つけ、パッケージコンベアにコードを入力して機密資料を回収する必要がある。報酬はそれらが~mission(dropoff1|address)に配達された後に送金する。\n\n** 送信された情報には機密および特権を有する資料が含まれている可能性がある。この情報を意図された受信者以外の者または団体が閲覧、再送信、拡散、またはこの情報に基づいて行動を起こすことは禁止されている。 **	Luke
+hurston_RetrieveConsignment_title_001	地点防衛及び機密物資の輸送 / Defend Location and Deliver Confidential Materials	mossy
+input_key_keyboard_leftParenthesis,P	(	-
+input_key_keyboard_rightParenthesis,P	)	-
+itemPort_Paint	ペイント	exceptur
+itemPort_hardpoint_paint	ペイント	exceptur
+itemPort_port_NameBombSystem,P	[PH] 爆撃システム	mossy
+itemPort_port_NamePaint		
+item_Desc100i_Paint_2954RedFestival_Red_Gold_Dog		
+item_Desc100i_Paint_2954RedFestival_Red_Gold_Dragon		
+item_Desc400i_Paint_2954RedFestival_Red_Gold_Dog		
+item_Desc400i_Paint_2954RedFestival_Red_Gold_Dragon		
+item_Desc600i_Paint_2954RedFestival_Red_Gold_Dog		
+item_Desc600i_Paint_2954RedFestival_Red_Gold_Dragon		
+item_DescCutter_Paint_Beige_Orange		
+item_DescCutter_Paint_Brown_Orange		
+item_DescCutter_Paint_Metal		
+item_DescFlair_Coin_1_g		
+item_DescFlair_Coramor54_Coin		
+item_DescFlair_HeadHunterRelic_Citizencon_2023	Headhunterの象徴的な権威の印章を再現したランプで、あなたの征く道を照らしましょう。新チーフの就任の際に作られたこのランプは、チーフ専属の4人の助言者たちが忠誠の証としてそれぞれ提供した骸骨を使っており、チーフの新しい権威のシンボルとなっています。	exceptur
+item_DescFlair_MultiToolBox_Citizencon_2023	Pyro星系から発掘されたこの工具箱は、Pyroの危険な太陽フレアだけでなく過酷な時の流れにも耐えています。	exceptur
+item_DescFlair_SF54_Coin		
+item_DescFlair_Trophy_Citizencon_2023	CitizenCon 2953の開催を記念して危険溢れるPyro星系から回収された廃材で作られたこのユニークなトロフィーを片手に、暗黒面への旅を楽しみましょう。	exceptur
+item_DescFury_Paint_2954Fortuna_Green_Grey		
+item_DescMOLE_Paint_Lovestruck_Pink_Black		
+item_DescMPUV_Paint_Lovestruck_Pink_Black		
+item_DescMRCK_S03_XNAA_SanTokYai	アイテムタイプ：ミサイルラック\n製造元：Aopoa\nサイズ：3\nミサイル：2xS2\n\nS2ミサイルを2発搭載可能なこのミサイルラックは、San'tok.yāiのユニークなデザインと調和するよう特別に設計されました。	exceptur
+item_DescRAFT_Paint_Lovestruck_Pink_Black		
+item_DescRazor_Paint_2954Fortuna_Green_Grey		
+item_DescSRV_Paint_Lovestruck_Pink_Black		
+item_DescSTOR_opencontainer_1-8_SCU	貨物業界で最も信頼されている企業であるStor*Allによって設計されたセルフ・ストレージ コンテナは、どんな小物も収納できる便利なコンテナです。また、高い耐衝撃構造と宇宙空間の真空状態にも耐えられる密閉性を兼ね備えています。	exceptur
+item_DescSanTokYai_Paint_Black_Black_Black_Tiger		
+item_DescSanTokYai_Paint_Red_Black_Black		
+item_DescSanTokYai_Paint_White_White_Red		
+item_DescStarlifter_Paint_2954Fortuna_Green_Grey		
+item_DescTOAG_LaserRepeater_S3	アイテムタイプ：レーザーリピーター\n製造元：Torral Aggregate\nサイズ：3\n\nTorral AggregateがAopoa San'tk.yāi専用に設計・製造したYeng'tu レーザーリピーターは、Xi'anの軍事技術の遺伝子を色濃く受け継いでおり、San'tk.yāiの機敏性と戦闘機としての鋭さを際立たせています。	exceptur
+item_DescX1_Paint_2954RedFestival_Red_Gold_Dog		
+item_DescX1_Paint_2954RedFestival_Red_Gold_Dragon		
+item_DescX1_Paint_Black_Black_Orange		
+item_DescX1_Paint_Blue_Black_White		
+item_DescX1_Paint_Grey_Orange_White		
+item_DescX1_Paint_Red_White_Black		
+item_DescXNAA_SanTokYai_Mount_Gimbal	製造元：Aopoa\nアイテムタイプ：武器マウント\nサイズ：3\n\nS3ジンバルマウントでパーフェクトショットを華麗に決めろ。AopoaがSan'tok.yāiのため特別に設計したこのマウントは、S3までの兵装を搭載することができます。	exceptur
+item_Desc_alb_jacket_04_01_01,P	PH - alb_jacket_04_01_01	-
+item_Desc_alb_jacket_04_01_04,P	PH - alb_jacket_04_01_04	-
+item_Desc_alb_jacket_04_01_10,P	PH - alb_jacket_04_01_10	-
+item_Desc_alb_jacket_04_01_13,P	PH - alb_jacket_04_01_13	-
+item_Desc_alb_jacket_04_01_17,P	PH - alb_jacket_04_01_17	-
+item_Desc_alb_jacket_05_01_04,P	PH - alb_jacket_05_01_04	-
+item_Desc_alb_jacket_05_01_16,P	PH - alb_jacket_05_01_16	-
+item_Desc_alb_jacket_05_01_18,P	PH - alb_jacket_05_01_18	-
+item_Desc_alb_jacket_05_01_20,P	PH - alb_jacket_05_01_20	-
+item_Desc_alb_pants_02_01_01,P	PH - alb_pants_02_01_01	-
+item_Desc_alb_pants_02_01_04,P	PH - alb_pants_02_01_04	-
+item_Desc_alb_pants_02_01_10,P	PH - alb_pants_02_01_10	-
+item_Desc_alb_pants_02_01_13,P	PH - alb_pants_02_01_13	-
+item_Desc_alb_pants_02_01_17,P	PH - alb_pants_02_01_17	-
+item_Desc_alb_shirt_05,P	PH - alb_shirt_05	-
+item_Desc_clda_env_heavy_unified_01_iae2023_01	アイテムタイプ：ヘビーアーマー\nダメージ軽減率：40%\n運搬容量：22k μSCU\n適正温度：-225 / 75 °C\n\n寒冷環境下でも安心して探検を行えるよう、Calderaは外部環境に応じて着用者の体温を調整可能な最先端のセンサ一式を搭載した、Novikov 探査スーツを設計しました。また最新鋭の生命維持システムや大容量のバックパックも特徴の一つであり、未踏の地に挑む冒険者たちはNovikovを頼りに過酷な旅を乗り切ることができるでしょう。この特別なIAE 2953 エディションには、Gatac ManufactureのSyulenにインスパイアされたブロンズと白のパターンが施されています。	exceptur
+item_Desc_fta_medium_helmet_01_01_13,P	PH - fta_medium_helmet_01_01_13	-
+item_Desc_fta_medium_helmet_01_01_15,P	PH - fta_medium_helmet_01_01_15	-
+item_Desc_fta_medium_helmet_01_01_18,P	PH - fta_medium_helmet_01_01_18	-
+item_Desc_gsb_pants_01,P	PH - gsb_pants_01	-
+item_Desc_gys_jacket_01_01_02,P	PH - gys_jacket_01_01_02	-
+item_Desc_gys_pants_01_01_02,P	PH - gys_pants_01_01_02	-
+item_Desc_gys_undersuit_01,P	PH - gys_undersuit_01	-
+item_Desc_hdh_boots_02,P	PH - hdh_boots_02	-
+item_Desc_hdh_jacket_07,P	PH - hdh_jacket_07	-
+item_Desc_hdh_pants_03,P	PH - hdh_pants_03	-
+item_Desc_hdh_shirt_01,P	PH - hdh_shirt_01	-
+item_Desc_hdh_shirt_03_01_01,P	PH - hdh_shirt_03_01_01	-
+item_Desc_hdh_shirt_03_01_04,P	PH - hdh_shirt_03_01_04	-
+item_Desc_hdh_shirt_03_01_10,P	PH - hdh_shirt_03_01_10	-
+item_Desc_hdh_shirt_03_01_13,P	PH - hdh_shirt_03_01_13	-
+item_Desc_hdh_shirt_03_01_17,P	PH - hdh_shirt_03_01_17	-
+item_Desc_outlaw_legacy_armor_light_arms_01_04_9tails	アイテムタイプ：ライト アーマー\nダメージ軽減率：20%\n適正温度：-31 / 61 °C\n\nこのKastak Arms製Lynx 腕部アーマーは、元のモデルから改造されています。Lynxコンバットアーマーで機動力を維持しましょう。ハイテクポリマーの生地により、着用者は十分なダメージに耐えながら素早く危険から逃れることができるでしょう。このスーツの印象的な外観は、2800年代半ばに広く人気を博したドラマ『Fire and Fury』の作中でSeekerが着用したことで有名になりました。	mossy
+item_Desc_outlaw_legacy_armor_light_helmet_01_04_9tails	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n適正温度：-31 / 61 °C\n\nこのKastak Arms製Oracle ヘルメットは元のモデルから改造されています。Kastak ArmsのOracleは、目の上に一体型ダイヤモンドラミネートを施した密閉型強化プレートヘルメットです。宇宙や戦場での安全性を保ちながら、最大限の状況認識を可能としています。	mossy
+item_Desc_r6p_shoes_03,P	PH - r6p_shoes_03	-
+item_Desc_rrs_specialist_light_arms_01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n適正温度：-38 / 68 °C\n\nその優れたデザインと人目を引くスタイルで、卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。	mossy
+item_Desc_rrs_specialist_light_arms_01_coramor_01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n適正温度：-38 / 68 °C\n\nその優れたデザインと人目を引くスタイルで、卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。特別なCoramor Fateエディションでは、鮮やかなピンクとライトグレーのカラーリングで装いを新たにしました。	mossy
+item_Desc_rrs_specialist_light_arms_01_coramor_02	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n適正温度：-38 / 68 °C\n\nその優れたデザインと人目を引くスタイルで、卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。特別に用意されたKismetエディションは、行方不明の恋人Corazon Tanを探すべく、Yuri Ilyinが名作映画「Coramor」の劇中で操縦していた船にちなんで、黒とピンクのカラーリングが施されています。	mossy
+item_Desc_rrs_specialist_light_arms_01_crus01_01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n適正温度：-38 / 68 °C\n\nその優れたデザインと人目を引くスタイルで、卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。Crusaderエディションは、同社のセキュリティサービスのために特別に製造されました。	mossy
+item_Desc_rrs_specialist_light_core_01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n運搬容量：8K µSCU\n適正温度：-35 / 68 °C\nバックパックの互換性：Light\n\n卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。また、重要な装備に簡単にアクセスできるツールベルトも特徴の一つです。	mossy
+item_Desc_rrs_specialist_light_core_01_01_9tails01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n運搬容量：8k µSCU\n適正温度：-35 / 68 °C\nバックパック互換性：Light\n\nこのRoussimoff Rehabilitation Systems Arden-SL コア アーマーは、元のモデルから改造されています。優れたデザインと人目を引くスタイルで、Arden-SL アーマーはセキュリティの専門家が Roussimoff Rehabilitation Systems を愛する理由を示しています。この多目的なアーマーセットは身に着けている人を特殊合金の装甲プレートおよび生地の精密な配置のおかげで敏捷に、しかして安全にとどまることを可能にします。また、重要なギアに簡単にアクセスできるツールベルトも備えています。	mossy
+item_Desc_rrs_specialist_light_core_01_coramor_01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n運搬容量：8K µSCU\n適正温度：-35 / 68 °C\nバックパックの互換性：Light\n\n卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。また、重要な装備に簡単にアクセスできるツールベルトも特徴の一つです。鮮やかなピンクとライトグレーのカラーリングで刷新された特別なFateエディションには、コラモールの精神をどこへでも持ち運べるよう、肩部装甲にハートの装飾が施されています。	mossy
+item_Desc_rrs_specialist_light_core_01_coramor_02	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n運搬容量：8K µSCU\n適正温度：-35 / 68 °C\nバックパックの互換性：Light\n\n卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。また、重要な装備に簡単にアクセスできるツールベルトも特徴の一つです。特別に用意されたKismetエディションは、行方不明の恋人Corazon Tanを探すべく、Yuri Ilyinが名作映画「Coramor」の劇中で操縦していた船にちなんで、黒とピンクのカラーリングが施されています。	mossy
+item_Desc_rrs_specialist_light_helmet_01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n適正温度：-38 / 68 °C\n\n卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。また、カウル一体型の完全密閉型ヘルメットも特徴です。	mossy
+item_Desc_rrs_specialist_light_helmet_01_01_9tails01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n適正温度：-38 / 68 °C\n\nこのRoussimoff Rehabilitation Systems製Arden-SLヘルメットは、元のモデルを改造したものです。卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。また、カウル一体型の完全密閉型ヘルメットも特徴です。	mossy
+item_Desc_rrs_specialist_light_helmet_01_coramor_01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n適正温度：-38 / 68 °C\n\n卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。また、カウル一体型の完全密閉型ヘルメットも特徴です。特別なCoramor Fateエディションでは、鮮やかなピンクとライトグレーのカラーリングで装いを新たにしました。	mossy
+item_Desc_rrs_specialist_light_helmet_01_coramor_02	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n適正温度：-38 / 68 °C\n\n卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。また、カウル一体型の完全密閉型ヘルメットも特徴です。特別に用意されたKismetエディションは、行方不明の恋人Corazon Tanを探すべく、Yuri Ilyinが名作映画「Coramor」の劇中で操縦していた船にちなんで、黒とピンクのカラーリングが施されています。	mossy
+item_Desc_rrs_specialist_light_legs_01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n運搬容量：5K µSCU\n適正温度：-38 / 68 °C\n\n卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。	mossy
+item_Desc_rrs_specialist_light_legs_01_coramor_01	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n運搬容量：5K µSCU\n適正温度：-38 / 68 °C\n\n卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。特別なCoramor Fateエディションでは、鮮やかなピンクとライトグレーのカラーリングで装いを新たにしました。	mossy
+item_Desc_rrs_specialist_light_legs_01_coramor_02	アイテムタイプ：ライトアーマー\nダメージ軽減率：20%\n運搬容量：5K µSCU\n適正温度：-38 / 68 °C\n\n卓越したデザインと目を引くスタイルが特徴のArden-SLアーマーは、なぜ多くのセキュリティスペシャリストがRoussimoff Rehabilitation Systemsを愛するのかを体現しています。この万能アーマーセットは、特殊な複合装甲プレートと生地の精密な配置により、着用者の機動性を損なわずに安全を確保できるようになっています。特別に用意されたKismetエディションは、行方不明の恋人Corazon Tanを探すべく、Yuri Ilyinが名作映画「Coramor」の劇中で操縦していた船にちなんで、黒とピンクのカラーリングが施されています。	mossy
+item_Desc_scu_jacket_07,P	PH - alb_shirt_05	-
+item_Desc_scu_pants_05,P	PH - scu_pants_05	-
+item_Descbehr_lmg_ballistic_01	製造元：Behring\nアイテムタイプ：LMG\nクラス：実弾\n\nマガジンサイズ：75\n発射速度：800 rpm\n効果的な射程：40 m\n\nアタッチメント：オプティクス(S2)、バレル(S2)、アンダーバレル(S3)\n\nBehringはFS-9を圧倒的な戦場の力とするよう設計しました。この軽機関銃はフルオートモードを備えており、掩護射撃や前進する敵を抑えるのに最適です。FS-9は持続的な射撃を放ちながらも正確さを維持する能力でも評価されています。	mossy
+item_Descbehr_lmg_ballistic_01_luminalia_green01	製造元：Behring\nアイテムタイプ：LMG\nクラス：実弾\n\nマガジンサイズ：75\n発射速度：800 rpm\n効果的な射程：40 m\n\nアタッチメント：オプティクス(S2)、バレル(S2)、アンダーバレル(S3)\n\nBehringはFS-9を圧倒的な戦場の力とするよう設計しました。この軽機関銃はフルオートモードを備えており、掩護射撃や前進する敵を抑えるのに最適です。FS-9は持続的な射撃を放ちながらも正確さを維持する能力でも評価されています。Evergreenエディションは、輝く緑色の色合いで伝統的なホリデーカラーを取り入れ、ルミナリアの精神を体現しています。	mossy
+item_Descbehr_lmg_ballistic_01_mag	アイテムタイプ：マガジン\n容量：75\n\nBehring FS-9 LMG用のこのマガジンには75発の5mm弾が装填されています。	mossy
+item_Descbehr_lmg_ballistic_01_xenothreat01	製造元：Behring\nアイテムタイプ：LMG\nクラス：実弾\n\nマガジンサイズ：75\n発射速度：800 rpm\n効果的な射程：40 m\n\nアタッチメント：オプティクス(S2)、バレル(S2)、アンダーバレル(S3)\n\nBehringはFS-9を圧倒的な戦場の力とするよう設計しました。この軽機関銃はフルオートモードを備えており、掩護射撃や前進する敵を抑えるのに最適です。FS-9は持続的な射撃を放ちながらも正確さを維持する能力でも評価されています。この伝説的なバウンティハンターシリーズのエントリーでは、名高いトラッカーであるFarook 'Stoneface' Norrisが、愛用のFS-9 LMGのために鮮やかな赤を基調としたデザインを手がけました。	mossy
+item_Descbehr_lmg_ballistic_01_yellow_grey01	製造元：Behring\nアイテムタイプ：LMG\nクラス：実弾\n\nマガジンサイズ：75\n発射速度：800 rpm\n効果的な射程：40 m\n\nアタッチメント：オプティクス(S2)、バレル(S2)、アンダーバレル(S3)\n\nBehringはFS-9を圧倒的な戦場の力とするよう設計しました。この軽機関銃はフルオートモードを備えており、掩護射撃や前進する敵を抑えるのに最適です。FS-9は持続的な射撃を放ちながらも正確さを維持する能力でも評価されています。イエローとグレーの新しいカラーリングで刷新された特別なFinish Lineエディションは、スターシップ・レースへの敬意を込めて制作されました。	mossy
+item_Descgmni_pistol_ballistic_01_green_grey01	製造元：Gemini\nアイテムタイプ：ピストル\nクラス：実弾\n\nマガジンサイズ：13\n射撃速度：400 rpm\n有効射程：30 m\n\nアタッチメント：オプティクス(S1), バレル(S1), アンダーバレル(S1)\n\nGeminiより発売されたLH86は、個人防衛および近接戦闘用に設計されたコンパクトな運動学的ピストルです。人間工学とバランスに基づく設計と頑丈な構造により、このピストルはどんな射撃手にも、どんな過酷な状況でも自然にフィットするでしょう。LH86にはトリチウム製の低光量照準器と13発のマガジンが付属しています。Stella Fortuna 2954のためにリリースされた特別なグリーンとグレーのLuckbringerエディションは、幸運を味方につける素晴らしい方法です。	mossy
+item_Descgmni_shotgun_ballistic_01	製造元：Gemini\nアイテムタイプ：ショットガン\nクラス：実弾\n\nマガジンサイズ：18\n射撃速度：120rpm/60rpm\n有効射程：15 m/35 m\n\nアタッチメント：オプティクス(S1), バレル(N/A), アンダーバレル(S2)\n\nR97は、洗練されたデザインと威力を兼ね備えた優雅で効果的なクローズクォーターズウェポンです。Gemini製のこの実弾ショットガンは、素早いダメージを与えるのに最適なセミオートの広範囲拡散モードと、威力を犠牲にする代わりに射程距離を伸ばすフォーカスモードの2つの射撃モードを備えています。この戦闘における柔軟性により、R97は帝国全体で人気のある個人防御武器となっています。	mossy
+item_Descgmni_shotgun_ballistic_01_mag	アイテムタイプ：マガジン\n容量：18\n\nGemini R97実弾ショットガン用のこのマガジンには12ゲージ弾が18発装填されています。	mossy
+item_Descgmni_shotgun_ballistic_01_pink_red01	製造元：Gemini\nアイテムタイプ：ショットガン\nクラス：実弾\n\nマガジンサイズ：18\n射撃速度：120rpm/60rpm\n有効射程：15 m/35 m\n\nアタッチメント：オプティクス(S1), バレル(N/A), アンダーバレル(S2)\n\nR97は、洗練されたデザインと威力を兼ね備えた優雅で効果的なクローズクォーターズウェポンです。Gemini製のこの実弾ショットガンは、素早いダメージを与えるのに最適なセミオートの広範囲拡散モードと、威力を犠牲にする代わりに射程距離を伸ばすフォーカスモードの2つの射撃モードを備えています。この戦闘における柔軟性により、R97は帝国全体で人気のある個人防御武器となっています。あなたと大切な人を守るための、特別なR97 Kismetエディションは、名作映画「Coramor」劇中で、失踪した恋人Corazon Tanを探し出すためにYuri Ilyinが乗った船を彷彿とさせるピンクと黒の組み合わせが特徴です。	mossy
+item_Descgmni_smg_ballistic_01_green_grey01	製造元：Gemini\nアイテムタイプ：SMG\nクラス：実弾\n\nマガジンサイズ：40\n射撃速度：1,100 rpm\n有効射程：35m\n\nアタッチメント：バレル（S1）, オプティクス（S1）, アンダーバレル（S1）\n\n取り扱いが簡単で紫のアクセントが施されたスタイリングが美しいC54は、Geminiの洗練されたバランスのとれたSMGです。軽量なポリマーフレームと人間工学に基づいたデザインにより、近接戦闘に最適な１丁です。C54は10mm弾をフルオートで発射することで、最大の攻撃支援とターゲット制圧を可能にし、どんな戦闘も迅速に終了させることができます。Stella Fortuna 2954のためにリリースされた特別なグリーンとグレーのLuckbringerエディションは、幸運を味方につける素晴らしい方法です。	mossy
+item_Descgmni_sniper_ballistic_01_green_grey01	製造元：Gemini\nアイテムタイプ：スナイパーライフル\nクラス：実弾\n\nマガジンサイズ：15\n射撃速度：120 rpm\n有効射程：80 m\n\nアタッチメント：オプティクス(S3), バレル(S2), アンダーバレル(S2)\n\nA03スナイパーライフルで遠距離から破滅を与えましょう。GeminiのTevarin共同創業者であるClemによって見事に設計され、この武器は洗練されたエルゴノミックなデザインと強力な射撃能力をバランスよく実現させました。 A03は、連続して射撃が必要な場合に精度を犠牲にせずに、スナイパーライフルとしては印象的な射撃速度を提供します。その名高いデザインとユニークな特徴を考えると、なぜA03が帝国全体のセキュリティプロフェッショナルの間でお気に入りになっているかが理解できるでしょう。Stella Fortuna 2954のためにリリースされた特別なグリーンとグレーのLuckbringerエディションは、幸運を味方につける素晴らしい方法です。	mossy
+item_Descksar_rifle_energy_01_pink_red01	製造元：Kastak Arms\nアイテムタイプ：アサルトライフル\nクラス：エネルギー (プラズマ)\n\nバッテリーサイズ：30\n射撃速度：500 rpm\n有効射程：50 m\n\nアタッチメント：オプティクス(S2), バレル(S2), アンダーバレル(S2)\n\nKarnaはクラシックなKastak Armsのプラズマアサルトライフルです。この中距離用の武器は、バースト、チャージ、フルオートの射撃モードを備え、迅速かつ簡単な状況の調整が可能です。Karnaの威力だけでなく、頑丈な外観と信頼性によって、これはKastak Armsで最も人気のある武器の1つになっています。大胆なフクシア色とグレーの組み合わせがアクセントのKarna Fateエディションで、Coramorへの情熱を表しましょう。	
+item_Descksar_shotgun_energy_01_blue01	製造元：Kastak Arms\nアイテムタイプ：ショットガン\nクラス：エネルギー (プラズマ)\n\nバッテリーサイズ：12\n射撃速度：60 rpm\n有効射程：20 m\n\nアタッチメント：オプティクス(S1), バレル(S3), アンダーバレル(S2)\n\nKastak ArmsのDevastatorは、中距離に持続的・高衝撃なプラズマ爆発を提供することができるポンプアクションのプラズマショットガンです。これは近接戦闘、部屋の制圧、その他の戦闘作戦に使用されます。もし状況が高出力を必要とする場合は、Devastatorを選んでください。この特別なWhirlwindエディションは、波立つ海の波を連想させるブルーの濃淡が魅力です。	mossy
+item_Name100i_Paint_2954RedFestival_Red_Gold_Dog		
+item_Name100i_Paint_2954RedFestival_Red_Gold_Dragon		
+item_Name400i_Paint_2954RedFestival_Red_Gold_Dog		
+item_Name400i_Paint_2954RedFestival_Red_Gold_Dragon		
+item_Name600i_Paint_2954RedFestival_Red_Gold_Dog		
+item_Name600i_Paint_2954RedFestival_Red_Gold_Dragon		
+item_NameCutter_Paint_Beige_Orange		
+item_NameCutter_Paint_Brown_Orange		
+item_NameCutter_Paint_Metal		
+item_NameFlair_Coin_1_g		
+item_NameFlair_Coramor54_Coin		
+item_NameFlair_HeadHunterRelic_Citizencon_2023	Headhunter ヘッドランプ	exceptur
+item_NameFlair_MultiToolBox_Citizencon_2023	Pyrotechnic Amalgamated 工具箱	exceptur
+item_NameFlair_SF54_Coin		
+item_NameFlair_Trophy_Citizencon_2023	CitizenCon 2953 トロフィー	exceptur
+item_NameFury_Paint_2954Fortuna_Green_Grey		
+item_NameHRST_Storm_LaserRepeater_S3_short	Reign-3	exceptur
+item_NameMOLE_Paint_Lovestruck_Pink_Black		
+item_NameMPUV_Paint_Lovestruck_Pink_Black		
+item_NameMRCK_S03_XNAA_SanTokYai	San'tok.yāi ミサイルラック	exceptur
+item_NameRAFT_Paint_Lovestruck_Pink_Black		
+item_NameRazor_Paint_2954Fortuna_Green_Grey		
+item_NameSRV_Paint_Lovestruck_Pink_Black		
+item_NameSTOR_opencontainer_1-8_SCU	Stor*All 1/8 SCU ストレージボックス	exceptur
+item_NameSanTokYai_Paint_Black_Black_Black_Tiger		
+item_NameSanTokYai_Paint_Red_Black_Black		
+item_NameSanTokYai_Paint_White_White_Red		
+item_NameStarlifter_Paint_2954Fortuna_Green_Grey		
+item_NameTOAG_LaserRepeater_S3	Yeng’tu リピーター	exceptur
+item_NameTOAG_LaserRepeater_S3_short	Yeng’tu	exceptur
+item_NameX1_Paint_2954RedFestival_Red_Gold_Dog		
+item_NameX1_Paint_2954RedFestival_Red_Gold_Dragon		
+item_NameX1_Paint_Black_Black_Orange		
+item_NameX1_Paint_Blue_Black_White		
+item_NameX1_Paint_Grey_Orange_White		
+item_NameX1_Paint_Red_White_Black		
+item_NameXNAA_SanTokYai_Mount_Gimbal	San'tok.yāi ジンバルマウント	exceptur
+item_Name_alb_jacket_04_01_01,P	PH - alb_jacket_04_01_01	-
+item_Name_alb_jacket_04_01_04,P	PH - alb_jacket_04_01_04	-
+item_Name_alb_jacket_04_01_10,P	PH - alb_jacket_04_01_10	-
+item_Name_alb_jacket_04_01_13,P	PH - alb_jacket_04_01_13	-
+item_Name_alb_jacket_04_01_17,P	PH - alb_jacket_04_01_17	-
+item_Name_alb_jacket_05_01_04,P	PH - alb_jacket_05_01_04	-
+item_Name_alb_jacket_05_01_16,P	PH - alb_jacket_05_01_16	-
+item_Name_alb_jacket_05_01_18,P	PH - alb_jacket_05_01_18	-
+item_Name_alb_jacket_05_01_20,P	PH - alb_jacket_05_01_20	-
+item_Name_alb_pants_02_01_01,P	PH - alb_pants_02_01_01	-
+item_Name_alb_pants_02_01_04,P	PH - alb_pants_02_01_04	-
+item_Name_alb_pants_02_01_10,P	PH - alb_pants_02_01_10	-
+item_Name_alb_pants_02_01_13,P	PH - alb_pants_02_01_13	-
+item_Name_alb_pants_02_01_17,P	PH - alb_pants_02_01_17	-
+item_Name_alb_shirt_05_01_01,P	PH - alb_shirt_05_01_01	-
+item_Name_alb_shirt_05_01_03,P	PH - alb_shirt_05_01_03	-
+item_Name_alb_shirt_05_01_11,P	PH - alb_shirt_05_01_11	-
+item_Name_alb_shirt_05_01_15,P	PH - alb_shirt_05_01_15	-
+item_Name_alb_shirt_05_01_17,P	PH - alb_shirt_05_01_17	-
+item_Name_fta_medium_helmet_01_01_13,P	PH - fta_medium_helmet_01_01_13	-
+item_Name_fta_medium_helmet_01_01_15,P	PH - fta_medium_helmet_01_01_15	-
+item_Name_fta_medium_helmet_01_01_18,P	PH - fta_medium_helmet_01_01_18	-
+item_Name_gsb_pants_01_01_01,P	PH - gsb_pants_01_01_01	-
+item_Name_gsb_pants_01_01_03,P	PH - gsb_pants_01_01_03	-
+item_Name_gsb_pants_01_01_07,P	PH - gsb_pants_01_01_07	-
+item_Name_gsb_pants_01_01_10,P	PH - gsb_pants_01_01_10	-
+item_Name_gsb_pants_01_01_16,P	PH - gsb_pants_01_01_16	-
+item_Name_gys_undersuit_01_01_01,P	PH - gys_undersuit_01_01_01	-
+item_Name_gys_undersuit_01_01_11,P	PH - gys_undersuit_01_01_11	-
+item_Name_hdh_boots_02_01_01,P	PH - hdh_boots_02_01_01	-
+item_Name_hdh_boots_02_01_13,P	PH - hdh_boots_02_01_13	-
+item_Name_hdh_boots_02_01_15,P	PH - hdh_boots_02_01_15	-
+item_Name_hdh_boots_02_01_16,P	PH - hdh_boots_02_01_16	-
+item_Name_hdh_boots_02_01_17,P	PH - hdh_boots_02_01_17	-
+item_Name_hdh_gloves_01_01_03,P	PH - hdh_gloves_01_01_03	-
+item_Name_hdh_gloves_01_01_07,P	PH - hdh_gloves_01_01_07	-
+item_Name_hdh_gloves_01_01_10,P	PH - hdh_gloves_01_01_10	-
+item_Name_hdh_gloves_01_01_16,P	PH - hdh_gloves_01_01_16	-
+item_Name_hdh_jacket_07_01_01,P	PH - hdh_jacket_07_01_01	-
+item_Name_hdh_jacket_07_01_13,P	PH - hdh_jacket_07_01_13	-
+item_Name_hdh_jacket_07_01_15,P	PH - hdh_jacket_07_01_15	-
+item_Name_hdh_jacket_07_01_16,P	PH - hdh_jacket_07_01_16	-
+item_Name_hdh_jacket_07_01_17,P	PH - hdh_jacket_07_01_17	-
+item_Name_hdh_jacket_08_01_03,P	PH - hdh_jacket_08_01_03	-
+item_Name_hdh_jacket_08_01_07,P	PH - hdh_jacket_08_01_07	-
+item_Name_hdh_jacket_08_01_10,P	PH - hdh_jacket_08_01_10	-
+item_Name_hdh_jacket_08_01_16,P	PH - hdh_jacket_08_01_16	-
+item_Name_hdh_pants_03_01_01,P	PH - hdh_pants_03_01_01	-
+item_Name_hdh_pants_03_01_13,P	PH - hdh_pants_03_01_13	-
+item_Name_hdh_pants_03_01_15,P	PH - hdh_pants_03_01_15	-
+item_Name_hdh_pants_03_01_16,P	PH - hdh_pants_03_01_16	-
+item_Name_hdh_pants_03_01_17,P	PH - hdh_pants_03_01_17	-
+item_Name_hdh_shirt_01_01_01,P	PH - hdh_shirt_01_01_01	-
+item_Name_hdh_shirt_01_01_13,P	PH - hdh_shirt_01_01_13	-
+item_Name_hdh_shirt_01_01_15,P	PH - hdh_shirt_01_01_15	-
+item_Name_hdh_shirt_01_01_16,P	PH - hdh_shirt_01_01_16	-
+item_Name_hdh_shirt_01_01_17,P	PH - hdh_shirt_01_01_17	-
+item_Name_hdh_shirt_02_01_03,P	PH - hdh_shirt_02_01_03	-
+item_Name_hdh_shirt_02_01_07,P	PH - hdh_shirt_02_01_07	-
+item_Name_hdh_shirt_02_01_10,P	PH - hdh_shirt_02_01_10	-
+item_Name_hdh_shirt_02_01_16,P	PH - hdh_shirt_02_01_16	-
+item_Name_hdh_shirt_03_01_01,P	PH - hdh_shirt_03_01_01	-
+item_Name_hdh_shirt_03_01_04,P	PH - hdh_shirt_03_01_04	-
+item_Name_hdh_shirt_03_01_10,P	PH - hdh_shirt_03_01_10	-
+item_Name_hdh_shirt_03_01_13,P	PH - hdh_shirt_03_01_13	-
+item_Name_hdh_shirt_03_01_17,P	PH - hdh_shirt_03_01_17	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_02	Lynx 腕部アーマー Red	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_03	Lynx 腕部アーマー Orange	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_04	Lynx 腕部アーマー Yellow	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_05	Lynx 腕部アーマー Green	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_06	Lynx 腕部アーマー Seagreen	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_07	Lynx 腕部アーマー Blue	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_08	Lynx 腕部アーマー Purple	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_09	Lynx 腕部アーマー Violet	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_12	Lynx 腕部アーマー Black	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_13	Lynx 腕部アーマー Dark Red	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_14	Lynx 腕部アーマー Sienna	-
+item_Name_outlaw_legacy_armor_light_arms_01_04_9tails	Lynx 腕部アーマー（改造済）	-
+item_Name_outlaw_legacy_armor_light_arms_01_05_10	Lynx 腕部アーマー White	-
+item_Name_outlaw_legacy_armor_light_arms_01_05_11,P	Lynx 腕部アーマー Grey	-
+item_Name_outlaw_legacy_armor_light_arms_01_05_15	Lynx 腕部アーマー Tan	-
+item_Name_outlaw_legacy_armor_light_arms_01_05_16	Lynx 腕部アーマー Dark Green	-
+item_Name_outlaw_legacy_armor_light_arms_01_05_17	Lynx 腕部アーマー Aqua	-
+item_Name_outlaw_legacy_armor_light_arms_01_05_18	Lynx 腕部アーマー Twilight	-
+item_Name_outlaw_legacy_armor_light_arms_01_05_19	Lynx 腕部アーマー Imperial	-
+item_Name_outlaw_legacy_armor_light_arms_01_05_20	Lynx 腕部アーマー Olive	-
+item_Name_outlaw_legacy_armor_light_core_01_04_02	Lynx コア アーマー Red	-
+item_Name_outlaw_legacy_armor_light_core_01_04_03	Lynx コア アーマー Orange	-
+item_Name_outlaw_legacy_armor_light_core_01_04_04	Lynx コア アーマー Yellow	-
+item_Name_outlaw_legacy_armor_light_core_01_04_05	Lynx コア アーマー Green	-
+item_Name_outlaw_legacy_armor_light_core_01_04_06	Lynx コア アーマー Seagreen	-
+item_Name_outlaw_legacy_armor_light_core_01_04_07	Lynx コア アーマー Blue	-
+item_Name_outlaw_legacy_armor_light_core_01_04_08	Lynx コア アーマー Purple	-
+item_Name_outlaw_legacy_armor_light_core_01_04_09	Lynx コア アーマー Violet	-
+item_Name_outlaw_legacy_armor_light_core_01_04_12	Lynx コア アーマー Black	-
+item_Name_outlaw_legacy_armor_light_core_01_04_13	Lynx コア アーマー Dark Red	-
+item_Name_outlaw_legacy_armor_light_core_01_04_14	Lynx コア アーマー Sienna	-
+item_Name_outlaw_legacy_armor_light_core_01_05_10	Lynx コア アーマー White	-
+item_Name_outlaw_legacy_armor_light_core_01_05_11,P	Lynx コア アーマー Grey	-
+item_Name_outlaw_legacy_armor_light_core_01_05_15	Lynx コア アーマー Tan	-
+item_Name_outlaw_legacy_armor_light_core_01_05_16	Lynx コア アーマー Dark Green	-
+item_Name_outlaw_legacy_armor_light_core_01_05_17	Lynx コア アーマー Aqua	-
+item_Name_outlaw_legacy_armor_light_core_01_05_18	Lynx コア アーマー Twilight	-
+item_Name_outlaw_legacy_armor_light_core_01_05_19	Lynx コア アーマー Imperial	-
+item_Name_outlaw_legacy_armor_light_core_01_05_20	Lynx コア アーマー Olive	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_02	Oracleヘルメット Red	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_03	Oracleヘルメット Orange	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_04	Oracleヘルメット Yellow	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_05	Oracleヘルメット Green	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_06	Oracleヘルメット Seagreen	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_07	Oracleヘルメット Blue	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_08	Oracleヘルメット Purple	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_09	Oracleヘルメット Violet	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_12	Oracleヘルメット Black	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_13	Oracleヘルメット Dark Red	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_14	Oracleヘルメット Sienna	-
+item_Name_outlaw_legacy_armor_light_helmet_01_04_9tails	Oracleヘルメット（改造済）	-
+item_Name_outlaw_legacy_armor_light_helmet_01_05_10	Oracleヘルメット White	-
+item_Name_outlaw_legacy_armor_light_helmet_01_05_11,P	Oracleヘルメット Grey	-
+item_Name_outlaw_legacy_armor_light_helmet_01_05_15	Oracleヘルメット Tan	-
+item_Name_outlaw_legacy_armor_light_helmet_01_05_16	Oracleヘルメット Dark Green	-
+item_Name_outlaw_legacy_armor_light_helmet_01_05_17	Oracleヘルメット Aqua	-
+item_Name_outlaw_legacy_armor_light_helmet_01_05_18	Oracleヘルメット Twilight	-
+item_Name_outlaw_legacy_armor_light_helmet_01_05_19	Oracleヘルメット Imperial	-
+item_Name_outlaw_legacy_armor_light_helmet_01_05_20	Oracleヘルメット Olive	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_02	Lynx 脚部アーマー Red	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_03	Lynx 脚部アーマー Orange	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_04	Lynx 脚部アーマー Yellow	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_05	Lynx 脚部アーマー Green	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_06	Lynx 脚部アーマー Seagreen	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_07	Lynx 脚部アーマー Blue	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_08	Lynx 脚部アーマー Purple	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_09	Lynx 脚部アーマー Violet	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_12	Lynx 脚部アーマー White	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_13	Lynx 脚部アーマー Cold Steel	-
+item_Name_outlaw_legacy_armor_light_legs_01_04_14	Lynx 脚部アーマー Black	-
+item_Name_outlaw_legacy_armor_light_legs_01_05_10	Lynx 脚部アーマー Dark Red	-
+item_Name_outlaw_legacy_armor_light_legs_01_05_11,P	Lynx 脚部アーマー Sienna	-
+item_Name_outlaw_legacy_armor_light_legs_01_05_15	Lynx 脚部アーマー Tan	-
+item_Name_outlaw_legacy_armor_light_legs_01_05_16	Lynx 脚部アーマー Dark Green	-
+item_Name_outlaw_legacy_armor_light_legs_01_05_17	Lynx 脚部アーマー Aqua	-
+item_Name_outlaw_legacy_armor_light_legs_01_05_18	Lynx 脚部アーマー Twilight	-
+item_Name_outlaw_legacy_armor_light_legs_01_05_19	Lynx 脚部アーマー Imperial	-
+item_Name_outlaw_legacy_armor_light_legs_01_05_20	Lynx 脚部アーマー Olive	-
+item_Name_r6p_shoes_03_01_01,P	PH - r6p_shoes_03_01_01	-
+item_Name_r6p_shoes_03_01_03,P	PH - r6p_shoes_03_01_03	-
+item_Name_r6p_shoes_03_01_11,P	PH - r6p_shoes_03_01_11	-
+item_Name_r6p_shoes_03_01_15,P	PH - r6p_shoes_03_01_15	-
+item_Name_r6p_shoes_03_01_17,P	PH - r6p_shoes_03_01_17	-
+item_Name_scu_jacket_07_01_01,P	PH - scu_jacket_07_01_01	-
+item_Name_scu_jacket_07_01_03,P	PH - scu_jacket_07_01_03	-
+item_Name_scu_jacket_07_01_11,P	PH - scu_jacket_07_01_11	-
+item_Name_scu_jacket_07_01_15,P	PH - scu_jacket_07_01_15	-
+item_Name_scu_jacket_07_01_17,P	PH - scu_jacket_07_01_17	-
+item_Name_scu_pants_05_01_01,P	PH - scu_pants_05_01_01	-
+item_Name_scu_pants_05_01_03,P	PH - scu_pants_05_01_03	-
+item_Name_scu_pants_05_01_11,P	PH - scu_pants_05_01_11	-
+item_Name_scu_pants_05_01_15,P	PH - scu_pants_05_01_15	-
+item_Name_scu_pants_05_01_17,P	PH - scu_pants_05_01_17	-
+item_Nameapar_special_ballistic_01_black02	Scourge『Nightstalker』レールガン	exceptur
+item_Nameapar_special_ballistic_01_tan01	Scourge『Desert Shadow』レールガン	exceptur
+item_Namebehr_lmg_ballistic_01_mag	FS-9 LMGマガジン (75発)	exceptur
+item_Namebehr_lmg_ballistic_01_yellow_grey01	FS-9『Finish Line』LMG	exceptur
+item_Namebehr_lmg_ballistic_01_yellow_grey01_short	FS-9 FL LMG	exceptur
+item_Namebehr_rifle_ballistic_01_black02	P4-AR『Nightstalker』ライフル	exceptur
+item_Namebehr_rifle_ballistic_01_green01	P4-AR『Warhawk』ライフル	exceptur
+item_Namebehr_rifle_ballistic_01_tan01	P4-AR『Desert Shadow』ライフル	exceptur
+item_Namebehr_rifle_ballistic_01_white02	P4-AR『Boneyard』ライフル	exceptur
+item_Namebehr_smg_ballistic_01_black02	P8-SC『Nightstalker』SMG	exceptur
+item_Namebehr_smg_ballistic_01_green01	P8-SC『Warhawk』SMG	exceptur
+item_Namebehr_smg_ballistic_01_green01_short	P8-SC『Warhawk』SMG	exceptur
+item_Namebehr_smg_ballistic_01_tan01	P8-SC『Desert Shadow』SMG	exceptur
+item_Namebehr_smg_ballistic_01_white01	P8-SC『Stormfall』SMG	exceptur
+item_Namebehr_smg_ballistic_01_white02	P8-SC『Boneyard』SMG	exceptur
+item_Namebehr_smg_ballistic_01_white02_short	P8-SC『Boneyard』SMG	exceptur
+item_Namegmni_pistol_ballistic_01_black02	LH86『Nightstalker』ピストル	exceptur
+item_Namegmni_pistol_ballistic_01_cen01	LH86『Voyager』ピストル	exceptur
+item_Namegmni_pistol_ballistic_01_green01	LH86『Warhawk』ピストル	exceptur
+item_Namegmni_pistol_ballistic_01_green_grey01	LH86『Luckbringer』ピストル	exceptur
+item_Namegmni_pistol_ballistic_01_green_grey01_short	LH86 LB ピストル	exceptur
+item_Namegmni_pistol_ballistic_01_imp01	LH86『Pathfinder』ピストル	exceptur
+item_Namegmni_pistol_ballistic_01_tan01	LH86『Desert Shadow』ピストル	exceptur
+item_Namegmni_pistol_ballistic_01_white01	LH86『Stormfall』ピストル	exceptur
+item_Namegmni_pistol_ballistic_01_white02	LH86『Boneyard』ピストル	exceptur
+item_Namegmni_shotgun_ballistic_01_mag	R97 ショットガンマガジン（18発）	exceptur
+item_Namegmni_shotgun_ballistic_01_pink_red01	R97『Kismet』ショットガン	Luke
+item_Namegmni_shotgun_ballistic_01_pink_red01_short	R97 KS ショットガン	Luke
+item_Namegmni_smg_ballistic_01_green_grey01	C54『Luckbringer』SMG	exceptur
+item_Namegmni_smg_ballistic_01_green_grey01_short	C54 LB SMG	exceptur
+item_Namegmni_sniper_ballistic_01_green_grey01	A03『Luckbringer』スナイパーライフル	exceptur
+item_Namegmni_sniper_ballistic_01_green_grey01_short	A03 LB SR	exceptur
+item_Namegrin_multitool_01_salvage_mag	Cambio-Lite SRT キャニスター	exceptur
+item_Namegrin_multitool_01_salvage_mag_empty	Cambio-Lite SRT キャニスター（空）	exceptur
+item_Namegrin_tool_01_salvage_mag	Cambio SRT キャニスター	exceptur
+item_Namegrin_tool_01_salvage_mag_empty	Cambio SRT キャニスター（空）	exceptur
+item_Nameklwe_pistol_energy_01_black02	Arclight『Nightstalker』ピストル	exceptur
+item_Nameklwe_pistol_energy_01_green01	Arclight『Warhawk』ピストル	exceptur
+item_Nameklwe_pistol_energy_01_tan01	Arclight『Desert Shadow』ピストル	exceptur
+item_Nameklwe_pistol_energy_01_white01	Arclight『Stormfall』ピストル	exceptur
+item_Nameklwe_pistol_energy_01_white02	Arclight『Boneyard』ピストル	exceptur
+item_Nameklwe_rifle_energy_01_black01	Gallant『Midnight』 ライフル	exceptur
+item_Nameklwe_rifle_energy_01_black02	Gallant『Nightstalker』 ライフル	exceptur
+item_Nameklwe_rifle_energy_01_green01	Gallant『Warhawk』 ライフル	exceptur
+item_Nameklwe_rifle_energy_01_tan01	Gallant『Desert Shadow』 ライフル	exceptur
+item_Nameklwe_rifle_energy_01_white01	Gallant『Stormfall』 ライフル	exceptur
+item_Nameklwe_rifle_energy_01_white02	Gallant『Boneyard』 ライフル	exceptur
+item_Nameklwe_sniper_energy_01_black02	Arrowhead『Nightstalker』スナイパーライフル	exceptur
+item_Nameklwe_sniper_energy_01_green01	Arrowhead『Warhawk』スナイパーライフル	exceptur
+item_Nameklwe_sniper_energy_01_tan01	Arrowhead『Desert Shadow』スナイパーライフル	exceptur
+item_Nameklwe_sniper_energy_01_white01	Arrowhead『Stormfall』スナイパーライフル	exceptur
+item_Nameklwe_sniper_energy_01_white02	Arrowhead『Boneyard』スナイパーライフル	exceptur
+item_Nameksar_rifle_energy_01_pink_red01	Karna『Fate』ライフル	Luke
+item_Nameksar_rifle_energy_01_pink_red01_short	Karna FT ライフル	Luke
+item_Nameksar_shotgun_energy_01_black02	Devastator『Nightstalker』ショットガン	exceptur
+item_Nameksar_shotgun_energy_01_blue01	Devastator『Whirlwind』ショットガン	exceptur
+item_Nameksar_shotgun_energy_01_blue01_short	Devastator WW SG	exceptur
+item_Nameksar_shotgun_energy_01_cen01	Devastator『Voyager』ショットガン	exceptur
+item_Nameksar_shotgun_energy_01_green01	Devastator『Warhawk』ショットガン	exceptur
+item_Nameksar_shotgun_energy_01_imp01	Devastator『Pathfinder』ショットガン	exceptur
+item_Nameksar_shotgun_energy_01_tan01	Devastator『Desert Shadow』ショットガン	exceptur
+item_Nameksar_shotgun_energy_01_white02	Devastator『Boneyard』ショットガン	exceptur
+item_TypePaints	ペイント	exceptur
+mission_location_pyro_060i	Pyro III L3ラグランジュ点にあるPatch City内のハンガー12	exceptur
+mission_location_pyro_061	メンテナンスエリア-01	exceptur
+mission_location_pyro_061_02	メンテナンスエリア-02	exceptur
+mission_location_pyro_061_03	メンテナンスエリア-03	exceptur
+mission_location_pyro_061f	Pyro II L4ラグランジュ点にあるCheckmate内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061f_02	Pyro II L4ラグランジュ点にあるCheckmate内のメンテナンスエリア-02	exceptur
+mission_location_pyro_061f_03	Pyro II L4ラグランジュ点にあるCheckmate内のメンテナンスエリア-03	exceptur
+mission_location_pyro_061g	Pyro III 軌道上にあるOrbituary内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061g_02	Pyro III 軌道上にあるOrbituary内のメンテナンスエリア-02	exceptur
+mission_location_pyro_061g_03	Pyro III 軌道上にあるOrbituary内のメンテナンスエリア-03	exceptur
+mission_location_pyro_061h	Pyro III L1ラグランジュ点にあるStarlight Service Station内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061h_02	Pyro III L1ラグランジュ点にあるStarlight Service Station内のメンテナンスエリア-02	exceptur
+mission_location_pyro_061i	Pyro III L3ラグランジュ点にあるPatch City内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061i_02	Pyro III L3ラグランジュ点にあるPatch City内のメンテナンスエリア-02	exceptur
+mission_location_pyro_061l	Pyro V L2ラグランジュ点にあるGaslight内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061l_02	Pyro V L2ラグランジュ点にあるGaslight内のメンテナンスエリア-02	exceptur
+mission_location_pyro_061n	Pyro V L4ラグランジュ点にあるRod's Fuel 'N Supplies内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061n_02	Pyro V L4ラグランジュ点にあるRod's Fuel 'N Supplies内のメンテナンスエリア-02	exceptur
+mission_location_pyro_061o	Pyro V L5ラグランジュ点にあるRat's Nest内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061o_02	Pyro V L5ラグランジュ点にあるRat's Nest内のメンテナンスエリア-02	exceptur
+mission_location_pyro_061q	Pyro VI L3ラグランジュ点にあるEndgame内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061q_02	Pyro VI L3ラグランジュ点にあるEndgame内のメンテナンスエリア-02	exceptur
+mission_location_pyro_061r	Pyro VI L4ラグランジュ点にあるDudley & Daughters内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061r_02	Pyro VI L4ラグランジュ点にあるDudley & Daughters内のメンテナンスエリア-02	exceptur
+mission_location_pyro_061s	Pyro VI L5ラグランジュ点にあるMegumi Refueling内のメンテナンスエリア-01	exceptur
+mission_location_pyro_061s_02	Pyro VI L5ラグランジュ点にあるMegumi Refueling内のメンテナンスエリア-02	exceptur
+mission_location_stanton_0051	Daymar上の薬物ラボ	exceptur
+mission_location_stanton_0052	Daymar上のJumptown	exceptur
+mission_location_stanton_0270	Wala上のParadise Cove	exceptur
+mission_location_stanton_425	MicroTech上のRaven's Roost	exceptur
+mission_location_stanton_694	Prospect Point内、RecreationプラットフォームのD棟	exceptur
+mission_location_stanton_795	Echo Isle	exceptur
+mission_location_stanton_796	Hurston上のEcho Isle	exceptur
+mobiGlas_ui_notification_SolarFlareHazard_DangerZone_0,P	恒星の活動に異常を検出。注意してください。	exceptur
+mobiGlas_ui_notification_SolarFlareHazard_DangerZone_1,P	コロナ質量放出が目前。避難してください。	exceptur
+mobiGlas_ui_notification_SolarFlareHazard_DangerZone_2,P	コロナ質量放出を検出。	exceptur
+mobiGlas_ui_notification_SolarFlareHazard_Finished,P	恒星の活動は許容レベルです。	exceptur
+mobiGlas_ui_notification_SolarFlareHazard_SafeZone,P	現在、恒星フレアから保護された空間にいます。	exceptur
+mtps_RetrieveConsignment_desc_001	業務内容\nmicroTech Protection Servicesは~mission(Location)奪還作戦のために警備のプロフェッショナルを必要としています。当該地点は現在攻撃を受けており、現地の警備部隊は応答が無く死亡したと推定されます。先日、一時保管のために施設に届けられた機密物資が襲撃の標的になったと思われます。あなたの主な業務は、これらの箱を回収し、安全な場所に届けることです。\n\nセキュリティ上の理由から、機密物資は大きな積荷の一部として配送され、自動化保管庫に格納されています。 物資には専用の回収コードが割り当てられており、荷物コンベアのキーパッドに入力する必要があります。規約上、コードの入ったデータパッドを携帯できるのは上級警備員だけですが、状況が流動的であることを考慮すると、Nine Tailsが所持していないとは断言できません。確保後、すべての機密資材を~mission(dropoff1)に届け次第、報酬をお支払いします。\n\n職責\n• ~mission(Location|Address)までの移動手段の提供 \n• 必要に応じた武力行使を伴う機密資材の回収 \n• 機密資材を~mission(dropoff1|address)までの輸送 \n\n最低要件 \n• 2年間の傭兵又は警備、若しくはその両方の経験の保有 \n• 使用可能な戦闘装備を有すること \n• 貨物輸送能力を持つ宇宙船を有すること \n• 直ちに任務が遂行可能であること \n\n推奨要件 \n• 迅速な敵対行為解除能力の経験 \n• 重要貨物の運搬経験	mossy
+mtps_RetrieveConsignment_title_001	地点防衛及び機密物資の輸送 / Defend Location and Deliver Confidential Materials	mossy
+net_dialog_server_error,P	サーバーエラー。お待ち下さい...	exceptur
+pyro_stationdecal_P3L0,P	ORBITUARY	-
+salvage_FillerStation_AutoEject,P	自動排出	exceptur
+salvage_FillerStation_ErrorJammed,P	コンベア周辺を片付けたのち、再度排出ボタンを押してください。	exceptur
+salvage_FillerStation_FillingBox,P	コンテナに充填中	exceptur
+salvage_FillerStation_PreparingToCraft,P	製作準備中	exceptur
+salvage_HUD_Abbreviation_Disintegration	解体	exceptur
+salvage_HUD_Abbreviation_Fracture	破砕	exceptur
+salvage_HUD_Abbreviation_Head	腕	exceptur
+salvage_HUD_Cargo	貯蔵庫	exceptur
+salvage_HUD_FillerStationStatus_ContinueEjecting,P	排出を継続	exceptur
+salvage_HUD_Munching_ArmDeploying	アーム展開中	exceptur
+salvage_HUD_Munching_ArmGearDown	展開不可：\n着陸脚が展開中	exceptur
+salvage_HUD_Munching_ArmNoPower	展開不可：\n電源がオフ	exceptur
+salvage_HUD_Munching_FieldMode_Disintegration	解体フィールド	exceptur
+salvage_HUD_Munching_FieldMode_Fracture	破砕フィールド	exceptur
+salvage_HUD_Munching_FieldYield	対象回収率	exceptur
+salvage_HUD_Munching_FieldYieldExceedsCargo	回収可能な素材が貯蔵庫の空きスペースを超過しています	exceptur
+salvage_HUD_Munching_Fracturing	破砕中	exceptur
+salvage_HUD_SalvageHead	サルベージヘッド	exceptur
+salvage_HUD_TargetStatus_TooBig	サイズ超過	exceptur
+salvage_HUD_TargetStatus_TooSmall	サイズ不足	exceptur
+shop_ui_dropdown_allOptions,P	すべてのオプション	exceptur
+shop_ui_dropdown_subLocationHeaderBuy,P	サブ配送先を選択	exceptur
+shop_ui_dropdown_subLocationHeaderSell,P	サブ供給元を選択	exceptur
+shop_ui_item_licenseRequired,P	制限のあるアイテム	exceptur
+shop_ui_item_licenseRequiredTooltip,P	この商品の購入に必要な\n評判が不足しています。	exceptur
+shop_ui_item_sellAll,P	すべての売却	exceptur
+shop_ui_transaction_sellAllConfirmation,P	すべての売却を確定	exceptur
+ui_CIFPSTractorBeamVehicleDecreaseDistance,P	車両トラクタービーム - 距離減少	Luke
+ui_CIFPSTractorBeamVehicleDecreaseDistanceDesc,P	車両トラクタービームで制御されるオブジェクトの対象距離を減少させます。	Luke
+ui_CIFPSTractorBeamVehicleIncreaseDistance,P	車両トラクタービーム - 距離増加	Luke
+ui_CIFPSTractorBeamVehicleIncreaseDistanceDesc,P	車両トラクタービームで制御されるオブジェクトの対象距離を増加させます。	Luke
+ui_CISalvageCycleModifiersFocused,P	フォーカスしたサルベージモディファイアを切替	Luke
+ui_CISalvageCycleModifiersFocusedDesc,P	フォーカスしたサルベージヘッドで使用可能なモディファイアを切り替える	Luke
+ui_CISalvageCycleModifiersStructural,P	構造物サルベージモードを切替	Luke
+ui_CISalvageCycleModifiersStructuralDesc,P	構造物サルベージツールで利用可能なモードを切り替える。	Luke
+ui_CISalvageFireToggleDisintegrate,P	解体ツールの起動を切替	Luke
+ui_CISalvageFireToggleDisintegrateDesc,P	解体ツールの起動を切り替える	Luke
+ui_CISalvageFireToggleFocused,P	フォーカスしたツールの起動を切替	Luke
+ui_CISalvageFireToggleFocusedDesc,P	フォーカスしたツールの起動を切り替える	Luke
+ui_CISalvageFireToggleFracture,P	破砕ツールの起動を切替	Luke
+ui_CISalvageFireToggleFractureDesc,P	破砕ツールの起動を切り替える	Luke
+ui_CISalvageFireToggleLeft,P	左の起動を切替	Luke
+ui_CISalvageFireToggleLeftDesc,P	左のサルベージツールの起動を切り替える	Luke
+ui_CISalvageFireToggleRight,P	右の起動を切替	Luke
+ui_CISalvageFireToggleRightDesc,P	右のサルベージツールの起動を切り替える	Luke
+ui_CISalvageFocusAll,P	全てのサルベージヘッドを見る	Luke
+ui_CISalvageFocusAllDesc,P	全てのサルベージヘッドを見る	Luke
+ui_CISalvageFocusDisintegrate,P	解体ツールを見る	Luke
+ui_CISalvageFocusDisintegrateDesc,P	解体ツールを見る	Luke
+ui_CISalvageFocusFracture,P	破砕ツールを見る	Luke
+ui_CISalvageFocusFractureDesc,P	破砕ツールを見る	Luke
+ui_CISalvageFocusLeft,P	左のサルベージヘッドを見る	Luke
+ui_CISalvageFocusLeftDesc,P	左のサルベージヘッドを見る	Luke
+ui_CISalvageFocusRight,P	右のサルベージヘッドを見る	Luke
+ui_CISalvageFocusRightDesc,P	右のサルベージヘッドを見る	Luke
+ui_CISalvageNudgeDown_Left,P	左のサルベージツールを下に動かす	Luke
+ui_CISalvageNudgeDown_LeftDesc,P	左のサルベージツールを下に動かす	Luke
+ui_CISalvageNudgeDown_Right,P	右のサルベージツールを下に動かす	Luke
+ui_CISalvageNudgeDown_RightDesc,P	右のサルベージツールを下に動かす	Luke
+ui_CISalvageNudgeLeft_Left,P	左のサルベージツールを左に動かす	Luke
+ui_CISalvageNudgeLeft_LeftDesc,P	左のサルベージツールを左に動かす	Luke
+ui_CISalvageNudgeLeft_Right,P	右のサルベージツールを左に動かす	Luke
+ui_CISalvageNudgeLeft_RightDesc,P	右のサルベージツールを左に動かす	Luke
+ui_CISalvageNudgeRight_Left,P	左のサルベージツールを右に動かす	Luke
+ui_CISalvageNudgeRight_LeftDesc,P	左のサルベージツールを右に動かす	Luke
+ui_CISalvageNudgeRight_Right,P	右のサルベージツールを右に動かす	Luke
+ui_CISalvageNudgeRight_RightDesc,P	右のサルベージツールを右に動かす	Luke
+ui_CISalvageNudgeUp_Left,P	左のサルベージツールを上に動かす	Luke
+ui_CISalvageNudgeUp_LeftDesc,P	左のサルベージツールを上に動かす	Luke
+ui_CISalvageNudgeUp_Right,P	右のサルベージツールを上に動かす	Luke
+ui_CISalvageNudgeUp_RightDesc,P	右のサルベージツールを上に動かす	Luke
+ui_controlhint_ships_salvage_beam_axis_scroll,P	ビーム間隔	Luke
+ui_controlhint_ships_salvage_beam_axis_toggle,P	ビーム間隔軸	Luke
+ui_controlhint_ships_salvage_beamtoggle,P	エンゲージツール	Luke
+ui_controlhint_ships_salvage_cyclemodifiers,P	ツールモードをサイクル	Luke
+ui_controlhint_ships_salvage_focus,P	フォーカスツール（左/右）	Luke
+ui_controlhint_ships_salvage_focus_all,P	フォーカスツール（左+右）	Luke
+ui_controlhint_ships_salvage_focus_fracture,P	フォーカスツール（破砕）	Luke
+ui_controlhint_ships_salvage_focus_left,P	フォーカスツール（左）	Luke
+ui_controlhint_ships_salvage_focus_right,P	フォーカスツール（右）	Luke
+ui_datapad_attachment	添付ファイル 1	exceptur
+ui_datapad_close	閉じる	exceptur
+ui_datapad_date	日付：	exceptur
+ui_datapad_date_placeholder	00 / 00 / 0000	-
+ui_datapad_date_placeholder_period	00.00.0000	-
+ui_datapad_email	メール	exceptur
+ui_datapad_files	ファイル	exceptur
+ui_datapad_from	From：	exceptur
+ui_datapad_home	ホーム	exceptur
+ui_datapad_notes	ノート	exceptur
+ui_datapad_subject	要件：	exceptur
+ui_datapad_time_placeholder	00:00	-
+ui_datapad_to	To：	exceptur
+ui_datapad_unlock	タッチしてアンロック	exceptur
+ui_pause_PopupExitingToMenu,P	メニューに戻っています...	exceptur
+ui_pause_PopupQuittingGame,P	ゲームを終了しています...	exceptur
+ui_sm_loadout_elimination	デフォルトロードアウト 1	Luke
+vehicle_DescDRAK_Cutter_Rambler		
+vehicle_NameDRAK_Cutter_Rambler	Drake Cutter Rambler	Luke
+vehicle_class_heavytank	重戦車	exceptur
+vehicle_class_lighttank	軽戦車	exceptur
+vehicle_focus_all,P	すべて	exceptur
+vehicle_focus_groundcombat	地上戦闘	exceptur
