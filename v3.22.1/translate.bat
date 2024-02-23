@@ -13,10 +13,10 @@ pushd "%verdir%\work"
 echo Work directory : %CD%
 
 REM v3.22.0a の日本語リソースを取り込み。
-julia ..\..\tools\split_headers.jl ..\source\english\global.ini ..\library\20240127\global.ini >global.v322.ini
+julia ..\..\tools\split_headers.jl ..\source\english\global.ini ..\library\20240223\global.ini >global.v3221.ini
 
 REM 3DTEXT 障害(STARC-85299)回避のリソース上書き
-julia ..\..\tools\split_replace.jl global.v322.ini ..\global.3d.txt >global.ini
+julia ..\..\tools\split_replace.jl global.v3221.ini ..\global.3d.txt >global.ini
 
 popd
 
