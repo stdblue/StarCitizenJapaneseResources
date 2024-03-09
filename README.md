@@ -84,13 +84,11 @@ g_language = japanese_(japan)
 	mossy  
 	Exceptur  
 	nmtkawb  
-
-
+  
 + Translator  
- 	kogumatta  
+	kogumatta  
 	Luke  
 	MoMoShrine  
-	ZPAerospike  
 	かりんと  
 	luice  
 	Shinnryuu  
@@ -99,6 +97,7 @@ g_language = japanese_(japan)
 	velocity7  
 	Franku7  
 	ogumap  
+	ZPAerospike  
 
 + Proofreader  
 	Exceptur  
