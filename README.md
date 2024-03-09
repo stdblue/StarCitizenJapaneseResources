@@ -83,9 +83,9 @@ g_language = japanese_(japan)
 	Exceptur  
 
 + Translator  
-	Luke
+	kogumatta  
+	Luke  
 	MoMoShrine  
-	ZPAerospike  
 	かりんと  
 	luice  
 	Shinnryuu  
@@ -93,8 +93,8 @@ g_language = japanese_(japan)
 	chimaera  
 	velocity7  
 	Franku7  
-	kogumatta  
 	ogumap  
+	ZPAerospike  
 
 + Proofreader  
 	Exceptur  
