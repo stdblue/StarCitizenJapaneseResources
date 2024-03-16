@@ -82,8 +82,8 @@ g_language = japanese_(japan)
 
 + Main Translator  
 	mossy  
-	nmtkawb  
 	Exceptur  
+	nmtkawb  
 
 + Translator  
 	kogumatta  

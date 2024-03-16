@@ -33,6 +33,11 @@ end
 re = r"\~(\w+)\(\w+\)"
 
 for buff in eachline(ini_io)
+    # BOM 対応
+    if occursin(r"^\uFEFF", buff)
+        buff = replace(buff, r"^\uFEFF" => "")
+    end
+
     keywords = split(buff, "="; limit=2)
 #    println("Split count : %d", length(keywords))
     if length(keywords) == 2 && haskey(dictres, keywords[1])
