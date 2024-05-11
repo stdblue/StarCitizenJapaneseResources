@@ -1,9 +1,12 @@
 # StarCitizenJapaneseResources
 
-## Star Citizen v3.21.0 用非公式日本語リソース
+## Star Citizen v3.23.0 用非公式日本語リソース
 
 　Star Citizen VERSION 3.20.0b より多言語リソース対応が CIG 公式からアナウンスされました。  
-　本リソースは英語メッセージを機械翻訳し、有志による手動翻訳をマージしたものとなります。
+　本リソースは Star Citizen 日本コミュニティ有志による手動翻訳をマージしたものとなります。  
+
+　本リソースについての問い合わせは、以下の Discord チャンネルにお願いいたします。  
+![Discord Star Citizen 日本コミュニティ](https://discord.com/channels/368953629274800138/1002223033953554472 "日本語化作業所")
 
 　翻訳作業は現在作業中であり、随時新しいリソースへと置き換えていきます。
 
@@ -48,8 +51,9 @@ g_language = japanese_(japan)
 　現在までに以下の不具合が確認されています。  
 　詳細は Issue Council にて確認ください。  
 
-* 3D文字が見えない  
-　F キーで様々な操作を行うインタラクト機能などがありますが、そのとき空間中に表示される3D文字の表示ができません。  
+* ~~3D文字が見えない~~  
+　~~F キーで様々な操作を行うインタラクト機能などがありますが、そのとき空間中に表示される3D文字の表示ができません。~~
+　3D TEXT を使用しない UI への更新がされたため、本問題は解消しました。   
 [STARC-85299](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85299)
 
 * 検索機能が使えない
