@@ -54,7 +54,7 @@ readdict(dictionary_file, translate_dict)
 keyword_matched = 0
 no_target = 0
 no_match_pattern = 0
-with open('source/english/global.ini', encoding='utf_8_sig') as fp:
+with open(source_file, encoding='utf_8_sig') as fp:
     with open(workfile, 'w', encoding='utf_8_sig', newline='\r\n') as g:
         for line in fp:
             if result := pat.fullmatch(line):
