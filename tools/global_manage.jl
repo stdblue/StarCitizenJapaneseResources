@@ -8,6 +8,7 @@ module global_manage
 using HTTP
 using JSON3
 using Printf
+using StringEncodings
 
 export make_global_dictionary, rename_variables, translate_deepL
 
@@ -21,6 +22,12 @@ function make_global_dictionary(filename)
     end
 
     for buff in eachline(ini_io)
+
+        # BOM 処理
+        if occursin(r"^\uFEFF", buff)
+            buff = replace(buff, r"^\uFEFF" => "")
+        end
+
         keywords = split(buff, "="; limit=2)
         if length(keywords) == 2
 #            println(keywords[1])
