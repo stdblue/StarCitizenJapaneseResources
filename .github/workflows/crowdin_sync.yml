@@ -37,11 +37,11 @@ jobs:
           # Crowdin Access token
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
-      - name: Listing current directory
-        run: ls -la
-      
-      - name: Find current directory
-        run: find . -name global.ini 
+#      - name: Listing current directory
+#        run: ls -la
+#      
+#      - name: Find current directory
+#        run: find . -name global.ini 
 
       - name: Merge global.ini
         run: python3 ./tools/canary_release/merge_global_from_crowdin.py
