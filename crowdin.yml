@@ -9,4 +9,4 @@ bundles:
   - 2
 files:
   - source: /v3.22.0/source/english/global.ini
-    translation: /v3.22.0/release/%language%/global.ini
+    translation: release/%language%/global.ini
