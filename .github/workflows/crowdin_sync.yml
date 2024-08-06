@@ -18,14 +18,14 @@ jobs:
         with:
           upload_sources: false
           push_sources: false
-          download_sources: false
+          download_sources: true
           download_translations: true
           download_language: ja
           download_translations_args: --all --verbose --tree
           push_translations: false
           create_pull_request: false
           crowdin_branch_name: crowdin
-          config: './crowdin.yml'
+          config: 'crowdin.yml'
           
         env:
           # Auto Github Token
@@ -39,12 +39,23 @@ jobs:
 
 #      - name: Listing current directory
 #        run: ls -la
-#      
+      
 #      - name: Find current directory
 #        run: find . -name global.ini 
 
       - name: Merge global.ini
-        run: python3 ./tools/canary_release/merge_global_from_crowdin.py
+        run: python3 .github/tools/merge_global_crowdin.py
+      
+      - name: Push global.ini
+        run: |
+          echo "Latest-$(TZ=Asia/Tokyo date +%Y%m%d-%H%M%S)" > TAG_NAME
+          cp -f .github/work/global.ini latest/release/japanese_\(japan\)/global-canary.ini
+          git add latest/release/japanese_\(japan\)/global-canary.ini
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git commit -m "Nightly update : $(cat TAG_NAME)"
+          git tag $(cat TAG_NAME)
+          git push origin $(cat TAG_NAME)
 
       - name: Deploy Nightly
         uses: WebFreak001/deploy-nightly@v3.1.0
@@ -52,7 +63,7 @@ jobs:
           upload_url: https://uploads.github.com/repos/stdblue/StarCitizenJapaneseResources/releases/162230309/assets{?name,label}
           release_id: 162230309
           asset_path: ./global.ini.zip
-          asset_name: global.ini-crowdin-$$.zip
+          asset_name: global.ini-canary-$$.zip
           asset_content_type: application/zip
-          max_releases: 7
+          max_releases: 5
     
