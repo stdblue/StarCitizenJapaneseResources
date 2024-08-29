@@ -21,6 +21,7 @@ function make_global_dictionary(filename)
         exit()
     end
 
+    err_buff = ""
     for buff in eachline(ini_io)
 
         # BOM 処理
@@ -32,7 +33,11 @@ function make_global_dictionary(filename)
         if length(keywords) == 2
 #            println(keywords[1])
             heads[keywords[1]] = keywords[2]
+#        else
+#            println("INVALID TEXT : " * buff)
+#            println("\tERROR TEXT : " * err_buff)
         end
+        err_buff = buff
     end
     close(ini_io)
 

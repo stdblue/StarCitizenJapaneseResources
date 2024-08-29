@@ -1,7 +1,7 @@
 name: Crowdin sync release
 on:
-  schedule:
-    - cron: '0 20 * * *'
+#  schedule:
+#    - cron: '0 20 * * *'
 
   workflow_dispatch:
 
@@ -46,16 +46,16 @@ jobs:
       - name: Merge global.ini
         run: python3 .github/tools/merge_global_crowdin.py
       
-      - name: Push global.ini
-        run: |
-          echo "Latest-$(TZ=Asia/Tokyo date +%Y%m%d-%H%M%S)" > TAG_NAME
-          cp -f .github/work/global.ini latest/release/japanese_\(japan\)/global-canary.ini
-          git add latest/release/japanese_\(japan\)/global-canary.ini
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git commit -m "Nightly update : $(cat TAG_NAME)"
-          git tag $(cat TAG_NAME)
-          git push origin $(cat TAG_NAME)
+#      - name: Push global.ini
+#        run: |
+#          echo "Latest-$(TZ=Asia/Tokyo date +%Y%m%d-%H%M%S)" > TAG_NAME
+#          cp -f .github/work/global.ini latest/release/japanese_\(japan\)/global-canary.ini
+#          git add latest/release/japanese_\(japan\)/global-canary.ini
+#          git config user.name github-actions
+#          git config user.email github-actions@github.com
+#          git commit -m "Nightly update : $(cat TAG_NAME)"
+#          git tag $(cat TAG_NAME)
+#          git push origin $(cat TAG_NAME)
 
       - name: Deploy Nightly
         uses: WebFreak001/deploy-nightly@v3.1.0
