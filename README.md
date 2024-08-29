@@ -1,6 +1,6 @@
 # StarCitizenJapaneseResources
 
-## Star Citizen v3.23.0 用非公式日本語リソース
+## Star Citizen v3.24.0 用非公式日本語リソース
 
 　Star Citizen VERSION 3.20.0b より多言語リソース対応が CIG 公式からアナウンスされました。  
 　本リソースは Star Citizen 日本コミュニティ有志による手動翻訳をマージしたものとなります。  
@@ -13,7 +13,7 @@
 ## 注意事項
 
  Star Citizin の英語メッセージはリリース毎に頻繁に更新されています。そのため、**Star Citizen のバージョン更新毎に翻訳リソースを適用する必要があります**。  
- 本翻訳を利用する際には、必ず最新版を利用してください。
+ ゲームクライアントが**クラッシュ**する可能性があるため、本翻訳を利用する際には、必ず最新版を利用してください。  
 
 * LIVE 最新版
 [v3.24.0 LIVE 9296942](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.0-ja_JP.alpha-3.2.4.0 "LIVE 最新")  
