@@ -10,6 +10,16 @@
 
 　翻訳作業は現在作業中であり、随時新しいリソースへと置き換えていきます。
 
+## 注意事項
+
+ Star Citizin の英語メッセージはリリース毎に頻繁に更新されています。そのため、**Star Citizen のバージョン更新毎に翻訳リソースを適用する必要があります**。  
+ 本翻訳を利用する際には、必ず最新版を利用してください。
+
+* LIVE 最新版
+[v3.24.0 LIVE 9296942](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.0-ja_JP.alpha-3.2.4.0 "LIVE 最新")  
+* PTU 最新版
+　現在なし
+
 ## 現在の進捗
 [![Crowdin](https://badges.crowdin.net/star-citizen-ja/localized.svg)](https://crowdin.com/project/star-citizen-ja)
 
