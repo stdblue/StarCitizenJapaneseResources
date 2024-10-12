@@ -32,7 +32,13 @@ function make_global_dictionary(filename)
         keywords = split(buff, "="; limit=2)
         if length(keywords) == 2
 #            println(keywords[1])
-            heads[keywords[1]] = keywords[2]
+            translated = ""
+            if occursin("＃", keywords[2])
+                translated = replace(keywords[2], r"＃" => "#")
+            else
+                translated = keywords[2]
+            end
+            heads[keywords[1]] = translated
 #        else
 #            println("INVALID TEXT : " * buff)
 #            println("\tERROR TEXT : " * err_buff)
