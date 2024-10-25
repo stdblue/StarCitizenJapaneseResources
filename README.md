@@ -111,6 +111,9 @@ g_language = japanese_(japan)
 	velocity7  
 	Franku7  
 	ogumap  
+	Verkhasel  
+	eggman  
+	NERURU  
 	ZPAerospike  
 
 + Proofreader  
