@@ -16,9 +16,9 @@
  ゲームクライアントが**クラッシュ**する可能性があるため、本翻訳を利用する際には、必ず最新版を利用してください。  
 
 * LIVE 最新版
-[v3.24.2 LIVE.9381373-9386170](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.2-ja_JP.alpha-3.2.4.2.1 "LIVE 最新")  
+[v3.24.2a LIVE.9402394](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.2-ja_JP.alpha-3.2.4.2.1 "LIVE 最新")  
 * PTU 最新版
-[v3.24.3 PTU.9390680](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.3-ja_JP.alpha-3.2.4.3.1 "PTU 最新")  
+[v3.24.3 PTU.9405451](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.3-ja_JP.alpha-3.2.4.3.1 "PTU 最新")  
 
 ## 現在の進捗
 [![Crowdin](https://badges.crowdin.net/star-citizen-ja/localized.svg)](https://crowdin.com/project/star-citizen-ja)
