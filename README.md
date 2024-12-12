@@ -17,8 +17,8 @@
 
 * LIVE 最新版
 [v3.24.2a LIVE.9402394](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.2-ja_JP.alpha-3.2.4.2.1 "LIVE 最新")  
-* PTU 最新版
-[v3.24.3 PTU.9405451](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.3-ja_JP.alpha-3.2.4.3.1 "PTU 最新")  
+* E-PTU 最新版
+[v4.0 EPTU.9458608](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.0.0-ja_JP.alpha-4.0.0-EPTU "E-PTU 最新")  
 
 ## 現在の進捗
 [![Crowdin](https://badges.crowdin.net/star-citizen-ja/localized.svg)](https://crowdin.com/project/star-citizen-ja)
@@ -60,11 +60,6 @@ g_language = japanese_(japan)
 
 　現在までに以下の不具合が確認されています。  
 　詳細は Issue Council にて確認ください。  
-
-* ~~3D文字が見えない~~  
-　~~F キーで様々な操作を行うインタラクト機能などがありますが、そのとき空間中に表示される3D文字の表示ができません。~~
-　3D TEXT を使用しない UI への更新がされたため、本問題は解消しました。   
-[STARC-85299](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85299)
 
 * 検索機能が使えない
 　アイテム検索などでアイテム名を日本語で入力した場合、検索にマッチしない  
