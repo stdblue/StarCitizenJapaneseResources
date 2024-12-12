@@ -1,6 +1,6 @@
 # StarCitizenJapaneseResources
 
-## Star Citizen v3.24.2 用非公式日本語リソース
+## Star Citizen v3.24.3 用非公式日本語リソース
 
 　Star Citizen VERSION 3.20.0b より多言語リソース対応が CIG 公式からアナウンスされました。  
 　本リソースは Star Citizen 日本コミュニティ有志による手動翻訳をマージしたものとなります。  
@@ -96,8 +96,9 @@ g_language = japanese_(japan)
 
 + Translator  
 	kogumatta  
-	Luke  
 	MoMoShrine  
+	OOM Tricorn  
+	Luke  
 	かりんと  
 	luice  
 	Shinnryuu  
