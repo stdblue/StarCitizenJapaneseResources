@@ -12,8 +12,8 @@ pushd "%verdir%\work"
 
 echo Work directory : %CD%
 
-REM v3.24.3 の日本語リソースを取り込み。
-julia ..\..\tools\split_headers.jl ..\source\english\global.ini ..\library\20241212\global.ini >global.ini
+REM v4.0.0 の日本語リソースを取り込み。
+julia ..\..\tools\split_headers.jl ..\source\english\global.ini ..\library\20241216\global.ini >global.ini
 
 popd
 
