@@ -18,7 +18,7 @@
 * LIVE 最新版
 [v3.24.2a LIVE.9402394](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.2-ja_JP.alpha-3.2.4.2.1 "LIVE 最新")  
 * E-PTU 最新版
-[v4.0 EPTU.9458608](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.0.0-ja_JP.alpha-4.0.0-EPTU "E-PTU 最新")  
+[v4.0 EPTU.9462348](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.0.0-ja_JP.alpha-4.0.0-EPTU "E-PTU 最新")  
 
 ## 現在の進捗
 [![Crowdin](https://badges.crowdin.net/star-citizen-ja/localized.svg)](https://crowdin.com/project/star-citizen-ja)
