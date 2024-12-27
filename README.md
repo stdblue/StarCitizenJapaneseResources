@@ -15,10 +15,10 @@
  Star Citizin の英語メッセージはリリース毎に頻繁に更新されています。そのため、**Star Citizen のバージョン更新毎に翻訳リソースを適用する必要があります**。  
  ゲームクライアントが**クラッシュ**する可能性があるため、本翻訳を利用する際には、必ず最新版を利用してください。  
 
-* LIVE 最新版
-[v3.24.2a LIVE.9402394](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.2-ja_JP.alpha-3.2.4.2.1 "LIVE 最新")  
-* E-PTU 最新版
-[v4.0 EPTU.9462348](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.0.0-ja_JP.alpha-4.0.0-EPTU "E-PTU 最新")  
+* v3.24.3 LIVE 最新版
+[v3.24.2a LIVE.9423704](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.3-ja_JP.alpha-3.2.4.3.2 "LIVE 最新")  
+* v4.0 Preview 版
+[v4.0 Preview 9470730](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.0.0-ja_JP.alpha-4.0.0-9470730 "4.0 Preview 版")  
 
 ## 現在の進捗
 [![Crowdin](https://badges.crowdin.net/star-citizen-ja/localized.svg)](https://crowdin.com/project/star-citizen-ja)
