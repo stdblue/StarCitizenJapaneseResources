@@ -16,7 +16,7 @@
  ゲームクライアントが**クラッシュ**する可能性があるため、本翻訳を利用する際には、必ず最新版を利用してください。  
 
 * v3.24.3 LIVE 最新版
-[v3.24.2a LIVE.9423704](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.3-ja_JP.alpha-3.2.4.3.2 "LIVE 最新")  
+[v3.24.3 LIVE.9423704](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v3.24.3-ja_JP.alpha-3.2.4.3.2 "LIVE 最新")  
 * v4.0 Preview 版
 [v4.0 Preview 9470730](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.0.0-ja_JP.alpha-4.0.0-9470730 "4.0 Preview 版")  
 
