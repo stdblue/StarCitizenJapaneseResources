@@ -99,17 +99,17 @@ g_language = japanese_(japan)
 	MoMoShrine  
 	OOM Tricorn  
 	Luke  
+	velocity7  
+	Franku7  
+	ogumap  
+	NERURU  
+	eggman  
+	Verkhasel  
 	かりんと  
 	luice  
 	Shinnryuu  
 	Riven  
 	chimaera  
-	velocity7  
-	Franku7  
-	ogumap  
-	Verkhasel  
-	eggman  
-	NERURU  
 	ZPAerospike  
 
 + Proofreader  
