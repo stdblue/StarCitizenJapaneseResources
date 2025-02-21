@@ -38,6 +38,9 @@ function make_global_dictionary(filename)
             else
                 translated = keywords[2]
             end
+            if occursin("\\;", translated)
+                translated = replace(translated, r"\\;" => ";")
+            end
             heads[keywords[1]] = translated
 #        else
 #            println("INVALID TEXT : " * buff)
