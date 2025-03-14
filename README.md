@@ -1,6 +1,6 @@
 # StarCitizenJapaneseResources
 
-## Star Citizen v3.24.3 / v4.0 Preview 用非公式日本語リソース
+## Star Citizen v4.x 用非公式日本語リソース
 
 　Star Citizen VERSION 3.20.0b より多言語リソース対応が CIG 公式からアナウンスされました。  
 　本リソースは Star Citizen 日本コミュニティ有志による手動翻訳をマージしたものとなります。  
@@ -15,8 +15,11 @@
  Star Citizin の英語メッセージはリリース毎に頻繁に更新されています。そのため、**Star Citizen のバージョン更新毎に翻訳リソースを適用する必要があります**。  
  ゲームクライアントが**クラッシュ**する可能性があるため、本翻訳を利用する際には、必ず最新版を利用してください。  
 
-* v4.0.1 LIVE 版
-[v4.0 Preview 9470730](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.0.0-ja_JP.alpha-4.0.0-9470730 "4.0.1 LIVE 版")  
+* v4.0.2 LIVE 版
+[v4.0.2 LIVE 9589006](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.0.2-ja_JP.alpha "4.0.2 LIVE 版")  
+
+* v4.1.0 PTU 版
+[v4.1.0 PTU 9622512](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.1-ja_JP-alpha-4.1-PTU "4.1.0 PTU 版")  
 
 ## 現在の進捗
 [![Crowdin](https://badges.crowdin.net/star-citizen-ja/localized.svg)](https://crowdin.com/project/star-citizen-ja)
