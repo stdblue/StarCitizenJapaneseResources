@@ -48,10 +48,13 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\data\Localization\jap
 ```
 g_language = japanese_(japan)
 ```
+![user.cfgの記載内容](https://github.com/stdblue/StarCitizenJapaneseResources/blob/master/img/usercfg.png "user.cfgの記載内容")
+
 　user.cfgファイルはデフォルトインストールの場合、以下の場所にあります。  
 ```
 C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 ```
+![user.cfgのデフォルト配置位置](https://github.com/stdblue/StarCitizenJapaneseResources/blob/master/img/gamefolder.png "デフォルトインストール時の配置位置")
 
 　user.cfg ファイルが存在しない場合、メモ帳などを利用して作成します。  
 　リリースファイルとして置いておきますので、それを配置しても構いません。  
