@@ -44,10 +44,13 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\data\Localization\jap
 
 ![global.iniのコードと改行文字](https://github.com/stdblue/StarCitizenJapaneseResources/blob/develop/img/filecode.png "Visual Studio Code で表示")
 
-2. user.cfg ファイルを編集し、以下の行を追加します。
-
+2. ゲームフォルダにあるuser.cfg ファイルを編集し、以下の行を追加します。  
 ```
 g_language = japanese_(japan)
+```
+　user.cfgファイルはデフォルトインストールの場合、以下の場所にあります。  
+```
+C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 ```
 
 　user.cfg ファイルが存在しない場合、メモ帳などを利用して作成します。  
