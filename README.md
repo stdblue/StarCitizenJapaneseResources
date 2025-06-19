@@ -94,34 +94,32 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	MoMoShrine
 
 + Git Manager  
-	MoMoShrine
+	MoMoShrine  
 
 + Main Translator  
 	mossy  
-	Exceptur  
-	nmtkawb  
 
 + Translator  
 	kogumatta  
+	NERURU  
+	Luke  
+	Exceptur  
 	MoMoShrine  
 	OOM Tricorn  
-	Luke  
-	velocity7  
-	Franku7  
-	ogumap  
-	NERURU  
-	eggman  
+	Oldman  
 	Verkhasel  
+	nmtkawb  
+	eggman  
+	NTKestrel  
+	ogumap  
+	Franku7  
+	velocity7  
 	かりんと  
 	luice  
 	Shinnryuu  
 	Riven  
 	chimaera  
 	ZPAerospike  
-
-+ Proofreader  
-	Exceptur  
-	velocity7  
 
 + Translation Adviser  
 	mossy  
@@ -134,12 +132,12 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	nekmoyanono  
 	faulis  
 	OOM Tricorn  
-	クレクレ柴犬　　
+	クレクレ柴犬  
 
 + Tech Adviser  
 	Luke  
 	luice  
-	
+
 + Special thanks  
 	Star Citizen Japan Community  
 	Star Citizen Localization Community  
