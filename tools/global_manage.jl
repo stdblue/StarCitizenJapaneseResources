@@ -31,13 +31,22 @@ function make_global_dictionary(filename)
 
         keywords = split(buff, "="; limit=2)
         if length(keywords) == 2
-#            println(keywords[1])
-            translated = ""
-            if occursin("＃", keywords[2])
-                translated = replace(keywords[2], r"＃" => "#")
-            else
-                translated = keywords[2]
+
+            translated = keywords[2]
+
+            # 出力が " で囲まれていたとき、外す。
+            wqm = r"^\"(?<bodies>.*)\"$"
+            m = match(wqm, translated)
+            if !isnothing(m)
+                translated = m[:bodies]
+#                println("Double Quote matched : keywords[2]")
             end
+
+#            println(keywords[1])
+            if occursin("＃", translated)
+                translated = replace(translated, r"＃" => "#")
+            end
+
             if occursin("\\;", translated)
                 translated = replace(translated, r"\\;" => ";")
             end
