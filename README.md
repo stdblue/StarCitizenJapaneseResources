@@ -116,6 +116,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	Shinnryuu  
 	Riven  
 	chimaera  
+	バン・ダナス  
 	ZPAerospike  
 
 + Translation Adviser  
