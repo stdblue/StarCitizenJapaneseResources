@@ -32,12 +32,15 @@ end
 
 re = r"\~(\w+)\(\w+\)"
 
+with_no = 0
+linecnt = 0
 for buff in eachline(ini_io)
     # BOM 対応
     if occursin(r"^\uFEFF", buff)
         buff = replace(buff, r"^\uFEFF" => "")
     end
 
+    global linecnt += 1
     keywords = split(buff, "="; limit=2)
 #    println("Split count : %d", length(keywords))
     if length(keywords) == 2 && haskey(dictres, keywords[1])
@@ -48,7 +51,11 @@ for buff in eachline(ini_io)
 #        if occursin("~", origintext)
 #            println(buff)
 #        else
-            println("$keyword=$textline")
+            if with_no == 1
+                println("$keyword=__ $linecnt __ $textline")
+            else
+                println("$keyword=$textline")
+            end
 #        end
     else
 #        println("Keyword [ %s ] not matched.", keywords[1] )
