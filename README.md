@@ -6,13 +6,14 @@
 　本リソースは Star Citizen 日本コミュニティ有志による手動翻訳をマージしたものとなります。  
 
 　本リソースについての問い合わせは、以下の Discord チャンネルにお願いいたします。  
+　(翻訳協力者も随時募集しております)  
 　[Discord Star Citizen 日本コミュニティ](https://discord.com/channels/368953629274800138/1002223033953554472 "日本語化作業所")
 
 　翻訳作業は現在作業中であり、随時新しいリソースへと置き換えていきます。
 
 ## 注意事項
 
- Star Citizin の英語メッセージはリリース毎に頻繁に更新されています。そのため、**Star Citizen のバージョン更新毎に翻訳リソースを適用する必要があります**。  
+ Star Citizen の英語メッセージはリリース毎に頻繁に更新されています。そのため、**Star Citizen のバージョン更新毎に翻訳リソースを適用する必要があります**。  
  ゲームクライアントが**クラッシュ**する可能性があるため、本翻訳を利用する際には、必ず最新版を利用してください。  
 
 * v4.3.0 LIVE 版
@@ -102,10 +103,10 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 
 + Translator  
 	kogumatta  
-	NERURU  
-	Luke  
 	Exceptur  
 	MoMoShrine  
+	NERURU  
+	Luke  
 	OOM Tricorn  
 	Oldman  
 	Verkhasel  
@@ -114,6 +115,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	NTKestrel  
 	ogumap  
 	Franku7  
+	AdmiralAndersen  
 	velocity7  
 	かりんと  
 	luice  
@@ -127,12 +129,8 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	mossy  
 	nmtkawb  
 	Exceptur  
-	Luke  
 	MoMoShrine  
-	かりんと  
 	velocity7  
-	nekmoyanono  
-	faulis  
 	OOM Tricorn  
 	クレクレ柴犬  
 
