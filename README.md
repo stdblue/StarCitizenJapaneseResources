@@ -13,7 +13,7 @@
 
 ## 注意事項
 
- Star Citizin の英語メッセージはリリース毎に頻繁に更新されています。そのため、**Star Citizen のバージョン更新毎に翻訳リソースを適用する必要があります**。  
+ Star Citizen の英語メッセージはリリース毎に頻繁に更新されています。そのため、**Star Citizen のバージョン更新毎に翻訳リソースを適用する必要があります**。  
  ゲームクライアントが**クラッシュ**する可能性があるため、本翻訳を利用する際には、必ず最新版を利用してください。  
 
 * v4.3.0 LIVE 版
@@ -129,9 +129,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	mossy  
 	nmtkawb  
 	Exceptur  
-	Luke  
 	MoMoShrine  
-	かりんと  
 	velocity7  
 	OOM Tricorn  
 	クレクレ柴犬  
