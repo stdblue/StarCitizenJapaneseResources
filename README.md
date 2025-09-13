@@ -102,10 +102,10 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 
 + Translator  
 	kogumatta  
-	NERURU  
-	Luke  
 	Exceptur  
 	MoMoShrine  
+	NERURU  
+	Luke  
 	OOM Tricorn  
 	Oldman  
 	Verkhasel  
@@ -114,6 +114,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	NTKestrel  
 	ogumap  
 	Franku7  
+	AdmiralAndersen  
 	velocity7  
 	かりんと  
 	luice  
@@ -131,8 +132,6 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	MoMoShrine  
 	かりんと  
 	velocity7  
-	nekmoyanono  
-	faulis  
 	OOM Tricorn  
 	クレクレ柴犬  
 
