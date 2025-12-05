@@ -19,6 +19,8 @@
 * v4.4.0 LIVE 版
 [v4.4.0 LIVE 10733565](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.4-ja_JP-alpha-4.4-LIVE "4.4.0 LIVE 版")  
 
+* v4.5.0 PTU 版
+[v4.4.0 LIVE 10858979](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.x-ja_JP-alpha-4.x-PTU "4.5.0 PTU 版")  
 
 ## 現在の進捗
 [![Crowdin](https://badges.crowdin.net/star-citizen-ja/localized.svg)](https://crowdin.com/project/star-citizen-ja)
