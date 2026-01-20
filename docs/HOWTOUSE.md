@@ -26,11 +26,11 @@
 　フォルダーが存在しない場合は、作成します。  
 
 ```LIVE
-%INSTALL_FOLDER\StarCitizen\LIVE\data\Localization\japanese_(japan)
+%INSTALL_FOLDER%\StarCitizen\LIVE\Data\Localization\japanese_(japan)
 ```
 
 ```PTU
-%INSTALL_FOLDER\StarCitizen\PTU\Data\Localization\japanese_(japan)
+%INSTALL_FOLDER%\StarCitizen\PTU\Data\Localization\japanese_(japan)
 ```
 
 　デフォルトインストールの場合、以下の場所となります。  
@@ -40,7 +40,8 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE\Data\Localization\jap
 ![global.iniのデフォルト配置位置](https://github.com/stdblue/StarCitizenJapaneseResources/blob/develop/img/resourceplace.png "デフォルトインストール時の配置位置")
 
 ※ StarCitizen クライアント起動時にテキスト欄が @XXXXX と表示される場合、global.ini の文字コードとリターンコードを確認してください。  
-　global.ini ファイルは BOM 付き UTF-8 で、リターンコードは LF となります。  
+
+　global.ini ファイルは BOM 付き UTF-8 で、リターンコードは CRLF となります。  
 
 ![global.iniのコードと改行文字](https://github.com/stdblue/StarCitizenJapaneseResources/blob/develop/img/filecode.png "Visual Studio Code で表示")
 
