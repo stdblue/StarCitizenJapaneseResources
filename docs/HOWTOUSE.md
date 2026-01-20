@@ -26,11 +26,11 @@
 　フォルダーが存在しない場合は、作成します。  
 
 ```LIVE
-%INSTALL_FOLDER%\StarCitizen\LIVE\Data\Localization\japanese_(japan)
+%ProgramFiles%\Roberts Space Industries\StarCitizen\LIVE\Data\Localization\japanese_(japan)
 ```
 
 ```PTU
-%INSTALL_FOLDER%\StarCitizen\PTU\Data\Localization\japanese_(japan)
+%ProgramFiles%\Roberts Space Industries\StarCitizen\PTU\Data\Localization\japanese_(japan)
 ```
 
 　デフォルトインストールの場合、以下の場所となります。  
