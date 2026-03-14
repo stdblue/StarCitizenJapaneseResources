@@ -124,6 +124,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	ogumap  
 	Franku7  
 	velocity7  
+	Bran de Bruce  
 	かりんと  
 	luice  
 	Shinnryuu  
