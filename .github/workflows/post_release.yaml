@@ -46,6 +46,7 @@ jobs:
             # --- 1. リリース情報の取得 ---
             # 自動実行（releaseイベント）なら環境変数から取得、空ならAPIから取得
             # 手動入力されたタグ名があるか確認
+            repo = os.environ.get("GITHUB_REPOSITORY")
             input_tag = os.environ.get("INPUT_TAG_NAME")
             title = os.environ.get("RELEASE_TITLE")
             body = os.environ.get("RELEASE_BODY")
