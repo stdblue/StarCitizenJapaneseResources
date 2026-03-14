@@ -108,20 +108,21 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	mossy  
 
 + Translator  
-	kogumatta  
-	Exceptur  
 	MoMoShrine  
-	NERURU  
-	Luke  
 	OOM Tricorn  
-	Oldman  
-	Verkhasel  
+	kogumatta  
+	Luke  
+	Exceptur  
+	NERURU
+	AdmiralAndersen  
+	Oldman1917  
 	nmtkawb  
 	eggman  
+	Verkhasel  
+	Ban_Danas  
 	NTKestrel  
 	ogumap  
 	Franku7  
-	AdmiralAndersen  
 	velocity7  
 	かりんと  
 	luice  
@@ -129,7 +130,6 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	Riven  
 	chimaera  
 	ZPAerospike  
-	バン・ダナス  
 
 + Translation Adviser  
 	mossy  
