@@ -68,15 +68,28 @@ jobs:
 
           # 4. 投稿
           try:
+            auth = tweepy.OAuth1UserHandler(
+              os.environ["X_API_KEY"],
+              os.environ["X_API_SECRET"],
+              os.environ["X_ACCESS_TOKEN"],
+              os.environ["X_ACCESS_TOKEN_SECRET"]
+            )
+            api = tweepy.API(auth)
+
             client = tweepy.Client(
               consumer_key=os.environ["X_API_KEY"],
               consumer_secret=os.environ["X_API_SECRET"],
               access_token=os.environ["X_ACCESS_TOKEN"],
               access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"]
             )
+
             # Xの280文字制限に合わせてカット
+            if not tweet_text.strip():
+              tweet_text = "StarCitizen 日本語化更新通知（テスト）"
+            
             client.create_tweet(text=tweet_text[:280])
             print("Successfully posted to X!")
+          
           except Exception as e:
             print(f"Error posting to X: {e}")
             exit(1)
