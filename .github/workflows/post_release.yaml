@@ -41,6 +41,7 @@ jobs:
           python << 'EOF'
           import os
           import tweepy
+          import requests
 
           def main():
             # --- 1. リリース情報の取得 ---
