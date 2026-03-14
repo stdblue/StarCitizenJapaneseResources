@@ -23,6 +23,9 @@
 * v4.6.0 LIVE 版
 [v4.6.0 LIVE 11218823](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.6-ja_JP-alpha-4.6-LIVE "4.6.0 LIVE 版")  
 
+* v4.7.0 PTU 版
+[v4.7.0 PTU 11450623](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.x-ja_JP-alpha-4.x-PTU "4.7.0 PTU 版")  
+
 
 ## 現在の翻訳/進捗
 
