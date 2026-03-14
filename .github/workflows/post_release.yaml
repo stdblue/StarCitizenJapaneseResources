@@ -41,6 +41,27 @@ jobs:
           url = os.environ["RELEASE_URL"]
           title = os.environ["RELEASE_TITLE"]
 
+          # 手動実行などで情報が空の場合
+          if not title or title == "None":
+            print("Manual trigger detected. Fetching the very latest release (including prerelease)...")
+            repo = os.environ["GITHUB_REPOSITORY"]
+
+            # /releases/latest ではなく /releases を使う
+            api_url = f"https://api.github.com/repos/{repo}/releases?per_page=1"
+            resp = requests.get(api_url)
+            if resp.status_code == 200:
+              releases = resp.json()
+              if releases:
+                data = releases[0] # 一番上のリリース（最新）
+                title = data.get("name") or data.get("tag_name")
+                body = data.get("body", "")
+                url = data.get("html_url")
+                is_prerelease = data.get("prerelease", False)
+                print(f"Found: {title} (Prerelease: {is_prerelease})")
+              else:
+                print(f"Failed to fetch releases: {resp.status_code}")
+                return
+
           # 1. 「### 変更内容」という行を探す
           target_keyword = "### 変更内容"
           lines = body.split('\n')
