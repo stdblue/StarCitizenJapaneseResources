@@ -45,25 +45,33 @@ jobs:
           def main():
             # --- 1. リリース情報の取得 ---
             # 自動実行（releaseイベント）なら環境変数から取得、空ならAPIから取得
+            # 手動入力されたタグ名があるか確認
+            input_tag = os.environ.get("INPUT_TAG_NAME")
             title = os.environ.get("RELEASE_TITLE")
             body = os.environ.get("RELEASE_BODY")
             url = os.environ.get("RELEASE_URL")
 
             if not title or title == "None" or title.strip() == "":
-                print("Manual trigger or empty info detected. Fetching latest release info via API...")
-                repo = os.environ["GITHUB_REPOSITORY"]
-            
-                # プレリリースを含め、時系列で一番上のものを1件取得
+              print("Manual trigger detected or empty event data. Fetching via API...")
+              if input_tag and input_tag.strip() != "":
+                # 特定のタグが入力されていればそれを取得
+                print(f"Targeting specific tag: {input_tag}")
+                api_url = f"https://api.github.com/repos/{repo}/releases/tags/{input_tag}"
+              else:
+                # 入力がなければ、時系列で一番上を取得
+                print("No tag specified. Fetching the very latest release...")
                 api_url = f"https://api.github.com/repos/{repo}/releases?per_page=1"
-                resp = requests.get(api_url)
-                if resp.status_code == 200 and len(resp.json()) > 0:
-                    data = resp.json()[0]
-                    title = data.get("name") or data.get("tag_name")
-                    body = data.get("body", "")
-                    url = data.get("html_url")
-                else:
-                    print("Could not fetch release info.")
-                    return
+                  
+              resp = requests.get(api_url)
+              if resp.status_code == 200:
+                data = resp.json()
+                if isinstance(data, list): data = data[0]
+                title = data.get("name") or data.get("tag_name")
+                body = data.get("body", "")
+                url = data.get("html_url")
+              else:
+                print(f"Failed to fetch release info: {resp.status_code}")
+                return
 
             # --- 2. ツイート本文の作成 ---
             # 本文から ### 変更内容 以降の3行を抽出（なければ空）
@@ -109,4 +117,3 @@ jobs:
           if __name__ == "__main__":
             main()
           EOF
-          
