@@ -5,6 +5,11 @@ on:
     types: [published, edited]
 
   workflow_dispatch:
+    inputs:
+      tag_name:
+        description: '投稿したいリリースのタグ名 (空なら最新を取得)'
+        required: false
+        default: ''
 
 jobs:
   tweet:
@@ -28,6 +33,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         # Release コンテキストから直接渡す
+          INPUT_TAG_NAME: ${{ github.event.inputs.tag_name }}
           RELEASE_TITLE: ${{ github.event.release.name }}
           RELEASE_BODY: ${{ github.event.release.body }}
           RELEASE_URL: ${{ github.event.release.html_url }}
@@ -36,82 +42,71 @@ jobs:
           import os
           import tweepy
 
-          # 環境変数から取得
-          body = os.environ["RELEASE_BODY"]
-          url = os.environ["RELEASE_URL"]
-          title = os.environ["RELEASE_TITLE"]
+          def main():
+            # --- 1. リリース情報の取得 ---
+            # 自動実行（releaseイベント）なら環境変数から取得、空ならAPIから取得
+            title = os.environ.get("RELEASE_TITLE")
+            body = os.environ.get("RELEASE_BODY")
+            url = os.environ.get("RELEASE_URL")
 
-          # 手動実行などで情報が空の場合
-          if not title or title == "None":
-            print("Manual trigger detected. Fetching the very latest release (including prerelease)...")
-            repo = os.environ["GITHUB_REPOSITORY"]
+            if not title or title == "None" or title.strip() == "":
+                print("Manual trigger or empty info detected. Fetching latest release info via API...")
+                repo = os.environ["GITHUB_REPOSITORY"]
+            
+                # プレリリースを含め、時系列で一番上のものを1件取得
+                api_url = f"https://api.github.com/repos/{repo}/releases?per_page=1"
+                resp = requests.get(api_url)
+                if resp.status_code == 200 and len(resp.json()) > 0:
+                    data = resp.json()[0]
+                    title = data.get("name") or data.get("tag_name")
+                    body = data.get("body", "")
+                    url = data.get("html_url")
+                else:
+                    print("Could not fetch release info.")
+                    return
 
-            # /releases/latest ではなく /releases を使う
-            api_url = f"https://api.github.com/repos/{repo}/releases?per_page=1"
-            resp = requests.get(api_url)
-            if resp.status_code == 200:
-              releases = resp.json()
-              if releases:
-                data = releases[0] # 一番上のリリース（最新）
-                title = data.get("name") or data.get("tag_name")
-                body = data.get("body", "")
-                url = data.get("html_url")
-                is_prerelease = data.get("prerelease", False)
-                print(f"Found: {title} (Prerelease: {is_prerelease})")
-              else:
-                print(f"Failed to fetch releases: {resp.status_code}")
-                return
+            # --- 2. ツイート本文の作成 ---
+            # 本文から ### 変更内容 以降の3行を抽出（なければ空）
+            lines = body.splitlines()
+            update_info = ""
+            try:
+                for i, line in enumerate(lines):
+                    if "### 変更内容" in line:
+                        update_info = "\n".join([l for l in lines[i+1:i+4] if l.strip()])
+                        break
+            except:
+                pass
 
-          # 1. 「### 変更内容」という行を探す
-          target_keyword = "### 変更内容"
-          lines = body.split('\n')
-          start_index = -1
+            tweet_text = f"【StarCitizen 日本語化更新】\n{title}\n\n{update_info}\n\n詳細はこちら → {url}"
+            print(f"DEBUG: Posting to X ->\n{tweet_text}")
 
-          for i, line in enumerate(lines):
-            if target_keyword in line:
-              start_index = i
-              break
+            # 4. 投稿
+            try:
+              auth = tweepy.OAuth1UserHandler(
+                os.environ["X_API_KEY"],
+                os.environ["X_API_SECRET"],
+                os.environ["X_ACCESS_TOKEN"],
+                os.environ["X_ACCESS_TOKEN_SECRET"]
+              )
+              api = tweepy.API(auth)
 
-          # 2. キーワードが見つかった場合、その後の有効な3行を抽出
-          summary_lines = []
-          if start_index != -1:
-            for line in lines[start_index + 1:]:
-              clean_line = line.strip()
-              if clean_line: # 空行はスキップ
-                summary_lines.append(clean_line)
-              if len(summary_lines) == 3: # 3行取れたら終了
-                break
-
-          summary = "\n".join(summary_lines)
-        
-          # 3. ツイート本文の組み立て
-          tweet_text = f"【StarCitizen 日本語化更新】\n{title}\n\n{summary}\n\n▼詳細はこちら\n{url}"
-
-          # 4. 投稿
-          try:
-            auth = tweepy.OAuth1UserHandler(
-              os.environ["X_API_KEY"],
-              os.environ["X_API_SECRET"],
-              os.environ["X_ACCESS_TOKEN"],
-              os.environ["X_ACCESS_TOKEN_SECRET"]
-            )
-            api = tweepy.API(auth)
-
-            client = tweepy.Client(
-              consumer_key=os.environ["X_API_KEY"],
-              consumer_secret=os.environ["X_API_SECRET"],
-              access_token=os.environ["X_ACCESS_TOKEN"],
-              access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"]
-            )
+              client = tweepy.Client(
+                consumer_key=os.environ["X_API_KEY"],
+                consumer_secret=os.environ["X_API_SECRET"],
+                access_token=os.environ["X_ACCESS_TOKEN"],
+                access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"]
+              )
 
             # Xの280文字制限に合わせてカット
-            if not tweet_text.strip():
-              tweet_text = "StarCitizen 日本語化更新通知（テスト）"
-            
-            client.create_tweet(text=tweet_text[:280])
-            print("Successfully posted to X!")
+
+              client.create_tweet(text=tweet_text[:280])
+              print("Successfully posted to X!")
           
-          except Exception as e:
-            print(f"Error posting to X: {e}")
-            exit(1)
+            except Exception as e:
+              print(f"Error posting to X: {e}")
+              exit(1)
+        
+          if __name__ == "__main__":
+            main()
           EOF
+          
