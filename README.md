@@ -113,7 +113,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	kogumatta  
 	Luke  
 	Exceptur  
-	NERURU
+	NERURU  
 	AdmiralAndersen  
 	Oldman1917  
 	nmtkawb  
