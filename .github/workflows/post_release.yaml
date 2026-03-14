@@ -1,0 +1,81 @@
+name: Post Release to X
+
+on:
+  release:
+    types: [published, edited]
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install tweepy
+
+      - name: Post to X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        # Release コンテキストから直接渡す
+          RELEASE_TITLE: ${{ github.event.release.name }}
+          RELEASE_BODY: ${{ github.event.release.body }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+        run: |
+          python << 'EOF'
+          import os
+          import tweepy
+
+          # 環境変数から取得
+          body = os.environ["RELEASE_BODY"]
+          url = os.environ["RELEASE_URL"]
+          title = os.environ["RELEASE_TITLE"]
+
+          # 1. 「### 変更内容」という行を探す
+          target_keyword = "### 変更内容"
+          lines = body.split('\n')
+          start_index = -1
+
+          for i, line in enumerate(lines):
+            if target_keyword in line:
+              start_index = i
+              break
+
+          # 2. キーワードが見つかった場合、その後の有効な3行を抽出
+          summary_lines = []
+          if start_index != -1:
+            for line in lines[start_index + 1:]:
+              clean_line = line.strip()
+              if clean_line: # 空行はスキップ
+                summary_lines.append(clean_line)
+              if len(summary_lines) == 3: # 3行取れたら終了
+                break
+
+          summary = "\n".join(summary_lines)
+        
+          # 3. ツイート本文の組み立て
+          tweet_text = f"【StarCitizen 日本語化更新】\n{title}\n\n{summary}\n\n▼詳細はこちら\n{url}"
+
+          # 4. 投稿
+          try:
+            client = tweepy.Client(
+              consumer_key=os.environ["X_API_KEY"],
+              consumer_secret=os.environ["X_API_SECRET"],
+              access_token=os.environ["X_ACCESS_TOKEN"],
+              access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"]
+            )
+            # Xの280文字制限に合わせてカット
+            client.create_tweet(text=tweet_text[:280])
+            print("Successfully posted to X!")
+          except Exception as e:
+            print(f"Error posting to X: {e}")
+            exit(1)
+          EOF
