@@ -110,15 +110,16 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 + Translator  
 	MoMoShrine  
 	OOM Tricorn  
-	kogumatta  
 	Luke  
+	kogumatta  
 	Exceptur  
-	NERURU  
-	AdmiralAndersen  
+	NERURU
 	Oldman1917  
+	AdmiralAndersen  
 	nmtkawb  
 	eggman  
-	Verkhasel  
+	Verkhasel
+	Heizo
 	Ban_Danas  
 	NTKestrel  
 	ogumap  
