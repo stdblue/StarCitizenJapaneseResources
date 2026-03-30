@@ -113,13 +113,13 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	Luke  
 	kogumatta  
 	Exceptur  
-	NERURU
+	NERURU  
 	Oldman1917  
 	AdmiralAndersen  
 	nmtkawb  
 	eggman  
-	Verkhasel
-	Heizo
+	Verkhasel  
+	Heizo  
 	Ban_Danas  
 	NTKestrel  
 	ogumap  
