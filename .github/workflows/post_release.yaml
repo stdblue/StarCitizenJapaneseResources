@@ -87,7 +87,7 @@ jobs:
             except:
                 pass
 
-            tweet_text = f"【StarCitizen 日本語化更新】\n{title}\n\n{update_info}\n\n翻訳者募集中！\n参加希望はこちらまで → https://discord.com/channels/368953629274800138/1002223033953554472\n詳細はこちら → {url}\n"
+            tweet_text = f"【StarCitizen 日本語化更新】\n{title}\n\n{update_info}\n\n翻訳者募集中！\n参加希望はこちらまで → http://discord.gg/Wa99tKE48e\n{url}\n"
             print(f"DEBUG: Posting to X ->\n{tweet_text}")
 
             # 4. 投稿
