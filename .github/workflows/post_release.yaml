@@ -1,8 +1,8 @@
 name: Post Release to X
 
 on:
-#  release:
-#    types: [published, edited]
+  release:
+    types: [published]
 
   workflow_dispatch:
     inputs:
