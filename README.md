@@ -13,6 +13,7 @@
 
 ## 最新翻訳版  
 現在の最新版は **SCJP翻訳版 11715810-0** と表示されます。  
+PTU の最新版は **SCJP翻訳版 11768487-0** と表示されます。  
 
 ## 注意事項
 
@@ -24,6 +25,9 @@
 
 * v4.7.2 LIVE 版
 [v4.7.2 LIVE](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.7-ja_JP-alpha-4.7-LIVE "4.7.2 LIVE 版")  
+
+* v4.8.0 PTU 版
+[v4.8.0 PTU](https://github.com/stdblue/StarCitizenJapaneseResources/releases/tag/v4.x-ja_JP-alpha-4.x-PTU "4.8.0 PTU 版")  
 
 
 ## 現在の翻訳/進捗
