@@ -123,6 +123,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	かりんと  
 	eggman  
 	Verkhasel  
+	BANPEIYU113  
 	Heizo  
 	Ban_Danas  
 	NTKestrel  
