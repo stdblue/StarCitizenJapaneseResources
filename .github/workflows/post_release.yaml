@@ -89,24 +89,16 @@ jobs:
 
             # 4. 投稿
             try:
-              auth = tweepy.OAuth1UserHandler(
-                os.environ["X_API_KEY"],
-                os.environ["X_API_SECRET"],
-                os.environ["X_ACCESS_TOKEN"],
-                os.environ["X_ACCESS_TOKEN_SECRET"]
-              )
-              api = tweepy.API(auth)
-
+              # v2 向けの Client 定義
               client = tweepy.Client(
-                consumer_key=os.environ["X_API_KEY"],
-                consumer_secret=os.environ["X_API_SECRET"],
-                access_token=os.environ["X_ACCESS_TOKEN"],
-                access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"]
+                  consumer_key=os.environ["X_API_KEY"],
+                  consumer_secret=os.environ["X_API_SECRET"],
+                  access_token=os.environ["X_ACCESS_TOKEN"],
+                  access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"]
               )
 
-            # Xの280文字制限に合わせてカット
-
-              client.create_tweet(text=tweet_text)
+              # 💡 投稿時に user_auth=True を明示的に指定します
+              client.create_tweet(text=tweet_text, user_auth=True)
               print("Successfully posted to X!")
           
             except Exception as e:
