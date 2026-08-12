@@ -106,7 +106,7 @@ jobs:
 
             # Xの280文字制限に合わせてカット
 
-              client.create_tweet(text=tweet_text[:280])
+              client.create_tweet(text=tweet_text)
               print("Successfully posted to X!")
           
             except Exception as e:
