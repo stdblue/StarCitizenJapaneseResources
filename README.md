@@ -84,7 +84,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 [STARC-85315](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85315)
 
 * NPCとの会話時にインタラクトできるテキストが出てこない  
-  バーテンダーやRecco Battagliaと会話したときに3Dテキストが出てきません。  
+　バーテンダーやRecco Battagliaと会話したときに3Dテキストが出てきません。  
 [STARC-85299](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85299)
   - Recco Battagliaのストーリーミッションなどを進める際は、一時的に日本語化を解除して進めてください。  
 
