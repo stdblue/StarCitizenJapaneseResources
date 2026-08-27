@@ -79,11 +79,11 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 　現在までに以下の不具合が確認されています。  
 　詳細は Issue Council にて確認ください。  
 
-* 検索機能が使えない
+* 検索機能が使えない  
 　アイテム検索などでアイテム名を日本語で入力した場合、検索にマッチしません。  
 [STARC-85315](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85315)
 
-* NPCとの会話時にインタラクトできるテキストが出てこない
+* NPCとの会話時にインタラクトできるテキストが出てこない  
   バーテンダーやRecco Battagliaと会話したときに3Dテキストが出てきません。  
 [STARC-85299](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85299)
   - Recco Battagliaのストーリーミッションなどを進める際は、一時的に日本語化を解除して進めてください。  
