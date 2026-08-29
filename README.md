@@ -83,11 +83,6 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 　アイテム検索などでアイテム名を日本語で入力した場合、検索にマッチしません。  
 [STARC-85315](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85315)
 
-* NPCとの会話時にインタラクトできるテキストが出てこない  
-　バーテンダーやRecco Battagliaと会話したときに3Dテキストが出てきません。  
-[STARC-85299](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-85299)
-  - Recco Battagliaのストーリーミッションなどを進める際は、一時的に日本語化を解除して進めてください。  
-
 * 原文の global.ini に非ユニコード文字が含まれている  
 　これは翻訳作業者の方向けの注意ですが、CIG 作業者がμや℃などの文字を非ユニコード文字（環境依存文字）で記載しています。そのため、日本語環境では文字化けが発生しどのような文字が記載されているのか文脈から判断する必要があります。  
 [STARC-87163](https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN/issues/STARC-87163)
