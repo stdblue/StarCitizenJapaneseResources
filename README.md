@@ -111,7 +111,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	mossy  
 
 + Translator  
-	Luke  
+	Luke514  
 	OOM Tricorn  
 	kogumatta  
 	NERURU  
@@ -147,7 +147,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	クレクレ柴犬  
 
 + Tech Adviser  
-	Luke  
+	Luke514  
 	luice  
 
 + Special thanks  
