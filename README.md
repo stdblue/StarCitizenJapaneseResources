@@ -99,7 +99,7 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 ## 翻訳協力者一覧(Special Thanks)
 
 + Team Lead  
-	nmtkawb  
+	mossy  
 
 + Translation Tools Developer  
 	MoMoShrine
@@ -111,12 +111,12 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	mossy  
 
 + Translator  
-	MoMoShrine  
-	OOM Tricorn  
 	Luke  
+	OOM Tricorn  
 	kogumatta  
 	Exceptur  
-	NERURU  
+	NERURU
+	MoMoShrine  
 	Oldman1917  
 	AdmiralAndersen  
 	nmtkawb  
