@@ -114,23 +114,23 @@ C:\Program Files\Roberts Space Industries\StarCitizen\LIVE
 	Luke  
 	OOM Tricorn  
 	kogumatta  
+	NERURU  
 	Exceptur  
-	NERURU
 	MoMoShrine  
 	Oldman1917  
 	AdmiralAndersen  
 	nmtkawb  
-	かりんと  
+	BANPEIYU113  
 	eggman  
 	Verkhasel  
-	BANPEIYU113  
 	Heizo  
-	Ban_Danas  
 	NTKestrel  
+	Ban_Danas  
 	ogumap  
 	Franku7  
 	velocity7  
 	Bran de Bruce  
+	かりんと  
 	luice  
 	Shinnryuu  
 	Riven  
